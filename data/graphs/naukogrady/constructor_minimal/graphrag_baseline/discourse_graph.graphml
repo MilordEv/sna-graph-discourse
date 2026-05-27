@@ -1,0 +1,1564 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d2" for="edge" attr.name="pmi" attr.type="double"/>
+<key id="d1" for="edge" attr.name="methods" attr.type="string"/>
+<key id="d0" for="edge" attr.name="weight" attr.type="long"/>
+<graph edgedefault="undirected"><node id="троицке"/>
+<node id="ран"/>
+<node id="черноголовке"/>
+<node id="саров"/>
+<node id="калининград"/>
+<node id="снежинск"/>
+<node id="земли"/>
+<node id="обнинске"/>
+<node id="института химической физики"/>
+<node id="королёве"/>
+<node id="троицка"/>
+<node id="подлипки"/>
+<node id="н.е. жуковского"/>
+<node id="николая егоровича жуковского"/>
+<node id="серпухов"/>
+<node id="японии"/>
+<node id="жуковском"/>
+<node id="аэс"/>
+<node id="петра i"/>
+<node id="нии"/>
+<node id="москве"/>
+<node id="сергея павловича королёва"/>
+<node id="королёв"/>
+<node id="цниимаш"/>
+<node id="кремниевой долины"/>
+<node id="ркк «энергия»"/>
+<node id="волги"/>
+<node id="но"/>
+<node id="землю"/>
+<node id="россия"/>
+<node id="солнца"/>
+<node id="алексея стаханова"/>
+<node id="мкад"/>
+<node id="жуковского"/>
+<node id="десны"/>
+<node id="троицкое"/>
+<node id="черенкова"/>
+<node id="техноспарк"/>
+<node id="подмосковья"/>
+<node id="российской академии наук"/>
+<node id="калужского шоссе"/>
+<node id="сиреневого бульвара"/>
+<node id="октябрьском проспекте"/>
+<node id="центральную улицу"/>
+<node id="калужскому шоссе"/>
+<node id="академгородка"/>
+<node id="сиреневый бульвар"/>
+<node id="троицкая камвольная фабрика"/>
+<node id="заречье"/>
+<node id="дом ученых"/>
+<node id="троицку"/>
+<node id="октябрьского проспекта"/>
+<node id="троицкая"/>
+<node id="варилрикса"/>
+<node id="ресторан"/>
+<node id="магнита"/>
+<node id="кфс"/>
+<node id="перекрестка"/>
+<node id="вкусвилла"/>
+<node id="гипер-ленте"/>
+<node id="зил"/>
+<node id="лабквеста"/>
+<node id="ecostandard group"/>
+<node id="церн"/>
+<node id="нижегородскую область"/>
+<node id="богородской улице"/>
+<node id="инвитро"/>
+<node id="коммунарка"/>
+<node id="гемотеста"/>
+<node id="частные клиники"/>
+<node id="подольск"/>
+<node id="высшей школы экономики"/>
+<node id="городской улице"/>
+<node id="академической площади"/>
+<node id="тихвинский храм"/>
+<node id="свао"/>
+<node id="подольске"/>
+<node id="дикси"/>
+<node id="пятерочки"/>
+<node id="оэз"/>
+<node id="скиф"/>
+<node id="цкп"/>
+<node id="цкп «скиф»"/>
+<node id="алтайский край"/>
+<node id="nica"/>
+<node id="новосибирская область"/>
+<node id="агентство «москва»"/>
+<node id="научный центр"/>
+<node id="тамбовская область"/>
+<node id="ао «государственный научный центр"/>
+<node id="обнинска"/>
+<node id="нижегородской области"/>
+<node id="академгородок"/>
+<node id="европе"/>
+<node id="regions"/>
+<node id="центра коллективного пользования «сибирский кольцевой источник фотонов» (цкп «скиф»"/>
+<node id="ао «алтегра»"/>
+<node id="сво"/>
+<node id="совета депутатов"/>
+<node id="валерий фальков"/>
+<node id="санкт-петербург"/>
+<node id="дубны"/>
+<node id="королёва"/>
+<node id="татнефть"/>
+<node id="госдумы"/>
+<node id="правительства"/>
+<node id="мособлдумы"/>
+<node id="москву"/>
+<node id="ск"/>
+<node id="владимир острогожский"/>
+<node id="реутова"/>
+<node id="жк"/>
+<node id="мкада"/>
+<node id="институт ядерных исследований ран (ияи ран)"/>
+<node id="троицкий институт инновационных и термоядерных исследований» (ао «гнц рф тринити»"/>
+<node id="государственной корпорации по атомной энергии «росатом"/>
+<node id="китае"/>
+<node id="институт спектроскопии ран (исан)"/>
+<node id="федеральное государственное бюджетное учреждение науки"/>
+<node id="сколтех"/>
+<node id="итмо"/>
+<node id="мгу"/>
+<node id="доме ученых"/>
+<node id="байтик"/>
+<node id="первомайском"/>
+<node id="яндекса"/>
+<node id="научно-исследовательский институт земного магнетизма — измиран"/>
+<node id="ленинграда"/>
+<node id="весна"/>
+<node id="теплый стан"/>
+<node id="северная"/>
+<node id="дома ученых"/>
+<node id="сергея королёва"/>
+<node id="серпухову"/>
+<node id="ниу вшэ"/>
+<node id="кёнигсберга"/>
+<node id="новой москве"/>
+<node id="дмитрий медведев"/>
+<node id="фонда"/>
+<node id="технопарка"/>
+<node id="сбербанк"/>
+<node id="италии"/>
+<node id="яндекс"/>
+<node id="татарстане"/>
+<node id="москвой"/>
+<node id="на"/>
+<node id="тинао"/>
+<node id="троицкого"/>
+<node id="сша"/>
+<node id="татарстан"/>
+<node id="рт"/>
+<node id="николай никифоров"/>
+<node id="никифоров"/>
+<node id="иннополису"/>
+<node id="свияги"/>
+<node id="ренат халимов"/>
+<node id="оэз «иннополис»"/>
+<node id="it-компании"/>
+<node id="боевой славы"/>
+<node id="моремания"/>
+<node id="т-клуб"/>
+<node id="троицкая городская больница"/>
+<node id="троицкого леса"/>
+<node id="октябрьскому проспекту"/>
+<node id="троицкая ривьера"/>
+<node id="калужское шоссе"/>
+<node id="радужной улице"/>
+<node id="северную"/>
+<node id="калужско-рижской"/>
+<node id="вилла рива"/>
+<node id="наукоград"/>
+<node id="троицк е-39 (фаворит)"/>
+<node id="красной пахре"/>
+<node id="троицкого богородицкую церковь"/>
+<node id="правый берег десны"/>
+<node id="иван борисович репнин"/>
+<node id="троицкого административного округа"/>
+<node id="лесную"/>
+<node id="сокольнической"/>
+<node id="легенда"/>
+<node id="яков евреинов"/>
+<node id="троицк е⁠-⁠39 (фаворит)"/>
+<node id="спарк-интерфакс"/>
+<node id="октябрьским проспектом"/>
+<node id="калужским шоссе"/>
+<node id="зарядье"/>
+<node id="садовой улицы"/>
+<node id="академика харитона"/>
+<node id="октябрьский проспект"/>
+<node id="кп «изумрудный»"/>
+<node id="кп «изумрудный» жк"/>
+<node id="кп"/>
+<node id="виктория токарева"/>
+<node id="наталья селезнева"/>
+<node id="денис драгунский"/>
+<node id="генрих боровик"/>
+<node id="тц «мега"/>
+<node id="трц «саларис"/>
+<node id="теплом стане"/>
+<node id="константина симонова"/>
+<node id="владимира войновича"/>
+<node id="александра твардовского"/>
+<node id="юрия трифонова"/>
+<node id="юрия бондарева"/>
+<edge source="троицке" target="варилрикса">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.0455</data>
+</edge>
+<edge source="троицке" target="кфс">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.0455</data>
+</edge>
+<edge source="троицке" target="гипер-ленте">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.0455</data>
+</edge>
+<edge source="троицке" target="ecostandard group">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.6304</data>
+</edge>
+<edge source="троицке" target="церн">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.6304</data>
+</edge>
+<edge source="троицке" target="частные клиники">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.6304</data>
+</edge>
+<edge source="троицке" target="высшей школы экономики">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.0455</data>
+</edge>
+<edge source="троицке" target="свао">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.0455</data>
+</edge>
+<edge source="ран" target="байтик">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.4978</data>
+</edge>
+<edge source="черноголовке" target="дома ученых">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.4114</data>
+</edge>
+<edge source="саров" target="снежинск">
+  <data key="d0">9</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.0363</data>
+</edge>
+<edge source="саров" target="нижегородской области">
+  <data key="d0">4</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.9039</data>
+</edge>
+<edge source="калининград" target="кёнигсберга">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.246</data>
+</edge>
+<edge source="земли" target="сергея королёва">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.5471</data>
+</edge>
+<edge source="земли" target="техноспарк">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.2517</data>
+</edge>
+<edge source="земли" target="солнца">
+  <data key="d0">4</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.5471</data>
+</edge>
+<edge source="обнинске" target="обнинска">
+  <data key="d0">4</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.0693</data>
+</edge>
+<edge source="обнинске" target="европе">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.2392</data>
+</edge>
+<edge source="института химической физики" target="петра i">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.0278</data>
+</edge>
+<edge source="королёве" target="кёнигсберга">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.7765</data>
+</edge>
+<edge source="королёве" target="сергея королёва">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.1245</data>
+</edge>
+<edge source="троицка" target="т-клуб">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.156</data>
+</edge>
+<edge source="троицка" target="радужной улице">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.156</data>
+</edge>
+<edge source="подлипки" target="кёнигсберга">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.1992</data>
+</edge>
+<edge source="н.е. жуковского" target="николая егоровича жуковского">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.7538</data>
+</edge>
+<edge source="н.е. жуковского" target="жуковском">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.3788</data>
+</edge>
+<edge source="николая егоровича жуковского" target="жуковском">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.1861</data>
+</edge>
+<edge source="николая егоровича жуковского" target="жуковского">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.7032</data>
+</edge>
+<edge source="серпухов" target="серпухову">
+  <data key="d0">4</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.0455</data>
+</edge>
+<edge source="японии" target="аэс">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.3615</data>
+</edge>
+<edge source="японии" target="нии">
+  <data key="d0">4</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.0956</data>
+</edge>
+<edge source="японии" target="сергея павловича королёва">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.3963</data>
+</edge>
+<edge source="жуковском" target="жуковского">
+  <data key="d0">5</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.6501</data>
+</edge>
+<edge source="жуковском" target="алексея стаханова">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.3788</data>
+</edge>
+<edge source="аэс" target="обнинска">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.9989</data>
+</edge>
+<edge source="нии" target="китае">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.733</data>
+</edge>
+<edge source="москве" target="новой москве">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.0573</data>
+</edge>
+<edge source="москве" target="высшей школы экономики">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.0573</data>
+</edge>
+<edge source="королёв" target="королёва">
+  <data key="d0">28</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.3999</data>
+</edge>
+<edge source="цниимаш" target="ркк «энергия»">
+  <data key="d0">7</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.7612</data>
+</edge>
+<edge source="кремниевой долины" target="сша">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.3038</data>
+</edge>
+<edge source="кремниевой долины" target="татарстан">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.8063</data>
+</edge>
+<edge source="волги" target="свияги">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.4526</data>
+</edge>
+<edge source="волги" target="но">
+  <data key="d0">6</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.5499</data>
+</edge>
+<edge source="но" target="татарстан">
+  <data key="d0">9</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.7199</data>
+</edge>
+<edge source="но" target="землю">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.3275</data>
+</edge>
+<edge source="россия" target="сша">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.7458</data>
+</edge>
+<edge source="россия" target="италии">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.1328</data>
+</edge>
+<edge source="солнца" target="техноспарк">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.3468</data>
+</edge>
+<edge source="алексея стаханова" target="мкад">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.8469</data>
+</edge>
+<edge source="алексея стаханова" target="жуковского">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.8958</data>
+</edge>
+<edge source="мкад" target="жуковского">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.3813</data>
+</edge>
+<edge source="жуковского" target="совета депутатов">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.4553</data>
+</edge>
+<edge source="десны" target="троицкое">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.0402</data>
+</edge>
+<edge source="десны" target="черенкова">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.8958</data>
+</edge>
+<edge source="десны" target="калужского шоссе">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.6157</data>
+</edge>
+<edge source="десны" target="правый берег десны">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">7.1182</data>
+</edge>
+<edge source="десны" target="зарядье">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">7.7032</data>
+</edge>
+<edge source="десны" target="заречье">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.0308</data>
+</edge>
+<edge source="троицкое" target="черенкова">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.5059</data>
+</edge>
+<edge source="троицкое" target="калужского шоссе">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.2258</data>
+</edge>
+<edge source="троицкое" target="академической площади">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.1433</data>
+</edge>
+<edge source="троицкое" target="правый берег десны">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.1433</data>
+</edge>
+<edge source="черенкова" target="калужского шоссе">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.6664</data>
+</edge>
+<edge source="подмосковья" target="дома ученых">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.262</data>
+</edge>
+<edge source="российской академии наук" target="мгу">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.8469</data>
+</edge>
+<edge source="сиреневого бульвара" target="садовой улицы">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.3323</data>
+</edge>
+<edge source="сиреневого бульвара" target="академика харитона">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.3323</data>
+</edge>
+<edge source="октябрьском проспекте" target="академической площади">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.8367</data>
+</edge>
+<edge source="центральную улицу" target="сиреневый бульвар">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.0376</data>
+</edge>
+<edge source="центральную улицу" target="октябрьского проспекта">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.0376</data>
+</edge>
+<edge source="центральную улицу" target="октябрьский проспект">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.4526</data>
+</edge>
+<edge source="калужскому шоссе" target="мкада">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.6109</data>
+</edge>
+<edge source="академгородка" target="сша">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.0308</data>
+</edge>
+<edge source="академгородка" target="октябрьским проспектом">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.1182</data>
+</edge>
+<edge source="академгородка" target="калужским шоссе">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.1182</data>
+</edge>
+<edge source="сиреневый бульвар" target="октябрьский проспект">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.3912</data>
+</edge>
+<edge source="троицкая камвольная фабрика" target="нижегородскую область">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.5612</data>
+</edge>
+<edge source="троицкая камвольная фабрика" target="богородской улице">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.5612</data>
+</edge>
+<edge source="троицкая камвольная фабрика" target="тихвинский храм">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.5612</data>
+</edge>
+<edge source="троицкая камвольная фабрика" target="яков евреинов">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.5612</data>
+</edge>
+<edge source="заречье" target="ресторан">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.1518</data>
+</edge>
+<edge source="дом ученых" target="доме ученых">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.9209</data>
+</edge>
+<edge source="троицку" target="калужско-рижской">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.2392</data>
+</edge>
+<edge source="троицку" target="теплый стан">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.3323</data>
+</edge>
+<edge source="троицку" target="сокольнической">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.2392</data>
+</edge>
+<edge source="октябрьского проспекта" target="садовой улицы">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.3912</data>
+</edge>
+<edge source="октябрьского проспекта" target="академика харитона">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.3912</data>
+</edge>
+<edge source="троицкая" target="зил">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.8729</data>
+</edge>
+<edge source="троицкая" target="троицкая городская больница">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.7798</data>
+</edge>
+<edge source="троицкая" target="троицкая ривьера">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.0428</data>
+</edge>
+<edge source="троицкая" target="нижегородскую область">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.7798</data>
+</edge>
+<edge source="троицкая" target="богородской улице">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.7798</data>
+</edge>
+<edge source="троицкая" target="коммунарка">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.0794</data>
+</edge>
+<edge source="троицкая" target="тинао">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.2562</data>
+</edge>
+<edge source="троицкая" target="вилла рива">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.4579</data>
+</edge>
+<edge source="троицкая" target="троицк е-39 (фаворит)">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.6099</data>
+</edge>
+<edge source="троицкая" target="городской улице">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.5068</data>
+</edge>
+<edge source="троицкая" target="легенда">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.8729</data>
+</edge>
+<edge source="троицкая" target="тихвинский храм">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.7798</data>
+</edge>
+<edge source="троицкая" target="яков евреинов">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.7798</data>
+</edge>
+<edge source="варилрикса" target="свао">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">9.3912</data>
+</edge>
+<edge source="ресторан" target="первомайском">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.9173</data>
+</edge>
+<edge source="ресторан" target="весна">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.9173</data>
+</edge>
+<edge source="магнита" target="перекрестка">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">7.3912</data>
+</edge>
+<edge source="магнита" target="вкусвилла">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">7.3912</data>
+</edge>
+<edge source="магнита" target="дикси">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">7.3912</data>
+</edge>
+<edge source="магнита" target="пятерочки">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">7.3912</data>
+</edge>
+<edge source="кфс" target="гипер-ленте">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">9.3912</data>
+</edge>
+<edge source="перекрестка" target="вкусвилла">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">7.3912</data>
+</edge>
+<edge source="перекрестка" target="дикси">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">7.3912</data>
+</edge>
+<edge source="перекрестка" target="пятерочки">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">7.3912</data>
+</edge>
+<edge source="вкусвилла" target="дикси">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">7.3912</data>
+</edge>
+<edge source="вкусвилла" target="пятерочки">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">7.3912</data>
+</edge>
+<edge source="зил" target="коммунарка">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.9538</data>
+</edge>
+<edge source="лабквеста" target="инвитро">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">8.5612</data>
+</edge>
+<edge source="лабквеста" target="гемотеста">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">8.5612</data>
+</edge>
+<edge source="нижегородскую область" target="богородской улице">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.5612</data>
+</edge>
+<edge source="нижегородскую область" target="городской улице">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.7032</data>
+</edge>
+<edge source="нижегородскую область" target="тихвинский храм">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.5612</data>
+</edge>
+<edge source="богородской улице" target="городской улице">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.7032</data>
+</edge>
+<edge source="богородской улице" target="тихвинский храм">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.5612</data>
+</edge>
+<edge source="инвитро" target="гемотеста">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">8.5612</data>
+</edge>
+<edge source="коммунарка" target="москвой">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.1603</data>
+</edge>
+<edge source="коммунарка" target="тинао">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.3372</data>
+</edge>
+<edge source="коммунарка" target="троицкого">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.3061</data>
+</edge>
+<edge source="подольск" target="яндекса">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">7.3912</data>
+</edge>
+<edge source="подольск" target="подольске">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.8887</data>
+</edge>
+<edge source="городской улице" target="троицкая ривьера">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.3813</data>
+</edge>
+<edge source="городской улице" target="троицк е-39 (фаворит)">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.5333</data>
+</edge>
+<edge source="городской улице" target="легенда">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.7963</data>
+</edge>
+<edge source="городской улице" target="тихвинский храм">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.7032</data>
+</edge>
+<edge source="подольске" target="жк">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.5911</data>
+</edge>
+<edge source="дикси" target="пятерочки">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">7.3912</data>
+</edge>
+<edge source="оэз" target="ао «алтегра»">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.1017</data>
+</edge>
+<edge source="оэз" target="нижегородской области">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.3132</data>
+</edge>
+<edge source="оэз" target="оэз «иннополис»">
+  <data key="d0">7</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.8767</data>
+</edge>
+<edge source="оэз" target="ренат халимов">
+  <data key="d0">5</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.3912</data>
+</edge>
+<edge source="оэз" target="на">
+  <data key="d0">12</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.3388</data>
+</edge>
+<edge source="скиф" target="цкп">
+  <data key="d0">24</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.5769</data>
+</edge>
+<edge source="скиф" target="цкп «скиф»">
+  <data key="d0">17</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.1312</data>
+</edge>
+<edge source="цкп" target="центра коллективного пользования «сибирский кольцевой источник фотонов» (цкп «скиф»">
+  <data key="d0">4</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.5668</data>
+</edge>
+<edge source="цкп" target="цкп «скиф»">
+  <data key="d0">15</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.7011</data>
+</edge>
+<edge source="алтайский край" target="тамбовская область">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.0079</data>
+</edge>
+<edge source="nica" target="агентство «москва»">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.228</data>
+</edge>
+<edge source="новосибирская область" target="агентство «москва»">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.0104</data>
+</edge>
+<edge source="научный центр" target="институт ядерных исследований ран (ияи ран)">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.4579</data>
+</edge>
+<edge source="научный центр" target="троицкий институт инновационных и термоядерных исследований» (ао «гнц рф тринити»">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.4579</data>
+</edge>
+<edge source="научный центр" target="государственной корпорации по атомной энергии «росатом">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.4579</data>
+</edge>
+<edge source="научный центр" target="институт спектроскопии ран (исан)">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.4579</data>
+</edge>
+<edge source="научный центр" target="ао «государственный научный центр">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.6443</data>
+</edge>
+<edge source="научный центр" target="федеральное государственное бюджетное учреждение науки">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.3938</data>
+</edge>
+<edge source="ао «государственный научный центр" target="институт ядерных исследований ран (ияи ран)">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.2438</data>
+</edge>
+<edge source="ао «государственный научный центр" target="троицкий институт инновационных и термоядерных исследований» (ао «гнц рф тринити»">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.2438</data>
+</edge>
+<edge source="ао «государственный научный центр" target="государственной корпорации по атомной энергии «росатом">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.2438</data>
+</edge>
+<edge source="ао «государственный научный центр" target="институт спектроскопии ран (исан)">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.2438</data>
+</edge>
+<edge source="ао «государственный научный центр" target="федеральное государственное бюджетное учреждение науки">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.1796</data>
+</edge>
+<edge source="академгородок" target="наукоград">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.4216</data>
+</edge>
+<edge source="regions" target="реутова">
+  <data key="d0">25</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.1282</data>
+</edge>
+<edge source="regions" target="боевой славы">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.3912</data>
+</edge>
+<edge source="центра коллективного пользования «сибирский кольцевой источник фотонов» (цкп «скиф»" target="валерий фальков">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.0936</data>
+</edge>
+<edge source="сво" target="мособлдумы">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.6147</data>
+</edge>
+<edge source="совета депутатов" target="госдумы">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.2688</data>
+</edge>
+<edge source="санкт-петербург" target="татарстан">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.5839</data>
+</edge>
+<edge source="дубны" target="сша">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.0987</data>
+</edge>
+<edge source="королёва" target="кёнигсберга">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.1689</data>
+</edge>
+<edge source="королёва" target="сергея королёва">
+  <data key="d0">4</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.5168</data>
+</edge>
+<edge source="татнефть" target="сколтех">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.3963</data>
+</edge>
+<edge source="татнефть" target="фонда">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.5444</data>
+</edge>
+<edge source="татнефть" target="технопарка">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.5839</data>
+</edge>
+<edge source="татнефть" target="сбербанк">
+  <data key="d0">4</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.8958</data>
+</edge>
+<edge source="госдумы" target="правительства">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.1017</data>
+</edge>
+<edge source="госдумы" target="мособлдумы">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.3073</data>
+</edge>
+<edge source="москву" target="фонда">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.1038</data>
+</edge>
+<edge source="ск" target="фонда">
+  <data key="d0">6</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.0298</data>
+</edge>
+<edge source="владимир острогожский" target="реутова">
+  <data key="d0">20</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.4684</data>
+</edge>
+<edge source="жк" target="доме ученых">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.4306</data>
+</edge>
+<edge source="жк" target="троицкая ривьера">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.9416</data>
+</edge>
+<edge source="жк" target="кп «изумрудный»">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.8712</data>
+</edge>
+<edge source="жк" target="кп «изумрудный» жк">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.0936</data>
+</edge>
+<edge source="жк" target="вилла рива">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.3566</data>
+</edge>
+<edge source="жк" target="троицк е-39 (фаворит)">
+  <data key="d0">4</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.5086</data>
+</edge>
+<edge source="жк" target="легенда">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.3566</data>
+</edge>
+<edge source="жк" target="троицк е⁠-⁠39 (фаворит)">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.6785</data>
+</edge>
+<edge source="жк" target="кп">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.8712</data>
+</edge>
+<edge source="мкада" target="калужское шоссе">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">7.5839</data>
+</edge>
+<edge source="институт ядерных исследований ран (ияи ран)" target="троицкий институт инновационных и термоядерных исследований» (ао «гнц рф тринити»">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.6423</data>
+</edge>
+<edge source="институт ядерных исследований ран (ияи ран)" target="государственной корпорации по атомной энергии «росатом">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.6423</data>
+</edge>
+<edge source="институт ядерных исследований ран (ияи ран)" target="институт спектроскопии ран (исан)">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.6423</data>
+</edge>
+<edge source="институт ядерных исследований ран (ияи ран)" target="федеральное государственное бюджетное учреждение науки">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.5782</data>
+</edge>
+<edge source="троицкий институт инновационных и термоядерных исследований» (ао «гнц рф тринити»" target="государственной корпорации по атомной энергии «росатом">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.6423</data>
+</edge>
+<edge source="троицкий институт инновационных и термоядерных исследований» (ао «гнц рф тринити»" target="институт спектроскопии ран (исан)">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.6423</data>
+</edge>
+<edge source="троицкий институт инновационных и термоядерных исследований» (ао «гнц рф тринити»" target="федеральное государственное бюджетное учреждение науки">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.5782</data>
+</edge>
+<edge source="государственной корпорации по атомной энергии «росатом" target="институт спектроскопии ран (исан)">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.6423</data>
+</edge>
+<edge source="государственной корпорации по атомной энергии «росатом" target="федеральное государственное бюджетное учреждение науки">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.5782</data>
+</edge>
+<edge source="институт спектроскопии ран (исан)" target="федеральное государственное бюджетное учреждение науки">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.5782</data>
+</edge>
+<edge source="сколтех" target="технопарка">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.0337</data>
+</edge>
+<edge source="сколтех" target="сбербанк">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.3456</data>
+</edge>
+<edge source="сколтех" target="ниу вшэ">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.2967</data>
+</edge>
+<edge source="сколтех" target="итмо">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.2967</data>
+</edge>
+<edge source="сколтех" target="мгу">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.3963</data>
+</edge>
+<edge source="итмо" target="мгу">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.8469</data>
+</edge>
+<edge source="мгу" target="ниу вшэ">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.4319</data>
+</edge>
+<edge source="первомайском" target="весна">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">7.9173</data>
+</edge>
+<edge source="яндекса" target="яндекс">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.2036</data>
+</edge>
+<edge source="научно-исследовательский институт земного магнетизма — измиран" target="ленинграда">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">10.5612</data>
+</edge>
+<edge source="теплый стан" target="калужско-рижской">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">7.6543</data>
+</edge>
+<edge source="теплый стан" target="сокольнической">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">7.6543</data>
+</edge>
+<edge source="северная" target="троицкого леса">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">7.2392</data>
+</edge>
+<edge source="северная" target="лесную">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">8.2392</data>
+</edge>
+<edge source="северная" target="троицкого">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.6847</data>
+</edge>
+<edge source="дмитрий медведев" target="сбербанк">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.6157</data>
+</edge>
+<edge source="фонда" target="технопарка">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.1818</data>
+</edge>
+<edge source="фонда" target="сбербанк">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.4937</data>
+</edge>
+<edge source="технопарка" target="сбербанк">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.5333</data>
+</edge>
+<edge source="сбербанк" target="яндекс">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.3456</data>
+</edge>
+<edge source="италии" target="it-компании">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.6908</data>
+</edge>
+<edge source="татарстане" target="татарстан">
+  <data key="d0">5</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.7746</data>
+</edge>
+<edge source="татарстане" target="свияги">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.514</data>
+</edge>
+<edge source="москвой" target="тинао">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.3372</data>
+</edge>
+<edge source="москвой" target="троицкого">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.3061</data>
+</edge>
+<edge source="на" target="рт">
+  <data key="d0">19</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.0949</data>
+</edge>
+<edge source="на" target="ренат халимов">
+  <data key="d0">8</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.262</data>
+</edge>
+<edge source="тинао" target="троицкая городская больница">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">7.0376</data>
+</edge>
+<edge source="тинао" target="троицкого">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.068</data>
+</edge>
+<edge source="троицкого" target="боевой славы">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.0066</data>
+</edge>
+<edge source="троицкого" target="троицкого леса">
+  <data key="d0">5</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.3285</data>
+</edge>
+<edge source="троицкого" target="октябрьскому проспекту">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.4216</data>
+</edge>
+<edge source="троицкого" target="троицкого богородицкую церковь">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.4216</data>
+</edge>
+<edge source="троицкого" target="иван борисович репнин">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.4216</data>
+</edge>
+<edge source="троицкого" target="троицкого административного округа">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">7.0066</data>
+</edge>
+<edge source="троицкого" target="лесную">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.0066</data>
+</edge>
+<edge source="николай никифоров" target="никифоров">
+  <data key="d0">4</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.2169</data>
+</edge>
+<edge source="николай никифоров" target="спарк-интерфакс">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.0298</data>
+</edge>
+<edge source="никифоров" target="иннополису">
+  <data key="d0">5</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.0534</data>
+</edge>
+<edge source="ренат халимов" target="оэз «иннополис»">
+  <data key="d0">7</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.3848</data>
+</edge>
+<edge source="моремания" target="красной пахре">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">9.3912</data>
+</edge>
+<edge source="троицкого леса" target="октябрьскому проспекту">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">7.9762</data>
+</edge>
+<edge source="троицкого леса" target="лесную">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">7.5612</data>
+</edge>
+<edge source="троицкая ривьера" target="вилла рива">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.9173</data>
+</edge>
+<edge source="троицкая ривьера" target="троицк е-39 (фаворит)">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.0693</data>
+</edge>
+<edge source="троицкая ривьера" target="легенда">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.3323</data>
+</edge>
+<edge source="северную" target="октябрьский проспект">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">9.9762</data>
+</edge>
+<edge source="калужско-рижской" target="сокольнической">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">8.5612</data>
+</edge>
+<edge source="троицк е-39 (фаворит)" target="легенда">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.4844</data>
+</edge>
+<edge source="троицкого богородицкую церковь" target="иван борисович репнин">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">9.3912</data>
+</edge>
+<edge source="правый берег десны" target="зарядье">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">9.3912</data>
+</edge>
+<edge source="октябрьским проспектом" target="калужским шоссе">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">9.9762</data>
+</edge>
+<edge source="садовой улицы" target="академика харитона">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">9.3912</data>
+</edge>
+<edge source="кп «изумрудный»" target="кп «изумрудный» жк">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">9.1689</data>
+</edge>
+<edge source="кп «изумрудный»" target="кп">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">9.5314</data>
+</edge>
+<edge source="кп «изумрудный» жк" target="кп">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">9.1689</data>
+</edge>
+<edge source="виктория токарева" target="наталья селезнева">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">9.3912</data>
+</edge>
+<edge source="виктория токарева" target="денис драгунский">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">9.3912</data>
+</edge>
+<edge source="виктория токарева" target="генрих боровик">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">9.3912</data>
+</edge>
+<edge source="наталья селезнева" target="денис драгунский">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">9.3912</data>
+</edge>
+<edge source="наталья селезнева" target="генрих боровик">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">9.3912</data>
+</edge>
+<edge source="денис драгунский" target="генрих боровик">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">9.3912</data>
+</edge>
+<edge source="тц «мега" target="трц «саларис">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">10.5612</data>
+</edge>
+<edge source="тц «мега" target="теплом стане">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">10.5612</data>
+</edge>
+<edge source="трц «саларис" target="теплом стане">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">10.5612</data>
+</edge>
+<edge source="константина симонова" target="владимира войновича">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">8.5612</data>
+</edge>
+<edge source="константина симонова" target="александра твардовского">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">8.5612</data>
+</edge>
+<edge source="константина симонова" target="юрия трифонова">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">8.5612</data>
+</edge>
+<edge source="константина симонова" target="юрия бондарева">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">8.5612</data>
+</edge>
+<edge source="владимира войновича" target="александра твардовского">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">8.5612</data>
+</edge>
+<edge source="владимира войновича" target="юрия трифонова">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">8.5612</data>
+</edge>
+<edge source="владимира войновича" target="юрия бондарева">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">8.5612</data>
+</edge>
+<edge source="александра твардовского" target="юрия трифонова">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">8.5612</data>
+</edge>
+<edge source="александра твардовского" target="юрия бондарева">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">8.5612</data>
+</edge>
+<edge source="юрия трифонова" target="юрия бондарева">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">8.5612</data>
+</edge>
+</graph></graphml>

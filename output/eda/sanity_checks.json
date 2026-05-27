@@ -1,0 +1,77 @@
+{
+  "passed": 14,
+  "total": 14,
+  "all_ok": true,
+  "checks": [
+    {
+      "check": "corpus_size",
+      "ok": true,
+      "detail": "документов: 221"
+    },
+    {
+      "check": "median_text_len",
+      "ok": true,
+      "detail": "медиана длины: 1975"
+    },
+    {
+      "check": "title_relevance",
+      "ok": true,
+      "detail": "«наукоград» в заголовке: 117 док."
+    },
+    {
+      "check": "city_metadata",
+      "ok": true,
+      "detail": "документов с городом: 167"
+    },
+    {
+      "check": "ner_present",
+      "ok": true,
+      "detail": "медиана NER/док: 20"
+    },
+    {
+      "check": "top_ner_domain",
+      "ok": true,
+      "detail": "доменных сущностей в топ-20: 10"
+    },
+    {
+      "check": "keywords_domain",
+      "ok": true,
+      "detail": "доменных kw в топ-50: 12; примеры: автор текста сколково россии главная общество российской федерации фото московск…"
+    },
+    {
+      "check": "legacy_cooccurrence_not_dense",
+      "ok": true,
+      "detail": "legacy_cooccurrence: 2.51 рёбер/узел (цель ≤3–4)"
+    },
+    {
+      "check": "legacy_cooccurrence_has_edges",
+      "ok": true,
+      "detail": "legacy_cooccurrence: 317 рёбер"
+    },
+    {
+      "check": "constructor_not_dense",
+      "ok": true,
+      "detail": "constructor: 2.05 рёбер/узел (цель ≤3–4)"
+    },
+    {
+      "check": "constructor_has_edges",
+      "ok": true,
+      "detail": "constructor: 216 рёбер"
+    },
+    {
+      "check": "graphrag_baseline_not_dense",
+      "ok": true,
+      "detail": "graphrag_baseline: 2.66 рёбер/узел (цель ≤3–4)"
+    },
+    {
+      "check": "graphrag_baseline_has_edges",
+      "ok": true,
+      "detail": "graphrag_baseline: 271 рёбер"
+    },
+    {
+      "check": "constructor_pmi",
+      "ok": true,
+      "detail": "медиана PMI: 6.0062"
+    }
+  ]
+}

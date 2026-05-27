@@ -1,0 +1,24 @@
+# Сбор корпуса (load_data.ipynb)
+feedparser
+requests
+beautifulsoup4
+newspaper3k
+lxml
+natasha
+yake
+googlenewsdecoder
+setuptools<81
+
+# EDA и конструктор
+networkx>=3.0
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+scikit-learn>=1.3
+
+# Лёгкие модели Hugging Face (rubert-tiny2 и др.)
+torch>=2.0
+transformers>=4.40
+
+# Опционально
+# summa

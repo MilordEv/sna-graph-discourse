@@ -1,0 +1,1525 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="pmi" attr.type="double"/>
+<key id="d0" for="edge" attr.name="weight" attr.type="long"/>
+<graph edgedefault="undirected"><node id="москвы"/>
+<node id="дубна"/>
+<node id="королёв"/>
+<node id="нии"/>
+<node id="научный центр российской"/>
+<node id="ао «государственный научный центр"/>
+<node id="научный центр"/>
+<node id="цкп"/>
+<node id="черноголовка"/>
+<node id="черноголовке"/>
+<node id="город"/>
+<node id="территории"/>
+<node id="науки"/>
+<node id="ии"/>
+<node id="россия"/>
+<node id="ск"/>
+<node id="му"/>
+<node id="оки"/>
+<node id="фиц"/>
+<node id="мх ран"/>
+<node id="черноголовки"/>
+<node id="фиц пхф"/>
+<node id="солнечной"/>
+<node id="московской области"/>
+<node id="ссср"/>
+<node id="обнинск"/>
+<node id="калужская область"/>
+<node id="королёва"/>
+<node id="минобрнауки"/>
+<node id="статус наукограда"/>
+<node id="михаил мишустин"/>
+<node id="мвд"/>
+<node id="долгопрудный получил статус"/>
+<node id="долгопрудный"/>
+<node id="статус наукограда россии"/>
+<node id="мфти"/>
+<node id="министерства науки и высшего образования"/>
+<node id="технологий"/>
+<node id="сколтеха"/>
+<node id="королев"/>
+<node id="новосибирске"/>
+<node id="подмосковья"/>
+<node id="талантов"/>
+<node id="визы"/>
+<node id="визы талантов"/>
+<node id="правительства"/>
+<node id="сколтех"/>
+<node id="развития"/>
+<node id="татарстана"/>
+<node id="но"/>
+<node id="татарстане"/>
+<node id="оэз"/>
+<node id="валерий фальков"/>
+<node id="фальков"/>
+<node id="скифа"/>
+<node id="робин"/>
+<node id="алиса"/>
+<node id="солнечной системы"/>
+<node id="андрей воробьев"/>
+<node id="город долгопрудный"/>
+<node id="одинцовского района"/>
+<node id="области"/>
+<node id="ассоциации ветеранов сво"/>
+<node id="сво"/>
+<node id="фрязино"/>
+<node id="академии наук"/>
+<node id="стратегий социально-экономического развития"/>
+<node id="социально-экономического развития"/>
+<node id="саров"/>
+<node id="например"/>
+<node id="полномочного представителя президента"/>
+<node id="анатолия серышева"/>
+<node id="состоялась рабочая встреча"/>
+<node id="новосибирске состоялась рабочая"/>
+<node id="сибирском федеральном округе"/>
+<node id="рабочая встреча полномочного"/>
+<node id="валерия фалькова"/>
+<node id="новосибирск"/>
+<node id="тасс"/>
+<node id="новосибирской области"/>
+<node id="николай красников"/>
+<node id="новосибирскую область посетил"/>
+<node id="новосибирскую область"/>
+<node id="центр коллективного пользования «сибирский кольцевой источник фотонов"/>
+<node id="федерации в сибирском"/>
+<node id="представитель президента российской"/>
+<node id="президента российской федерации"/>
+<node id="цкп «скиф»"/>
+<node id="развития туризма"/>
+<node id="туризма"/>
+<node id="наукограде кольцово состоится"/>
+<node id="кольцово состоится торжественный"/>
+<node id="состоится торжественный ввод"/>
+<node id="эксплуатацию центра коллективного"/>
+<node id="серпухова"/>
+<node id="совет депутатов"/>
+<node id="медиабанк подмосковья"/>
+<node id="модели солнечной"/>
+<node id="модели солнечной системы"/>
+<node id="иван петрушин"/>
+<node id="зеленоград"/>
+<node id="королеве"/>
+<node id="евгений чердаков"/>
+<node id="королева"/>
+<node id="снежинск"/>
+<node id="обнинске"/>
+<node id="ес"/>
+<node id="обнинска"/>
+<node id="новой москвы"/>
+<node id="bar hopping"/>
+<node id="bar"/>
+<node id="science bar"/>
+<node id="science bar hopping"/>
+<node id="дубны"/>
+<node id="великой"/>
+<node id="великой отечественной"/>
+<node id="великой отечественной войны"/>
+<node id="отечественной войны"/>
+<node id="мо"/>
+<node id="москва"/>
+<node id="находится"/>
+<node id="фото"/>
+<node id="наукограда российской федерации"/>
+<node id="центров развития науки"/>
+<node id="долгопрудному"/>
+<node id="подмосковному городу долгопрудному"/>
+<node id="долгопрудном"/>
+<node id="подмосковному городу"/>
+<node id="игорь трифонов"/>
+<node id="владимир острогожский"/>
+<node id="победы"/>
+<node id="игорь брынцалов"/>
+<node id="культура автор текста"/>
+<node id="музейно-выставочном центре"/>
+<node id="культура автор"/>
+<node id="главная культура"/>
+<node id="главная культура автор"/>
+<node id="главная образование автор"/>
+<node id="образование автор текста"/>
+<node id="дмитрий воробьев"/>
+<node id="фрязино дмитрий воробьев"/>
+<node id="юлия арбузова"/>
+<node id="фрязине"/>
+<node id="пушков"/>
+<node id="институт"/>
+<node id="ниу вшэ"/>
+<node id="ниу"/>
+<node id="вшэ"/>
+<node id="исиэз ниу"/>
+<node id="исиэз ниу вшэ"/>
+<node id="части"/>
+<node id="коммунарка"/>
+<node id="жк"/>
+<node id="северной части"/>
+<node id="зеленограде"/>
+<node id="краснопахорский"/>
+<node id="щербинка"/>
+<node id="внуково"/>
+<node id="вороново"/>
+<node id="бекасово"/>
+<node id="филимонковский"/>
+<node id="подмосковном наукограде черноголовка"/>
+<node id="подмосковном наукограде"/>
+<node id="интерфаксу"/>
+<node id="сабиров"/>
+<node id="шагалеев"/>
+<node id="фонда"/>
+<node id="ковальчук"/>
+<node id="союза развития наукоградов"/>
+<node id="получил статус наукограда"/>
+<node id="город долгопрудный получил"/>
+<node id="присвоен статус наукограда"/>
+<node id="долина физтеха"/>
+<node id="правительства михаил мишустин"/>
+<node id="председатель правительства михаил"/>
+<node id="подписал председатель правительства"/>
+<node id="андрей"/>
+<node id="жителей"/>
+<node id="фрязина"/>
+<node id="жуковского"/>
+<node id="николай мулянский"/>
+<node id="жуковском"/>
+<node id="мария овчинникова"/>
+<node id="города"/>
+<node id="будущего"/>
+<node id="города будущего"/>
+<node id="капустин"/>
+<node id="егоров"/>
+<node id="республики татарстан"/>
+<node id="особой экономической"/>
+<node id="новости автор"/>
+<node id="главная новости автор"/>
+<node id="новости автор текста"/>
+<node id="главная новости"/>
+<node id="главная благоустройство автор"/>
+<node id="благоустройство автор текста"/>
+<node id="главная благоустройство"/>
+<node id="главная образование"/>
+<node id="образование автор"/>
+<node id="татарстан"/>
+<node id="горной"/>
+<node id="горной стороны"/>
+<node id="центр"/>
+<node id="фонд"/>
+<node id="фонда «сколково»"/>
+<node id="иц «сколково»"/>
+<node id="совета"/>
+<node id="фонда “сколково"/>
+<node id="фонда “сколково”"/>
+<node id="луговцева"/>
+<node id="маркин"/>
+<node id="тфк"/>
+<node id="луговцев"/>
+<node id="иц"/>
+<node id="проект"/>
+<node id="недвижимости"/>
+<node id="руб"/>
+<node id="проекта"/>
+<node id="жилье"/>
+<node id="яндекс"/>
+<node id="особой экономической зоне"/>
+<node id="интеллект"/>
+<node id="геонод"/>
+<node id="разведка"/>
+<node id="геонод разведка"/>
+<node id="руслан шагалеев"/>
+<node id="источник"/>
+<node id="руслан"/>
+<node id="свияжск"/>
+<node id="тетюш"/>
+<node id="heatherwick studio for"/>
+<node id="studio for sidewalk"/>
+<node id="sidewalk labs"/>
+<node id="picture plane for"/>
+<node id="plane for heatherwick"/>
+<node id="for heatherwick studio"/>
+<node id="for sidewalk labs"/>
+<node id="хохлов"/>
+<node id="космос"/>
+<node id="аэроклуба досааф"/>
+<node id="досааф"/>
+<node id="минске"/>
+<node id="мособлдумы"/>
+<node id="цаги"/>
+<node id="части города"/>
+<node id="северной части города"/>
+<node id="житие"/>
+<node id="жития"/>
+<node id="сергия"/>
+<node id="жития сергия"/>
+<node id="редакции"/>
+<node id="пространной"/>
+<node id="пространной редакции"/>
+<edge source="москвы" target="одинцовского района">
+  <data key="d0">3</data>
+  <data key="d1">5.1915</data>
+</edge>
+<edge source="москвы" target="новой москвы">
+  <data key="d0">6</data>
+  <data key="d1">6.1915</data>
+</edge>
+<edge source="дубна" target="социально-экономического развития">
+  <data key="d0">2</data>
+  <data key="d1">5.6065</data>
+</edge>
+<edge source="королёв" target="королёва">
+  <data key="d0">21</data>
+  <data key="d1">5.4614</data>
+</edge>
+<edge source="королёв" target="стратегий социально-экономического развития">
+  <data key="d0">2</data>
+  <data key="d1">5.317</data>
+</edge>
+<edge source="нии" target="ес">
+  <data key="d0">3</data>
+  <data key="d1">7.2321</data>
+</edge>
+<edge source="нии" target="мо">
+  <data key="d0">4</data>
+  <data key="d1">5.4545</data>
+</edge>
+<edge source="научный центр российской" target="ао «государственный научный центр">
+  <data key="d0">2</data>
+  <data key="d1">7.1915</data>
+</edge>
+<edge source="научный центр российской" target="научный центр">
+  <data key="d0">3</data>
+  <data key="d1">7.076</data>
+</edge>
+<edge source="ао «государственный научный центр" target="научный центр">
+  <data key="d0">2</data>
+  <data key="d1">6.661</data>
+</edge>
+<edge source="цкп" target="цкп «скиф»">
+  <data key="d0">12</data>
+  <data key="d1">5.3252</data>
+</edge>
+<edge source="черноголовка" target="подмосковном наукограде черноголовка">
+  <data key="d0">4</data>
+  <data key="d1">5.4014</data>
+</edge>
+<edge source="черноголовке" target="медиабанк подмосковья">
+  <data key="d0">2</data>
+  <data key="d1">5.0853</data>
+</edge>
+<edge source="черноголовке" target="иван петрушин">
+  <data key="d0">2</data>
+  <data key="d1">5.2373</data>
+</edge>
+<edge source="город" target="оки">
+  <data key="d0">2</data>
+  <data key="d1">5.0038</data>
+</edge>
+<edge source="территории" target="дубны">
+  <data key="d0">2</data>
+  <data key="d1">6.7175</data>
+</edge>
+<edge source="территории" target="области">
+  <data key="d0">2</data>
+  <data key="d1">7.4545</data>
+</edge>
+<edge source="науки" target="минобрнауки">
+  <data key="d0">2</data>
+  <data key="d1">5.9951</data>
+</edge>
+<edge source="науки" target="министерства науки и высшего образования">
+  <data key="d0">2</data>
+  <data key="d1">5.732</data>
+</edge>
+<edge source="науки" target="валерий фальков">
+  <data key="d0">5</data>
+  <data key="d1">5.5515</data>
+</edge>
+<edge source="науки" target="ии">
+  <data key="d0">10</data>
+  <data key="d1">5.5945</data>
+</edge>
+<edge source="россия" target="талантов">
+  <data key="d0">2</data>
+  <data key="d1">5.8536</data>
+</edge>
+<edge source="россия" target="визы">
+  <data key="d0">3</data>
+  <data key="d1">6.339</data>
+</edge>
+<edge source="россия" target="визы талантов">
+  <data key="d0">2</data>
+  <data key="d1">5.9605</data>
+</edge>
+<edge source="ск" target="му">
+  <data key="d0">7</data>
+  <data key="d1">5.0813</data>
+</edge>
+<edge source="фиц" target="черноголовки">
+  <data key="d0">3</data>
+  <data key="d1">5.58</data>
+</edge>
+<edge source="фиц" target="мх ран">
+  <data key="d0">4</data>
+  <data key="d1">6.8695</data>
+</edge>
+<edge source="фиц" target="фиц пхф">
+  <data key="d0">3</data>
+  <data key="d1">6.7175</data>
+</edge>
+<edge source="мх ран" target="фиц пхф">
+  <data key="d0">4</data>
+  <data key="d1">7.4545</data>
+</edge>
+<edge source="черноголовки" target="медиабанк подмосковья">
+  <data key="d0">3</data>
+  <data key="d1">6.165</data>
+</edge>
+<edge source="черноголовки" target="иван петрушин">
+  <data key="d0">2</data>
+  <data key="d1">5.732</data>
+</edge>
+<edge source="черноголовки" target="егоров">
+  <data key="d0">2</data>
+  <data key="d1">7.902</data>
+</edge>
+<edge source="солнечной" target="солнечной системы">
+  <data key="d0">8</data>
+  <data key="d1">6.4455</data>
+</edge>
+<edge source="солнечной" target="модели солнечной">
+  <data key="d0">4</data>
+  <data key="d1">6.0305</data>
+</edge>
+<edge source="солнечной" target="модели солнечной системы">
+  <data key="d0">4</data>
+  <data key="d1">6.0305</data>
+</edge>
+<edge source="московской области" target="области">
+  <data key="d0">4</data>
+  <data key="d1">5.2218</data>
+</edge>
+<edge source="ссср" target="академии наук">
+  <data key="d0">3</data>
+  <data key="d1">8.8171</data>
+</edge>
+<edge source="обнинск" target="калужская область">
+  <data key="d0">5</data>
+  <data key="d1">5.9218</data>
+</edge>
+<edge source="обнинск" target="обнинске">
+  <data key="d0">4</data>
+  <data key="d1">6.4072</data>
+</edge>
+<edge source="обнинск" target="обнинска">
+  <data key="d0">2</data>
+  <data key="d1">6.4072</data>
+</edge>
+<edge source="королёва" target="дубны">
+  <data key="d0">4</data>
+  <data key="d1">5.7915</data>
+</edge>
+<edge source="королёва" target="игорь трифонов">
+  <data key="d0">2</data>
+  <data key="d1">7.1135</data>
+</edge>
+<edge source="статус наукограда" target="долгопрудному">
+  <data key="d0">4</data>
+  <data key="d1">5.7764</data>
+</edge>
+<edge source="статус наукограда" target="долгопрудном">
+  <data key="d0">4</data>
+  <data key="d1">5.5285</data>
+</edge>
+<edge source="михаил мишустин" target="правительства михаил мишустин">
+  <data key="d0">5</data>
+  <data key="d1">6.3979</data>
+</edge>
+<edge source="михаил мишустин" target="председатель правительства михаил">
+  <data key="d0">5</data>
+  <data key="d1">6.3979</data>
+</edge>
+<edge source="михаил мишустин" target="правительства">
+  <data key="d0">3</data>
+  <data key="d1">5.661</data>
+</edge>
+<edge source="михаил мишустин" target="подписал председатель правительства">
+  <data key="d0">3</data>
+  <data key="d1">6.076</data>
+</edge>
+<edge source="мвд" target="новосибирской области">
+  <data key="d0">2</data>
+  <data key="d1">6.317</data>
+</edge>
+<edge source="мвд" target="татарстана">
+  <data key="d0">3</data>
+  <data key="d1">5.0946</data>
+</edge>
+<edge source="долгопрудный получил статус" target="долгопрудный">
+  <data key="d0">4</data>
+  <data key="d1">5.5965</data>
+</edge>
+<edge source="долгопрудный получил статус" target="получил статус наукограда">
+  <data key="d0">2</data>
+  <data key="d1">6.2846</data>
+</edge>
+<edge source="долгопрудный получил статус" target="город долгопрудный получил">
+  <data key="d0">3</data>
+  <data key="d1">6.8695</data>
+</edge>
+<edge source="долгопрудный получил статус" target="город долгопрудный">
+  <data key="d0">2</data>
+  <data key="d1">5.8695</data>
+</edge>
+<edge source="долгопрудный получил статус" target="статус наукограда россии">
+  <data key="d0">2</data>
+  <data key="d1">7.4545</data>
+</edge>
+<edge source="долгопрудный" target="получил статус наукограда">
+  <data key="d0">2</data>
+  <data key="d1">5.3335</data>
+</edge>
+<edge source="долгопрудный" target="город долгопрудный получил">
+  <data key="d0">2</data>
+  <data key="d1">5.3335</data>
+</edge>
+<edge source="долгопрудный" target="город долгопрудный">
+  <data key="d0">3</data>
+  <data key="d1">5.5034</data>
+</edge>
+<edge source="мфти" target="долина физтеха">
+  <data key="d0">10</data>
+  <data key="d1">7.9284</data>
+</edge>
+<edge source="технологий" target="центр">
+  <data key="d0">4</data>
+  <data key="d1">6.689</data>
+</edge>
+<edge source="сколтеха" target="сколтех">
+  <data key="d0">11</data>
+  <data key="d1">8.2061</data>
+</edge>
+<edge source="королев" target="королеве">
+  <data key="d0">8</data>
+  <data key="d1">5.5932</data>
+</edge>
+<edge source="новосибирске" target="полномочного представителя президента">
+  <data key="d0">2</data>
+  <data key="d1">5.7764</data>
+</edge>
+<edge source="новосибирске" target="состоялась рабочая встреча">
+  <data key="d0">2</data>
+  <data key="d1">6.1915</data>
+</edge>
+<edge source="новосибирске" target="новосибирске состоялась рабочая">
+  <data key="d0">2</data>
+  <data key="d1">6.1915</data>
+</edge>
+<edge source="новосибирске" target="рабочая встреча полномочного">
+  <data key="d0">2</data>
+  <data key="d1">5.7764</data>
+</edge>
+<edge source="новосибирске" target="валерия фалькова">
+  <data key="d0">2</data>
+  <data key="d1">6.1915</data>
+</edge>
+<edge source="новосибирске" target="новосибирск">
+  <data key="d0">2</data>
+  <data key="d1">5.317</data>
+</edge>
+<edge source="подмосковья" target="жителей">
+  <data key="d0">2</data>
+  <data key="d1">6.1135</data>
+</edge>
+<edge source="подмосковья" target="жуковского">
+  <data key="d0">2</data>
+  <data key="d1">5.1135</data>
+</edge>
+<edge source="подмосковья" target="мария овчинникова">
+  <data key="d0">2</data>
+  <data key="d1">5.1135</data>
+</edge>
+<edge source="талантов" target="визы">
+  <data key="d0">4</data>
+  <data key="d1">6.6472</data>
+</edge>
+<edge source="талантов" target="визы талантов">
+  <data key="d0">4</data>
+  <data key="d1">6.8536</data>
+</edge>
+<edge source="визы" target="визы талантов">
+  <data key="d0">4</data>
+  <data key="d1">6.7541</data>
+</edge>
+<edge source="развития" target="развития туризма">
+  <data key="d0">7</data>
+  <data key="d1">6.7594</data>
+</edge>
+<edge source="развития" target="туризма">
+  <data key="d0">7</data>
+  <data key="d1">6.6769</data>
+</edge>
+<edge source="татарстана" target="татарстан">
+  <data key="d0">7</data>
+  <data key="d1">5.1915</data>
+</edge>
+<edge source="но" target="свияжск">
+  <data key="d0">7</data>
+  <data key="d1">5.3343</data>
+</edge>
+<edge source="но" target="тетюш">
+  <data key="d0">3</data>
+  <data key="d1">5.9864</data>
+</edge>
+<edge source="татарстане" target="татарстан">
+  <data key="d0">3</data>
+  <data key="d1">6.1915</data>
+</edge>
+<edge source="оэз" target="республики татарстан">
+  <data key="d0">2</data>
+  <data key="d1">5.3614</data>
+</edge>
+<edge source="валерий фальков" target="анатолия серышева">
+  <data key="d0">3</data>
+  <data key="d1">5.3353</data>
+</edge>
+<edge source="валерий фальков" target="фальков">
+  <data key="d0">3</data>
+  <data key="d1">5.537</data>
+</edge>
+<edge source="фальков" target="валерия фалькова">
+  <data key="d0">2</data>
+  <data key="d1">6.4545</data>
+</edge>
+<edge source="скифа" target="новосибирск">
+  <data key="d0">4</data>
+  <data key="d1">6.732</data>
+</edge>
+<edge source="робин" target="алиса">
+  <data key="d0">4</data>
+  <data key="d1">5.7175</data>
+</edge>
+<edge source="солнечной системы" target="модели солнечной">
+  <data key="d0">4</data>
+  <data key="d1">6.1617</data>
+</edge>
+<edge source="солнечной системы" target="модели солнечной системы">
+  <data key="d0">4</data>
+  <data key="d1">6.1617</data>
+</edge>
+<edge source="андрей воробьев" target="андрей">
+  <data key="d0">5</data>
+  <data key="d1">9.1915</data>
+</edge>
+<edge source="город долгопрудный" target="получил статус наукограда">
+  <data key="d0">3</data>
+  <data key="d1">7.1915</data>
+</edge>
+<edge source="город долгопрудный" target="город долгопрудный получил">
+  <data key="d0">2</data>
+  <data key="d1">6.6065</data>
+</edge>
+<edge source="ассоциации ветеранов сво" target="сво">
+  <data key="d0">4</data>
+  <data key="d1">6.4545</data>
+</edge>
+<edge source="фрязино" target="дмитрий воробьев">
+  <data key="d0">4</data>
+  <data key="d1">5.2503</data>
+</edge>
+<edge source="фрязино" target="фрязино дмитрий воробьев">
+  <data key="d0">3</data>
+  <data key="d1">5.0576</data>
+</edge>
+<edge source="саров" target="снежинск">
+  <data key="d0">6</data>
+  <data key="d1">9.0395</data>
+</edge>
+<edge source="например" target="интеллект">
+  <data key="d0">2</data>
+  <data key="d1">9.554</data>
+</edge>
+<edge source="например" target="мо">
+  <data key="d0">3</data>
+  <data key="d1">6.139</data>
+</edge>
+<edge source="полномочного представителя президента" target="сибирском федеральном округе">
+  <data key="d0">2</data>
+  <data key="d1">5.1915</data>
+</edge>
+<edge source="полномочного представителя президента" target="анатолия серышева">
+  <data key="d0">2</data>
+  <data key="d1">5.8378</data>
+</edge>
+<edge source="полномочного представителя президента" target="рабочая встреча полномочного">
+  <data key="d0">2</data>
+  <data key="d1">7.3614</data>
+</edge>
+<edge source="анатолия серышева" target="состоялась рабочая встреча">
+  <data key="d0">2</data>
+  <data key="d1">6.2529</data>
+</edge>
+<edge source="анатолия серышева" target="новосибирске состоялась рабочая">
+  <data key="d0">2</data>
+  <data key="d1">6.2529</data>
+</edge>
+<edge source="анатолия серышева" target="рабочая встреча полномочного">
+  <data key="d0">2</data>
+  <data key="d1">5.8378</data>
+</edge>
+<edge source="анатолия серышева" target="валерия фалькова">
+  <data key="d0">2</data>
+  <data key="d1">6.2529</data>
+</edge>
+<edge source="состоялась рабочая встреча" target="новосибирске состоялась рабочая">
+  <data key="d0">2</data>
+  <data key="d1">8.1915</data>
+</edge>
+<edge source="сибирском федеральном округе" target="рабочая встреча полномочного">
+  <data key="d0">2</data>
+  <data key="d1">5.1915</data>
+</edge>
+<edge source="новосибирск" target="зеленоград">
+  <data key="d0">3</data>
+  <data key="d1">5.165</data>
+</edge>
+<edge source="тасс" target="николай красников">
+  <data key="d0">2</data>
+  <data key="d1">8.1915</data>
+</edge>
+<edge source="новосибирскую область посетил" target="новосибирскую область">
+  <data key="d0">3</data>
+  <data key="d1">5.4545</data>
+</edge>
+<edge source="новосибирскую область посетил" target="центр коллективного пользования «сибирский кольцевой источник фотонов">
+  <data key="d0">2</data>
+  <data key="d1">5.3841</data>
+</edge>
+<edge source="новосибирскую область" target="центр коллективного пользования «сибирский кольцевой источник фотонов">
+  <data key="d0">2</data>
+  <data key="d1">5.2321</data>
+</edge>
+<edge source="федерации в сибирском" target="представитель президента российской">
+  <data key="d0">2</data>
+  <data key="d1">6.1915</data>
+</edge>
+<edge source="федерации в сибирском" target="президента российской федерации">
+  <data key="d0">2</data>
+  <data key="d1">6.1915</data>
+</edge>
+<edge source="представитель президента российской" target="президента российской федерации">
+  <data key="d0">2</data>
+  <data key="d1">6.1915</data>
+</edge>
+<edge source="развития туризма" target="туризма">
+  <data key="d0">7</data>
+  <data key="d1">6.9114</data>
+</edge>
+<edge source="наукограде кольцово состоится" target="кольцово состоится торжественный">
+  <data key="d0">2</data>
+  <data key="d1">5.0215</data>
+</edge>
+<edge source="наукограде кольцово состоится" target="состоится торжественный ввод">
+  <data key="d0">2</data>
+  <data key="d1">5.0215</data>
+</edge>
+<edge source="наукограде кольцово состоится" target="эксплуатацию центра коллективного">
+  <data key="d0">2</data>
+  <data key="d1">5.0215</data>
+</edge>
+<edge source="кольцово состоится торжественный" target="состоится торжественный ввод">
+  <data key="d0">2</data>
+  <data key="d1">5.0215</data>
+</edge>
+<edge source="кольцово состоится торжественный" target="эксплуатацию центра коллективного">
+  <data key="d0">2</data>
+  <data key="d1">5.0215</data>
+</edge>
+<edge source="состоится торжественный ввод" target="эксплуатацию центра коллективного">
+  <data key="d0">2</data>
+  <data key="d1">5.0215</data>
+</edge>
+<edge source="серпухова" target="совет депутатов">
+  <data key="d0">2</data>
+  <data key="d1">5.5476</data>
+</edge>
+<edge source="медиабанк подмосковья" target="иван петрушин">
+  <data key="d0">2</data>
+  <data key="d1">6.8695</data>
+</edge>
+<edge source="модели солнечной" target="модели солнечной системы">
+  <data key="d0">4</data>
+  <data key="d1">6.7467</data>
+</edge>
+<edge source="зеленоград" target="зеленограде">
+  <data key="d0">7</data>
+  <data key="d1">6.6769</data>
+</edge>
+<edge source="евгений чердаков" target="королева">
+  <data key="d0">2</data>
+  <data key="d1">7.3841</data>
+</edge>
+<edge source="новой москвы" target="москва">
+  <data key="d0">2</data>
+  <data key="d1">5.3614</data>
+</edge>
+<edge source="bar hopping" target="bar">
+  <data key="d0">4</data>
+  <data key="d1">6.5476</data>
+</edge>
+<edge source="bar hopping" target="science bar">
+  <data key="d0">4</data>
+  <data key="d1">6.5476</data>
+</edge>
+<edge source="bar hopping" target="science bar hopping">
+  <data key="d0">4</data>
+  <data key="d1">6.5476</data>
+</edge>
+<edge source="bar" target="science bar">
+  <data key="d0">4</data>
+  <data key="d1">6.5476</data>
+</edge>
+<edge source="bar" target="science bar hopping">
+  <data key="d0">4</data>
+  <data key="d1">6.5476</data>
+</edge>
+<edge source="science bar" target="science bar hopping">
+  <data key="d0">4</data>
+  <data key="d1">6.5476</data>
+</edge>
+<edge source="великой" target="великой отечественной">
+  <data key="d0">9</data>
+  <data key="d1">5.3564</data>
+</edge>
+<edge source="великой" target="великой отечественной войны">
+  <data key="d0">8</data>
+  <data key="d1">5.2739</data>
+</edge>
+<edge source="великой" target="отечественной войны">
+  <data key="d0">8</data>
+  <data key="d1">5.2739</data>
+</edge>
+<edge source="великой отечественной" target="великой отечественной войны">
+  <data key="d0">8</data>
+  <data key="d1">5.2739</data>
+</edge>
+<edge source="великой отечественной" target="отечественной войны">
+  <data key="d0">8</data>
+  <data key="d1">5.2739</data>
+</edge>
+<edge source="великой отечественной войны" target="отечественной войны">
+  <data key="d0">8</data>
+  <data key="d1">5.3614</data>
+</edge>
+<edge source="мо" target="находится">
+  <data key="d0">8</data>
+  <data key="d1">5.9691</data>
+</edge>
+<edge source="мо" target="фото">
+  <data key="d0">4</data>
+  <data key="d1">5.554</data>
+</edge>
+<edge source="мо" target="яндекс">
+  <data key="d0">3</data>
+  <data key="d1">5.7764</data>
+</edge>
+<edge source="москва" target="находится">
+  <data key="d0">6</data>
+  <data key="d1">5.554</data>
+</edge>
+<edge source="москва" target="фото">
+  <data key="d0">3</data>
+  <data key="d1">5.139</data>
+</edge>
+<edge source="находится" target="фото">
+  <data key="d0">5</data>
+  <data key="d1">6.4837</data>
+</edge>
+<edge source="наукограда российской федерации" target="центров развития науки">
+  <data key="d0">3</data>
+  <data key="d1">5.4951</data>
+</edge>
+<edge source="центров развития науки" target="подмосковному городу долгопрудному">
+  <data key="d0">2</data>
+  <data key="d1">5.2321</data>
+</edge>
+<edge source="центров развития науки" target="подмосковному городу">
+  <data key="d0">2</data>
+  <data key="d1">5.2321</data>
+</edge>
+<edge source="долгопрудному" target="подмосковному городу долгопрудному">
+  <data key="d0">4</data>
+  <data key="d1">5.0395</data>
+</edge>
+<edge source="долгопрудному" target="долгопрудном">
+  <data key="d0">10</data>
+  <data key="d1">5.4354</data>
+</edge>
+<edge source="долгопрудному" target="подмосковному городу">
+  <data key="d0">4</data>
+  <data key="d1">5.0395</data>
+</edge>
+<edge source="долгопрудному" target="присвоен статус наукограда">
+  <data key="d0">2</data>
+  <data key="d1">7.3614</data>
+</edge>
+<edge source="подмосковному городу долгопрудному" target="подмосковному городу">
+  <data key="d0">4</data>
+  <data key="d1">5.7175</data>
+</edge>
+<edge source="владимир острогожский" target="мария овчинникова">
+  <data key="d0">2</data>
+  <data key="d1">5.2321</data>
+</edge>
+<edge source="победы" target="игорь брынцалов">
+  <data key="d0">3</data>
+  <data key="d1">6.3995</data>
+</edge>
+<edge source="игорь брынцалов" target="мособлдумы">
+  <data key="d0">4</data>
+  <data key="d1">6.689</data>
+</edge>
+<edge source="культура автор текста" target="главная культура автор">
+  <data key="d0">4</data>
+  <data key="d1">5.7175</data>
+</edge>
+<edge source="культура автор текста" target="музейно-выставочном центре">
+  <data key="d0">2</data>
+  <data key="d1">5.0395</data>
+</edge>
+<edge source="культура автор текста" target="культура автор">
+  <data key="d0">3</data>
+  <data key="d1">5.3765</data>
+</edge>
+<edge source="культура автор текста" target="главная культура">
+  <data key="d0">3</data>
+  <data key="d1">5.3765</data>
+</edge>
+<edge source="музейно-выставочном центре" target="главная культура автор">
+  <data key="d0">2</data>
+  <data key="d1">5.0395</data>
+</edge>
+<edge source="музейно-выставочном центре" target="культура автор">
+  <data key="d0">2</data>
+  <data key="d1">5.1135</data>
+</edge>
+<edge source="музейно-выставочном центре" target="главная культура">
+  <data key="d0">2</data>
+  <data key="d1">5.1135</data>
+</edge>
+<edge source="культура автор" target="главная культура автор">
+  <data key="d0">3</data>
+  <data key="d1">5.3765</data>
+</edge>
+<edge source="культура автор" target="главная культура">
+  <data key="d0">3</data>
+  <data key="d1">5.4505</data>
+</edge>
+<edge source="главная культура" target="главная культура автор">
+  <data key="d0">3</data>
+  <data key="d1">5.3765</data>
+</edge>
+<edge source="главная образование автор" target="образование автор текста">
+  <data key="d0">3</data>
+  <data key="d1">6.3316</data>
+</edge>
+<edge source="главная образование автор" target="главная образование">
+  <data key="d0">2</data>
+  <data key="d1">6.554</data>
+</edge>
+<edge source="главная образование автор" target="юлия арбузова">
+  <data key="d0">2</data>
+  <data key="d1">5.8536</data>
+</edge>
+<edge source="главная образование автор" target="образование автор">
+  <data key="d0">2</data>
+  <data key="d1">6.554</data>
+</edge>
+<edge source="образование автор текста" target="главная образование">
+  <data key="d0">2</data>
+  <data key="d1">6.554</data>
+</edge>
+<edge source="образование автор текста" target="юлия арбузова">
+  <data key="d0">2</data>
+  <data key="d1">5.8536</data>
+</edge>
+<edge source="образование автор текста" target="образование автор">
+  <data key="d0">2</data>
+  <data key="d1">6.554</data>
+</edge>
+<edge source="дмитрий воробьев" target="фрязино дмитрий воробьев">
+  <data key="d0">3</data>
+  <data key="d1">8.554</data>
+</edge>
+<edge source="юлия арбузова" target="фрязина">
+  <data key="d0">2</data>
+  <data key="d1">5.491</data>
+</edge>
+<edge source="юлия арбузова" target="фрязине">
+  <data key="d0">2</data>
+  <data key="d1">7.076</data>
+</edge>
+<edge source="пушков" target="институт">
+  <data key="d0">2</data>
+  <data key="d1">7.6065</data>
+</edge>
+<edge source="ниу вшэ" target="вшэ">
+  <data key="d0">5</data>
+  <data key="d1">5.7645</data>
+</edge>
+<edge source="ниу вшэ" target="ниу">
+  <data key="d0">4</data>
+  <data key="d1">5.5096</data>
+</edge>
+<edge source="ниу вшэ" target="исиэз ниу">
+  <data key="d0">3</data>
+  <data key="d1">5.3995</data>
+</edge>
+<edge source="ниу вшэ" target="исиэз ниу вшэ">
+  <data key="d0">3</data>
+  <data key="d1">5.3995</data>
+</edge>
+<edge source="ниу" target="вшэ">
+  <data key="d0">4</data>
+  <data key="d1">5.5096</data>
+</edge>
+<edge source="ниу" target="исиэз ниу">
+  <data key="d0">3</data>
+  <data key="d1">5.4666</data>
+</edge>
+<edge source="ниу" target="исиэз ниу вшэ">
+  <data key="d0">3</data>
+  <data key="d1">5.4666</data>
+</edge>
+<edge source="вшэ" target="исиэз ниу">
+  <data key="d0">3</data>
+  <data key="d1">5.3995</data>
+</edge>
+<edge source="вшэ" target="исиэз ниу вшэ">
+  <data key="d0">3</data>
+  <data key="d1">5.3995</data>
+</edge>
+<edge source="исиэз ниу" target="исиэз ниу вшэ">
+  <data key="d0">3</data>
+  <data key="d1">5.7714</data>
+</edge>
+<edge source="части" target="части города">
+  <data key="d0">12</data>
+  <data key="d1">6.076</data>
+</edge>
+<edge source="части" target="северной части города">
+  <data key="d0">6</data>
+  <data key="d1">5.6065</data>
+</edge>
+<edge source="части" target="северной части">
+  <data key="d0">10</data>
+  <data key="d1">5.813</data>
+</edge>
+<edge source="коммунарка" target="внуково">
+  <data key="d0">2</data>
+  <data key="d1">5.6472</data>
+</edge>
+<edge source="коммунарка" target="краснопахорский">
+  <data key="d0">2</data>
+  <data key="d1">5.6472</data>
+</edge>
+<edge source="коммунарка" target="щербинка">
+  <data key="d0">2</data>
+  <data key="d1">5.6472</data>
+</edge>
+<edge source="коммунарка" target="вороново">
+  <data key="d0">2</data>
+  <data key="d1">5.6472</data>
+</edge>
+<edge source="коммунарка" target="бекасово">
+  <data key="d0">2</data>
+  <data key="d1">5.6472</data>
+</edge>
+<edge source="коммунарка" target="филимонковский">
+  <data key="d0">2</data>
+  <data key="d1">5.6472</data>
+</edge>
+<edge source="жк" target="руб">
+  <data key="d0">3</data>
+  <data key="d1">6.4228</data>
+</edge>
+<edge source="северной части" target="части города">
+  <data key="d0">6</data>
+  <data key="d1">5.5455</data>
+</edge>
+<edge source="северной части" target="северной части города">
+  <data key="d0">6</data>
+  <data key="d1">6.076</data>
+</edge>
+<edge source="краснопахорский" target="внуково">
+  <data key="d0">2</data>
+  <data key="d1">5.7467</data>
+</edge>
+<edge source="краснопахорский" target="щербинка">
+  <data key="d0">2</data>
+  <data key="d1">5.7467</data>
+</edge>
+<edge source="краснопахорский" target="вороново">
+  <data key="d0">2</data>
+  <data key="d1">5.7467</data>
+</edge>
+<edge source="краснопахорский" target="бекасово">
+  <data key="d0">2</data>
+  <data key="d1">5.7467</data>
+</edge>
+<edge source="краснопахорский" target="филимонковский">
+  <data key="d0">2</data>
+  <data key="d1">5.7467</data>
+</edge>
+<edge source="щербинка" target="внуково">
+  <data key="d0">2</data>
+  <data key="d1">5.7467</data>
+</edge>
+<edge source="щербинка" target="вороново">
+  <data key="d0">2</data>
+  <data key="d1">5.7467</data>
+</edge>
+<edge source="щербинка" target="бекасово">
+  <data key="d0">2</data>
+  <data key="d1">5.7467</data>
+</edge>
+<edge source="щербинка" target="филимонковский">
+  <data key="d0">2</data>
+  <data key="d1">5.7467</data>
+</edge>
+<edge source="внуково" target="вороново">
+  <data key="d0">2</data>
+  <data key="d1">5.7467</data>
+</edge>
+<edge source="внуково" target="бекасово">
+  <data key="d0">2</data>
+  <data key="d1">5.7467</data>
+</edge>
+<edge source="внуково" target="филимонковский">
+  <data key="d0">2</data>
+  <data key="d1">5.7467</data>
+</edge>
+<edge source="вороново" target="бекасово">
+  <data key="d0">2</data>
+  <data key="d1">5.7467</data>
+</edge>
+<edge source="вороново" target="филимонковский">
+  <data key="d0">2</data>
+  <data key="d1">5.7467</data>
+</edge>
+<edge source="бекасово" target="филимонковский">
+  <data key="d0">2</data>
+  <data key="d1">5.7467</data>
+</edge>
+<edge source="подмосковном наукограде черноголовка" target="подмосковном наукограде">
+  <data key="d0">2</data>
+  <data key="d1">8.7764</data>
+</edge>
+<edge source="интерфаксу" target="сабиров">
+  <data key="d0">2</data>
+  <data key="d1">5.5096</data>
+</edge>
+<edge source="шагалеев" target="руслан шагалеев">
+  <data key="d0">9</data>
+  <data key="d1">5.8171</data>
+</edge>
+<edge source="шагалеев" target="источник">
+  <data key="d0">7</data>
+  <data key="d1">5.8468</data>
+</edge>
+<edge source="шагалеев" target="руслан">
+  <data key="d0">9</data>
+  <data key="d1">5.75</data>
+</edge>
+<edge source="фонда" target="фонд">
+  <data key="d0">7</data>
+  <data key="d1">5.3061</data>
+</edge>
+<edge source="фонда" target="фонда «сколково»">
+  <data key="d0">3</data>
+  <data key="d1">5.0097</data>
+</edge>
+<edge source="ковальчук" target="союза развития наукоградов">
+  <data key="d0">2</data>
+  <data key="d1">11.3614</data>
+</edge>
+<edge source="получил статус наукограда" target="город долгопрудный получил">
+  <data key="d0">2</data>
+  <data key="d1">7.0215</data>
+</edge>
+<edge source="правительства михаил мишустин" target="председатель правительства михаил">
+  <data key="d0">4</data>
+  <data key="d1">7.1915</data>
+</edge>
+<edge source="правительства михаил мишустин" target="подписал председатель правительства">
+  <data key="d0">3</data>
+  <data key="d1">7.1915</data>
+</edge>
+<edge source="председатель правительства михаил" target="подписал председатель правительства">
+  <data key="d0">3</data>
+  <data key="d1">7.1915</data>
+</edge>
+<edge source="жуковского" target="цаги">
+  <data key="d0">2</data>
+  <data key="d1">10.3614</data>
+</edge>
+<edge source="николай мулянский" target="жуковском">
+  <data key="d0">3</data>
+  <data key="d1">6.5455</data>
+</edge>
+<edge source="николай мулянский" target="новости автор">
+  <data key="d0">2</data>
+  <data key="d1">5.7541</data>
+</edge>
+<edge source="николай мулянский" target="главная новости автор">
+  <data key="d0">2</data>
+  <data key="d1">5.7541</data>
+</edge>
+<edge source="николай мулянский" target="новости автор текста">
+  <data key="d0">2</data>
+  <data key="d1">5.7541</data>
+</edge>
+<edge source="николай мулянский" target="главная новости">
+  <data key="d0">2</data>
+  <data key="d1">5.7541</data>
+</edge>
+<edge source="жуковском" target="новости автор">
+  <data key="d0">2</data>
+  <data key="d1">5.7541</data>
+</edge>
+<edge source="жуковском" target="главная новости автор">
+  <data key="d0">2</data>
+  <data key="d1">5.7541</data>
+</edge>
+<edge source="жуковском" target="новости автор текста">
+  <data key="d0">2</data>
+  <data key="d1">5.7541</data>
+</edge>
+<edge source="жуковском" target="главная новости">
+  <data key="d0">2</data>
+  <data key="d1">5.7541</data>
+</edge>
+<edge source="города" target="будущего">
+  <data key="d0">7</data>
+  <data key="d1">5.0628</data>
+</edge>
+<edge source="города" target="города будущего">
+  <data key="d0">7</data>
+  <data key="d1">5.3973</data>
+</edge>
+<edge source="будущего" target="капустин">
+  <data key="d0">5</data>
+  <data key="d1">6.2404</data>
+</edge>
+<edge source="будущего" target="города будущего">
+  <data key="d0">7</data>
+  <data key="d1">5.7872</data>
+</edge>
+<edge source="города будущего" target="капустин">
+  <data key="d0">2</data>
+  <data key="d1">5.2529</data>
+</edge>
+<edge source="особой экономической" target="особой экономической зоне">
+  <data key="d0">8</data>
+  <data key="d1">5.7934</data>
+</edge>
+<edge source="новости автор" target="главная новости автор">
+  <data key="d0">3</data>
+  <data key="d1">6.1326</data>
+</edge>
+<edge source="новости автор" target="новости автор текста">
+  <data key="d0">3</data>
+  <data key="d1">6.1326</data>
+</edge>
+<edge source="новости автор" target="главная новости">
+  <data key="d0">3</data>
+  <data key="d1">6.1326</data>
+</edge>
+<edge source="главная новости автор" target="новости автор текста">
+  <data key="d0">3</data>
+  <data key="d1">6.1326</data>
+</edge>
+<edge source="главная новости автор" target="главная новости">
+  <data key="d0">3</data>
+  <data key="d1">6.1326</data>
+</edge>
+<edge source="новости автор текста" target="главная новости">
+  <data key="d0">3</data>
+  <data key="d1">6.1326</data>
+</edge>
+<edge source="главная благоустройство автор" target="благоустройство автор текста">
+  <data key="d0">3</data>
+  <data key="d1">7.9464</data>
+</edge>
+<edge source="главная благоустройство автор" target="главная благоустройство">
+  <data key="d0">3</data>
+  <data key="d1">7.9464</data>
+</edge>
+<edge source="благоустройство автор текста" target="главная благоустройство">
+  <data key="d0">3</data>
+  <data key="d1">7.9464</data>
+</edge>
+<edge source="главная образование" target="образование автор">
+  <data key="d0">2</data>
+  <data key="d1">7.3614</data>
+</edge>
+<edge source="горной" target="свияжск">
+  <data key="d0">2</data>
+  <data key="d1">5.2581</data>
+</edge>
+<edge source="горной" target="горной стороны">
+  <data key="d0">7</data>
+  <data key="d1">6.203</data>
+</edge>
+<edge source="горной стороны" target="свияжск">
+  <data key="d0">2</data>
+  <data key="d1">5.58</data>
+</edge>
+<edge source="фонд" target="фонда «сколково»">
+  <data key="d0">2</data>
+  <data key="d1">5.7915</data>
+</edge>
+<edge source="иц «сколково»" target="иц">
+  <data key="d0">6</data>
+  <data key="d1">5.952</data>
+</edge>
+<edge source="иц «сколково»" target="недвижимости">
+  <data key="d0">2</data>
+  <data key="d1">5.6472</data>
+</edge>
+<edge source="совета" target="фонда “сколково">
+  <data key="d0">3</data>
+  <data key="d1">5.537</data>
+</edge>
+<edge source="совета" target="фонда “сколково”">
+  <data key="d0">3</data>
+  <data key="d1">5.537</data>
+</edge>
+<edge source="фонда “сколково" target="фонда “сколково”">
+  <data key="d0">5</data>
+  <data key="d1">6.0395</data>
+</edge>
+<edge source="луговцева" target="хохлов">
+  <data key="d0">2</data>
+  <data key="d1">6.7467</data>
+</edge>
+<edge source="луговцева" target="маркин">
+  <data key="d0">2</data>
+  <data key="d1">5.8536</data>
+</edge>
+<edge source="луговцева" target="тфк">
+  <data key="d0">2</data>
+  <data key="d1">5.6472</data>
+</edge>
+<edge source="луговцева" target="луговцев">
+  <data key="d0">3</data>
+  <data key="d1">6.0515</data>
+</edge>
+<edge source="маркин" target="тфк">
+  <data key="d0">3</data>
+  <data key="d1">6.339</data>
+</edge>
+<edge source="маркин" target="луговцев">
+  <data key="d0">2</data>
+  <data key="d1">5.5735</data>
+</edge>
+<edge source="тфк" target="луговцев">
+  <data key="d0">2</data>
+  <data key="d1">5.367</data>
+</edge>
+<edge source="луговцев" target="хохлов">
+  <data key="d0">3</data>
+  <data key="d1">7.0515</data>
+</edge>
+<edge source="иц" target="недвижимости">
+  <data key="d0">4</data>
+  <data key="d1">5.4666</data>
+</edge>
+<edge source="проект" target="проекта">
+  <data key="d0">10</data>
+  <data key="d1">6.5285</data>
+</edge>
+<edge source="проект" target="жилье">
+  <data key="d0">4</data>
+  <data key="d1">5.6472</data>
+</edge>
+<edge source="недвижимости" target="жилье">
+  <data key="d0">2</data>
+  <data key="d1">5.7467</data>
+</edge>
+<edge source="проекта" target="жилье">
+  <data key="d0">2</data>
+  <data key="d1">5.3061</data>
+</edge>
+<edge source="геонод" target="разведка">
+  <data key="d0">7</data>
+  <data key="d1">7.554</data>
+</edge>
+<edge source="геонод" target="геонод разведка">
+  <data key="d0">7</data>
+  <data key="d1">7.554</data>
+</edge>
+<edge source="разведка" target="геонод разведка">
+  <data key="d0">7</data>
+  <data key="d1">7.554</data>
+</edge>
+<edge source="руслан шагалеев" target="руслан">
+  <data key="d0">8</data>
+  <data key="d1">6.5096</data>
+</edge>
+<edge source="руслан шагалеев" target="источник">
+  <data key="d0">4</data>
+  <data key="d1">5.9691</data>
+</edge>
+<edge source="источник" target="руслан">
+  <data key="d0">5</data>
+  <data key="d1">6.2239</data>
+</edge>
+<edge source="heatherwick studio for" target="studio for sidewalk">
+  <data key="d0">4</data>
+  <data key="d1">5.1915</data>
+</edge>
+<edge source="heatherwick studio for" target="sidewalk labs">
+  <data key="d0">4</data>
+  <data key="d1">5.1915</data>
+</edge>
+<edge source="heatherwick studio for" target="picture plane for">
+  <data key="d0">4</data>
+  <data key="d1">5.1915</data>
+</edge>
+<edge source="heatherwick studio for" target="plane for heatherwick">
+  <data key="d0">4</data>
+  <data key="d1">5.1915</data>
+</edge>
+<edge source="heatherwick studio for" target="for heatherwick studio">
+  <data key="d0">4</data>
+  <data key="d1">5.1915</data>
+</edge>
+<edge source="heatherwick studio for" target="for sidewalk labs">
+  <data key="d0">4</data>
+  <data key="d1">5.1915</data>
+</edge>
+<edge source="studio for sidewalk" target="sidewalk labs">
+  <data key="d0">4</data>
+  <data key="d1">5.1915</data>
+</edge>
+<edge source="studio for sidewalk" target="picture plane for">
+  <data key="d0">4</data>
+  <data key="d1">5.1915</data>
+</edge>
+<edge source="studio for sidewalk" target="plane for heatherwick">
+  <data key="d0">4</data>
+  <data key="d1">5.1915</data>
+</edge>
+<edge source="studio for sidewalk" target="for heatherwick studio">
+  <data key="d0">4</data>
+  <data key="d1">5.1915</data>
+</edge>
+<edge source="studio for sidewalk" target="for sidewalk labs">
+  <data key="d0">4</data>
+  <data key="d1">5.1915</data>
+</edge>
+<edge source="sidewalk labs" target="picture plane for">
+  <data key="d0">4</data>
+  <data key="d1">5.1915</data>
+</edge>
+<edge source="sidewalk labs" target="plane for heatherwick">
+  <data key="d0">4</data>
+  <data key="d1">5.1915</data>
+</edge>
+<edge source="sidewalk labs" target="for heatherwick studio">
+  <data key="d0">4</data>
+  <data key="d1">5.1915</data>
+</edge>
+<edge source="sidewalk labs" target="for sidewalk labs">
+  <data key="d0">4</data>
+  <data key="d1">5.1915</data>
+</edge>
+<edge source="picture plane for" target="plane for heatherwick">
+  <data key="d0">4</data>
+  <data key="d1">5.1915</data>
+</edge>
+<edge source="picture plane for" target="for heatherwick studio">
+  <data key="d0">4</data>
+  <data key="d1">5.1915</data>
+</edge>
+<edge source="picture plane for" target="for sidewalk labs">
+  <data key="d0">4</data>
+  <data key="d1">5.1915</data>
+</edge>
+<edge source="plane for heatherwick" target="for heatherwick studio">
+  <data key="d0">4</data>
+  <data key="d1">5.1915</data>
+</edge>
+<edge source="plane for heatherwick" target="for sidewalk labs">
+  <data key="d0">4</data>
+  <data key="d1">5.1915</data>
+</edge>
+<edge source="for heatherwick studio" target="for sidewalk labs">
+  <data key="d0">4</data>
+  <data key="d1">5.1915</data>
+</edge>
+<edge source="космос" target="аэроклуба досааф">
+  <data key="d0">2</data>
+  <data key="d1">7.554</data>
+</edge>
+<edge source="космос" target="досааф">
+  <data key="d0">2</data>
+  <data key="d1">7.554</data>
+</edge>
+<edge source="космос" target="минске">
+  <data key="d0">3</data>
+  <data key="d1">7.9691</data>
+</edge>
+<edge source="аэроклуба досааф" target="досааф">
+  <data key="d0">3</data>
+  <data key="d1">7.9464</data>
+</edge>
+<edge source="аэроклуба досааф" target="минске">
+  <data key="d0">3</data>
+  <data key="d1">7.7764</data>
+</edge>
+<edge source="досааф" target="минске">
+  <data key="d0">3</data>
+  <data key="d1">7.7764</data>
+</edge>
+<edge source="части города" target="северной части города">
+  <data key="d0">6</data>
+  <data key="d1">6.076</data>
+</edge>
+<edge source="житие" target="жития">
+  <data key="d0">3</data>
+  <data key="d1">5.339</data>
+</edge>
+<edge source="житие" target="сергия">
+  <data key="d0">10</data>
+  <data key="d1">6.5566</data>
+</edge>
+<edge source="жития" target="сергия">
+  <data key="d0">10</data>
+  <data key="d1">5.3502</data>
+</edge>
+<edge source="жития" target="редакции">
+  <data key="d0">6</data>
+  <data key="d1">5.0395</data>
+</edge>
+<edge source="жития" target="жития сергия">
+  <data key="d0">9</data>
+  <data key="d1">6.2321</data>
+</edge>
+<edge source="сергия" target="жития сергия">
+  <data key="d0">9</data>
+  <data key="d1">5.7127</data>
+</edge>
+<edge source="редакции" target="пространной">
+  <data key="d0">8</data>
+  <data key="d1">5.902</data>
+</edge>
+<edge source="редакции" target="пространной редакции">
+  <data key="d0">8</data>
+  <data key="d1">6.1135</data>
+</edge>
+<edge source="пространной" target="пространной редакции">
+  <data key="d0">8</data>
+  <data key="d1">6.654</data>
+</edge>
+</graph></graphml>

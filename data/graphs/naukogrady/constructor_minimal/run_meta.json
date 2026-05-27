@@ -1,0 +1,12 @@
+{
+  "n_docs": 221,
+  "vertex_methods": [
+    "ner",
+    "yake"
+  ],
+  "edge_methods": [
+    "cooccurrence"
+  ],
+  "nodes": 252,
+  "edges": 359
+}

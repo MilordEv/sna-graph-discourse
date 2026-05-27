@@ -1,0 +1,35 @@
+{
+  "legacy_cooccurrence": {
+    "nodes": 253,
+    "edges": 317,
+    "avg_degree": 2.505928853754941,
+    "max_degree": 6,
+    "components": 62,
+    "density": 0.009944162118075162,
+    "pmi_median": 5.7541,
+    "edge_weight_median": 3.0,
+    "edges_per_node": 2.51
+  },
+  "constructor": {
+    "nodes": 211,
+    "edges": 216,
+    "avg_degree": 2.0473933649289098,
+    "max_degree": 6,
+    "components": 63,
+    "density": 0.00974949221394719,
+    "pmi_median": 6.0062,
+    "edge_weight_median": 2.0,
+    "edges_per_node": 2.05
+  },
+  "graphrag_baseline": {
+    "nodes": 204,
+    "edges": 271,
+    "avg_degree": 2.656862745098039,
+    "max_degree": 13,
+    "components": 30,
+    "density": 0.013087993818216941,
+    "pmi_median": 5.3275,
+    "edge_weight_median": 2.0,
+    "edges_per_node": 2.66
+  }
+}
