@@ -57,3 +57,31 @@ class ConstructorConfig:
     # Вывод
     output_dir: str = "data/graphs/naukogrady/constructor"
     random_seed: int = 42
+
+    @classmethod
+    def from_preset(cls, name: str) -> "ConstructorConfig":
+        """Готовые наборы параметров для конкретных доменов."""
+        if name == "russkaya_istina":
+            # Короткие философские аннотации (44 doc, медиана ~150 символов).
+            # Riторика и эмоции — ядро дискурса об истине/лжи.
+            # Мягкие пороги из-за малого объёма корпуса.
+            return cls(
+                vertex_methods=["tfidf", "yake"],
+                edge_methods=["cooccurrence", "rhetorical", "emotional", "perplexity"],
+                max_vertices=80,
+                min_vertex_score=0.0,
+                cooccurrence_level="paragraph",
+                min_edge_weight=2,
+                min_pmi=0.5,
+                stress_dropout_fraction=0.2,
+                stress_n_seeds=5,
+                stress_core_threshold=0.5,
+                output_dir="data/graphs/russkaya_istina/constructor",
+            )
+        if name == "naukogrady":
+            return cls(
+                vertex_methods=["ner", "yake", "tfidf", "textrank", "paraphrase_cluster"],
+                edge_methods=["cooccurrence", "anaphora", "rhetorical", "emotional", "perplexity"],
+                output_dir="data/graphs/naukogrady/constructor",
+            )
+        raise ValueError(f"Неизвестный preset: {name!r}. Доступны: 'russkaya_istina', 'naukogrady'")

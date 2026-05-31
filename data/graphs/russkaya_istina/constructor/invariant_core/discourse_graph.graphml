@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="undirected"><node id="сергей воронин"/>
+<node id="распознать"/>
+<node id="россии"/>
+<node id="честность"/>
+<node id="общества"/>
+<node id="обзор"/>
+<node id="русской идеей"/>
+<node id="распознать ложь"/>
+<node id="концепция"/>
+<node id="vs пропаганда"/>
+<node id="задорин"/>
+<node id="заблуждение"/>
+<node id="истина"/>
+<node id="истины"/>
+<node id="николаев"/>
+<node id="роман"/>
+<node id="русской"/>
+<node id="максишко"/>
+<node id="идеей"/>
+<node id="взгляд"/>
+<node id="сергей"/>
+<node id="николай"/>
+<node id="стремление"/>
+<node id="рустем вахитов"/>
+<node id="роман максишко"/>
+<node id="лжи"/>
+<node id="ложь"/>
+<node id="беседа"/>
+<node id="русская истина"/>
+<node id="добро"/>
+<node id="понятия"/>
+<node id="мира"/>
+<node id="vs"/>
+<node id="книги"/>
+<node id="пропаганда"/>
+<node id="поиск истины"/>
+<node id="проблема"/>
+<node id="поиск"/>
+<node id="разведка"/>
+<node id="нечто"/>
+<node id="николай николаев"/>
+<node id="истине"/>
+<node id="воронин"/>
+<node id="межуев"/>
+<node id="рустем"/>
+<node id="вахитов"/>
+<node id="идея"/>
+<node id="правда"/>
+<node id="жизни"/>
+<node id="правды"/>
+<node id="истину"/>
+<node id="русская"/>
+<node id="место"/>
+<node id="политика"/>
+<node id="правду"/>
+<node id="просвещение"/>
+<edge source="сергей воронин" target="концепция"/>
+<edge source="сергей воронин" target="истина"/>
+<edge source="сергей воронин" target="воронин"/>
+<edge source="сергей воронин" target="сергей"/>
+<edge source="распознать" target="лжи"/>
+<edge source="распознать" target="роман максишко"/>
+<edge source="распознать" target="распознать ложь"/>
+<edge source="россии" target="истины"/>
+<edge source="россии" target="жизни"/>
+<edge source="честность" target="политика"/>
+<edge source="общества" target="правды"/>
+<edge source="общества" target="ложь"/>
+<edge source="обзор" target="роман"/>
+<edge source="обзор" target="максишко"/>
+<edge source="обзор" target="роман максишко"/>
+<edge source="русской идеей" target="идеей"/>
+<edge source="русской идеей" target="стремление"/>
+<edge source="русской идеей" target="русской"/>
+<edge source="распознать ложь" target="лжи"/>
+<edge source="распознать ложь" target="роман максишко"/>
+<edge source="концепция" target="жизни"/>
+<edge source="концепция" target="сергей"/>
+<edge source="концепция" target="русская"/>
+<edge source="концепция" target="воронин"/>
+<edge source="концепция" target="русская истина"/>
+<edge source="vs пропаганда" target="vs"/>
+<edge source="vs пропаганда" target="разведка"/>
+<edge source="vs пропаганда" target="просвещение"/>
+<edge source="vs пропаганда" target="пропаганда"/>
+<edge source="задорин" target="беседа"/>
+<edge source="заблуждение" target="истина"/>
+<edge source="заблуждение" target="ложь"/>
+<edge source="истина" target="воронин"/>
+<edge source="истина" target="русская истина"/>
+<edge source="истина" target="проблема"/>
+<edge source="истина" target="идея"/>
+<edge source="истина" target="понятия"/>
+<edge source="истина" target="сергей"/>
+<edge source="истина" target="идеей"/>
+<edge source="истина" target="истину"/>
+<edge source="истина" target="истине"/>
+<edge source="истина" target="правду"/>
+<edge source="истина" target="русская"/>
+<edge source="истина" target="стремление"/>
+<edge source="истина" target="взгляд"/>
+<edge source="истина" target="нечто"/>
+<edge source="истины" target="русской"/>
+<edge source="истины" target="жизни"/>
+<edge source="истины" target="поиск истины"/>
+<edge source="истины" target="николай николаев"/>
+<edge source="истины" target="истину"/>
+<edge source="истины" target="николаев"/>
+<edge source="истины" target="мира"/>
+<edge source="истины" target="рустем"/>
+<edge source="истины" target="поиск"/>
+<edge source="истины" target="рустем вахитов"/>
+<edge source="истины" target="николай"/>
+<edge source="истины" target="добро"/>
+<edge source="истины" target="вахитов"/>
+<edge source="николаев" target="николай"/>
+<edge source="николаев" target="николай николаев"/>
+<edge source="роман" target="максишко"/>
+<edge source="роман" target="роман максишко"/>
+<edge source="роман" target="лжи"/>
+<edge source="русской" target="русская"/>
+<edge source="русской" target="идеей"/>
+<edge source="русской" target="стремление"/>
+<edge source="максишко" target="беседа"/>
+<edge source="максишко" target="роман максишко"/>
+<edge source="максишко" target="книги"/>
+<edge source="максишко" target="место"/>
+<edge source="идеей" target="стремление"/>
+<edge source="взгляд" target="истину"/>
+<edge source="взгляд" target="правду"/>
+<edge source="сергей" target="жизни"/>
+<edge source="сергей" target="мира"/>
+<edge source="сергей" target="воронин"/>
+<edge source="николай" target="николай николаев"/>
+<edge source="рустем вахитов" target="вахитов"/>
+<edge source="рустем вахитов" target="рустем"/>
+<edge source="роман максишко" target="лжи"/>
+<edge source="ложь" target="место"/>
+<edge source="беседа" target="межуев"/>
+<edge source="беседа" target="правда"/>
+<edge source="русская истина" target="русская"/>
+<edge source="русская истина" target="жизни"/>
+<edge source="понятия" target="правда"/>
+<edge source="мира" target="жизни"/>
+<edge source="vs" target="разведка"/>
+<edge source="vs" target="пропаганда"/>
+<edge source="vs" target="просвещение"/>
+<edge source="пропаганда" target="разведка"/>
+<edge source="пропаганда" target="просвещение"/>
+<edge source="пропаганда" target="межуев"/>
+<edge source="поиск истины" target="поиск"/>
+<edge source="поиск" target="правды"/>
+<edge source="разведка" target="межуев"/>
+<edge source="разведка" target="просвещение"/>
+<edge source="нечто" target="истину"/>
+<edge source="истине" target="истину"/>
+<edge source="межуев" target="правда"/>
+<edge source="межуев" target="просвещение"/>
+<edge source="межуев" target="правды"/>
+<edge source="рустем" target="вахитов"/>
+<edge source="правда" target="истину"/>
+<edge source="жизни" target="русская"/>
+<edge source="правды" target="просвещение"/>
+<edge source="истину" target="правду"/>
+</graph></graphml>

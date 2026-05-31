@@ -1,0 +1,19 @@
+source,target,weight,methods,pmi
+жизни,сергей,2,['graphrag_baseline'],4.7891
+сергей,мира,2,['graphrag_baseline'],4.7891
+вахитов,рустем,3,['graphrag_baseline'],4.8176
+вахитов,рустем вахитов,3,['graphrag_baseline'],4.8176
+рустем,рустем вахитов,3,['graphrag_baseline'],4.8176
+николаев,николай,2,['graphrag_baseline'],4.8765
+николаев,николай николаев,2,['graphrag_baseline'],4.8765
+николай,николай николаев,2,['graphrag_baseline'],4.8765
+нет,возможности,2,['graphrag_baseline'],6.8765
+поиск,поиск истины,2,['graphrag_baseline'],5.0692
+воронин,сергей воронин,3,['graphrag_baseline'],4.5426
+воронин,концепция,2,['graphrag_baseline'],4.4171
+сергей воронин,концепция,2,['graphrag_baseline'],4.4171
+беседа,задорин,2,['graphrag_baseline'],5.5546
+взгляд,правду,2,['graphrag_baseline'],5.7066
+крупкин,павел,2,['graphrag_baseline'],6.8765
+крупкин,павел крупкин,2,['graphrag_baseline'],6.8765
+павел,павел крупкин,2,['graphrag_baseline'],6.8765

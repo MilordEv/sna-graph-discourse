@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d2" for="edge" attr.name="pmi" attr.type="double"/>
+<key id="d1" for="edge" attr.name="methods" attr.type="string"/>
+<key id="d0" for="edge" attr.name="weight" attr.type="long"/>
+<graph edgedefault="undirected"><node id="жизни"/>
+<node id="сергей"/>
+<node id="вахитов"/>
+<node id="рустем"/>
+<node id="рустем вахитов"/>
+<node id="николаев"/>
+<node id="николай"/>
+<node id="николай николаев"/>
+<node id="нет"/>
+<node id="поиск"/>
+<node id="поиск истины"/>
+<node id="мира"/>
+<node id="воронин"/>
+<node id="сергей воронин"/>
+<node id="концепция"/>
+<node id="беседа"/>
+<node id="взгляд"/>
+<node id="правду"/>
+<node id="задорин"/>
+<node id="крупкин"/>
+<node id="павел"/>
+<node id="павел крупкин"/>
+<node id="возможности"/>
+<edge source="жизни" target="сергей">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.7891</data>
+</edge>
+<edge source="сергей" target="мира">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.7891</data>
+</edge>
+<edge source="вахитов" target="рустем">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.8176</data>
+</edge>
+<edge source="вахитов" target="рустем вахитов">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.8176</data>
+</edge>
+<edge source="рустем" target="рустем вахитов">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.8176</data>
+</edge>
+<edge source="николаев" target="николай">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.8765</data>
+</edge>
+<edge source="николаев" target="николай николаев">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.8765</data>
+</edge>
+<edge source="николай" target="николай николаев">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.8765</data>
+</edge>
+<edge source="нет" target="возможности">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.8765</data>
+</edge>
+<edge source="поиск" target="поиск истины">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.0692</data>
+</edge>
+<edge source="воронин" target="сергей воронин">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.5426</data>
+</edge>
+<edge source="воронин" target="концепция">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.4171</data>
+</edge>
+<edge source="сергей воронин" target="концепция">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.4171</data>
+</edge>
+<edge source="беседа" target="задорин">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.5546</data>
+</edge>
+<edge source="взгляд" target="правду">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.7066</data>
+</edge>
+<edge source="крупкин" target="павел">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.8765</data>
+</edge>
+<edge source="крупкин" target="павел крупкин">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.8765</data>
+</edge>
+<edge source="павел" target="павел крупкин">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.8765</data>
+</edge>
+</graph></graphml>

@@ -18,34 +18,50 @@ def build_vanilla_graphrag_graph(
 ) -> nx.Graph:
     """
     Упрощённый GraphRAG-baseline: NER-сущности + co-occurrence по документу,
-    без риторики/эмоций. Близко к entity graph + частотная фильтрация.
+    без риторики/эмоций. Если NER пустой — фолбэк на TF-IDF термины.
     """
+    from sklearn.feature_extraction.text import TfidfVectorizer
+
     G = nx.Graph()
+
+    # Собираем сущности из NER
+    all_entities: list[list[str]] = []
     for doc in docs:
-        entities = list(
+        ents = list(
             {
                 normalize_label(e["text"])
                 for e in doc.get("entities", [])
                 if len(normalize_label(e["text"])) >= 2
             }
         )
-        # уровень документа (типично для KG/GraphRAG extraction pipelines)
+        all_entities.append(ents)
+
+    # Если NER пустой везде — фолбэк на TF-IDF топ-термины
+    if not any(all_entities):
+        texts = [d.get("text", "") for d in docs]
+        try:
+            vec = TfidfVectorizer(
+                max_features=top_nodes,
+                ngram_range=(1, 2),
+                min_df=2,
+                token_pattern=r"(?u)\b[а-яёa-z][а-яёa-z\-]{2,}\b",
+            )
+            X = vec.fit_transform(texts)
+            terms = vec.get_feature_names_out()
+            for doc_idx, doc in enumerate(docs):
+                tl = doc.get("text", "").lower()
+                ents = [t for t in terms if t in tl]
+                all_entities[doc_idx] = ents
+        except Exception:
+            pass
+
+    for entities in all_entities:
         if len(entities) >= 2:
             for a, b in combinations(entities, 2):
                 if G.has_edge(a, b):
                     G[a][b]["weight"] += 1
                 else:
                     G.add_edge(a, b, weight=1, methods=["graphrag_baseline"])
-        # дополнительно предложения
-        for sent in split_sentences(doc.get("text", "")):
-            sl = sent.lower()
-            present = [e for e in entities if e in sl]
-            if len(present) >= 2:
-                for a, b in combinations(present, 2):
-                    if G.has_edge(a, b):
-                        G[a][b]["weight"] += 1
-                    else:
-                        G.add_edge(a, b, weight=1, methods=["graphrag_baseline"])
 
     return filter_graph(G, top_nodes=top_nodes, min_weight=min_weight, min_pmi=min_pmi)
 

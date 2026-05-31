@@ -1,0 +1,775 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d5" for="edge" attr.name="emotional" attr.type="boolean"/>
+<key id="d4" for="edge" attr.name="pmi" attr.type="double"/>
+<key id="d3" for="edge" attr.name="surprisal" attr.type="double"/>
+<key id="d2" for="edge" attr.name="relation" attr.type="string"/>
+<key id="d1" for="edge" attr.name="methods" attr.type="string"/>
+<key id="d0" for="edge" attr.name="weight" attr.type="long"/>
+<graph edgedefault="undirected"><node id="мира"/>
+<node id="жизни"/>
+<node id="власть"/>
+<node id="истины"/>
+<node id="сергей"/>
+<node id="россии"/>
+<node id="концепция"/>
+<node id="истина"/>
+<node id="русская"/>
+<node id="русская истина"/>
+<node id="истину"/>
+<node id="рустем"/>
+<node id="рустем вахитов"/>
+<node id="добро"/>
+<node id="вахитов"/>
+<node id="лжи"/>
+<node id="правды"/>
+<node id="человек"/>
+<node id="ложь"/>
+<node id="правда"/>
+<node id="русской"/>
+<node id="максишко"/>
+<node id="поиск"/>
+<node id="поиск истины"/>
+<node id="воронин"/>
+<node id="сергей воронин"/>
+<node id="идеей"/>
+<node id="стремление"/>
+<node id="пропаганда"/>
+<node id="русской идеей"/>
+<node id="разведка"/>
+<node id="истине"/>
+<node id="нечто"/>
+<node id="межуев"/>
+<node id="беседа"/>
+<node id="проблема"/>
+<node id="взгляд"/>
+<node id="правду"/>
+<node id="роман"/>
+<node id="идея"/>
+<node id="понятия"/>
+<node id="роман максишко"/>
+<node id="национальная"/>
+<node id="национальная идея"/>
+<node id="распознать"/>
+<node id="распознать ложь"/>
+<node id="лед"/>
+<node id="обзор"/>
+<node id="книги"/>
+<node id="просвещение"/>
+<node id="общества"/>
+<node id="vs пропаганда"/>
+<node id="vs"/>
+<node id="задорин"/>
+<node id="павел"/>
+<node id="крупкин"/>
+<node id="павел крупкин"/>
+<edge source="мира" target="жизни">
+  <data key="d0">3</data>
+  <data key="d1">cooccurrence,rhetorical,perplexity</data>
+  <data key="d2">contrast</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">2.6297</data>
+</edge>
+<edge source="мира" target="власть">
+  <data key="d0">3</data>
+  <data key="d1">cooccurrence,rhetorical,perplexity</data>
+  <data key="d2">contrast</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">4.1602</data>
+</edge>
+<edge source="мира" target="истины">
+  <data key="d0">3</data>
+  <data key="d1">cooccurrence,rhetorical,perplexity</data>
+  <data key="d2">contrast</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">1.5752</data>
+</edge>
+<edge source="мира" target="сергей">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">2.8382</data>
+</edge>
+<edge source="жизни" target="власть">
+  <data key="d0">3</data>
+  <data key="d1">cooccurrence,rhetorical,perplexity</data>
+  <data key="d2">contrast</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">2.9192</data>
+</edge>
+<edge source="жизни" target="россии">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,emotional,perplexity</data>
+  <data key="d5">True</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">3.5041</data>
+</edge>
+<edge source="жизни" target="истины">
+  <data key="d0">4</data>
+  <data key="d1">cooccurrence,emotional,rhetorical,perplexity</data>
+  <data key="d2">contrast</data>
+  <data key="d5">True</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">0.7492</data>
+</edge>
+<edge source="жизни" target="сергей">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">1.5972</data>
+</edge>
+<edge source="жизни" target="концепция">
+  <data key="d0">3</data>
+  <data key="d1">cooccurrence,rhetorical,perplexity</data>
+  <data key="d2">contrast</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">1.8412</data>
+</edge>
+<edge source="жизни" target="русская">
+  <data key="d0">3</data>
+  <data key="d1">cooccurrence,rhetorical,perplexity</data>
+  <data key="d2">contrast</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">1.4452</data>
+</edge>
+<edge source="жизни" target="русская истина">
+  <data key="d0">3</data>
+  <data key="d1">cooccurrence,rhetorical,perplexity</data>
+  <data key="d2">contrast</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">1.7672</data>
+</edge>
+<edge source="власть" target="истины">
+  <data key="d0">3</data>
+  <data key="d1">cooccurrence,rhetorical,perplexity</data>
+  <data key="d2">contrast</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">1.8647</data>
+</edge>
+<edge source="истины" target="россии">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,emotional,perplexity</data>
+  <data key="d5">True</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">2.4497</data>
+</edge>
+<edge source="истины" target="рустем">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">1.1278</data>
+</edge>
+<edge source="истины" target="рустем вахитов">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">1.1278</data>
+</edge>
+<edge source="истины" target="добро">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">9.7177</data>
+  <data key="d4">3.4497</data>
+</edge>
+<edge source="истины" target="вахитов">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">1.1278</data>
+</edge>
+<edge source="истины" target="человек">
+  <data key="d0">3</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">1.7127</data>
+</edge>
+<edge source="истины" target="русской">
+  <data key="d0">3</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">1.1278</data>
+</edge>
+<edge source="истины" target="поиск">
+  <data key="d0">3</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">1.8647</data>
+</edge>
+<edge source="истины" target="поиск истины">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">2.4497</data>
+</edge>
+<edge source="сергей" target="воронин">
+  <data key="d0">3</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">8.7177</data>
+  <data key="d4">3.4232</data>
+</edge>
+<edge source="сергей" target="сергей воронин">
+  <data key="d0">3</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">9.7177</data>
+  <data key="d4">3.4232</data>
+</edge>
+<edge source="сергей" target="концепция">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">2.0498</data>
+</edge>
+<edge source="концепция" target="русская">
+  <data key="d0">3</data>
+  <data key="d1">cooccurrence,rhetorical,perplexity</data>
+  <data key="d2">contrast</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">1.8977</data>
+</edge>
+<edge source="концепция" target="воронин">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">2.4972</data>
+</edge>
+<edge source="концепция" target="сергей воронин">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">2.4972</data>
+</edge>
+<edge source="концепция" target="русская истина">
+  <data key="d0">3</data>
+  <data key="d1">cooccurrence,rhetorical,perplexity</data>
+  <data key="d2">contrast</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">2.2197</data>
+</edge>
+<edge source="истина" target="истину">
+  <data key="d0">8</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">0.5154</data>
+</edge>
+<edge source="истина" target="истине">
+  <data key="d0">6</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">0.9935</data>
+</edge>
+<edge source="истина" target="нечто">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">1.2159</data>
+</edge>
+<edge source="истина" target="проблема">
+  <data key="d0">4</data>
+  <data key="d1">cooccurrence,emotional,perplexity</data>
+  <data key="d5">True</data>
+  <data key="d3">9.7177</data>
+  <data key="d4">2.2159</data>
+</edge>
+<edge source="истина" target="взгляд">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">0.6309</data>
+</edge>
+<edge source="истина" target="правду">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">0.6309</data>
+</edge>
+<edge source="истина" target="идея">
+  <data key="d0">3</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">0.6309</data>
+</edge>
+<edge source="истина" target="понятия">
+  <data key="d0">4</data>
+  <data key="d1">cooccurrence,rhetorical,perplexity</data>
+  <data key="d2">contrast</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">1.4085</data>
+</edge>
+<edge source="истина" target="русская истина">
+  <data key="d0">7</data>
+  <data key="d1">cooccurrence,emotional,rhetorical,perplexity</data>
+  <data key="d2">contrast</data>
+  <data key="d5">True</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">0.7013</data>
+</edge>
+<edge source="русская" target="русской">
+  <data key="d0">3</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">2.2388</data>
+</edge>
+<edge source="русская" target="русская истина">
+  <data key="d0">7</data>
+  <data key="d1">cooccurrence,emotional,rhetorical,perplexity</data>
+  <data key="d2">contrast</data>
+  <data key="d5">True</data>
+  <data key="d3">9.4252</data>
+  <data key="d4">3.0461</data>
+</edge>
+<edge source="истину" target="нечто">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">3.5041</data>
+</edge>
+<edge source="истину" target="истине">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">1.6968</data>
+</edge>
+<edge source="истину" target="взгляд">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">2.9192</data>
+</edge>
+<edge source="истину" target="правду">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">2.9192</data>
+</edge>
+<edge source="истину" target="правды">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">0.5972</data>
+</edge>
+<edge source="истину" target="правда">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">0.7492</data>
+</edge>
+<edge source="рустем" target="рустем вахитов">
+  <data key="d0">3</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">9.7177</data>
+  <data key="d4">4.1457</data>
+</edge>
+<edge source="рустем" target="вахитов">
+  <data key="d0">3</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">8.7177</data>
+  <data key="d4">4.1457</data>
+</edge>
+<edge source="рустем вахитов" target="вахитов">
+  <data key="d0">3</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">9.7177</data>
+  <data key="d4">4.1457</data>
+</edge>
+<edge source="лжи" target="распознать">
+  <data key="d0">6</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">0.7486</data>
+</edge>
+<edge source="лжи" target="роман">
+  <data key="d0">8</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">0.5675</data>
+</edge>
+<edge source="лжи" target="распознать ложь">
+  <data key="d0">6</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">0.7486</data>
+</edge>
+<edge source="лжи" target="роман максишко">
+  <data key="d0">8</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">0.683</data>
+</edge>
+<edge source="лжи" target="лед">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">0.7825</data>
+</edge>
+<edge source="правды" target="поиск">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">9.7177</data>
+  <data key="d4">2.1278</data>
+</edge>
+<edge source="правды" target="пропаганда">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">0.5972</data>
+</edge>
+<edge source="правды" target="разведка">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">0.5972</data>
+</edge>
+<edge source="правды" target="межуев">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">1.0498</data>
+</edge>
+<edge source="правды" target="правда">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">0.5428</data>
+</edge>
+<edge source="правды" target="просвещение">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">1.1278</data>
+</edge>
+<edge source="правды" target="общества">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,emotional,perplexity</data>
+  <data key="d5">True</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">3.2977</data>
+</edge>
+<edge source="человек" target="ложь">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">0.5972</data>
+</edge>
+<edge source="человек" target="правда">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">2.1278</data>
+</edge>
+<edge source="ложь" target="общества">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">1.9192</data>
+</edge>
+<edge source="правда" target="межуев">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">1.2018</data>
+</edge>
+<edge source="правда" target="беседа">
+  <data key="d0">3</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">2.0346</data>
+</edge>
+<edge source="правда" target="понятия">
+  <data key="d0">3</data>
+  <data key="d1">cooccurrence,rhetorical,perplexity</data>
+  <data key="d2">contrast</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">3.2273</data>
+</edge>
+<edge source="русской" target="идеей">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">9.1327</data>
+  <data key="d4">2.7127</data>
+</edge>
+<edge source="русской" target="стремление">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">2.7127</data>
+</edge>
+<edge source="русской" target="русской идеей">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">9.9252</data>
+  <data key="d4">3.2977</data>
+</edge>
+<edge source="максишко" target="обзор">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">9.1327</data>
+  <data key="d4">1.1933</data>
+</edge>
+<edge source="максишко" target="книги">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">2.7783</data>
+</edge>
+<edge source="максишко" target="национальная">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">0.7783</data>
+</edge>
+<edge source="максишко" target="идея">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">0.6084</data>
+</edge>
+<edge source="максишко" target="национальная идея">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">0.7783</data>
+</edge>
+<edge source="поиск" target="поиск истины">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">9.9252</data>
+  <data key="d4">5.0346</data>
+</edge>
+<edge source="воронин" target="сергей воронин">
+  <data key="d0">3</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">3.8707</data>
+</edge>
+<edge source="идеей" target="стремление">
+  <data key="d0">3</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">3.6196</data>
+</edge>
+<edge source="идеей" target="русской идеей">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">3.6196</data>
+</edge>
+<edge source="идеей" target="истине">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">2.8123</data>
+</edge>
+<edge source="стремление" target="русской идеей">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">3.6196</data>
+</edge>
+<edge source="стремление" target="истине">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">2.8123</data>
+</edge>
+<edge source="пропаганда" target="разведка">
+  <data key="d0">6</data>
+  <data key="d1">cooccurrence,emotional,perplexity</data>
+  <data key="d5">True</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">2.3887</data>
+</edge>
+<edge source="пропаганда" target="vs пропаганда">
+  <data key="d0">4</data>
+  <data key="d1">cooccurrence,emotional,perplexity</data>
+  <data key="d5">True</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">2.6968</data>
+</edge>
+<edge source="пропаганда" target="vs">
+  <data key="d0">4</data>
+  <data key="d1">cooccurrence,emotional,perplexity</data>
+  <data key="d5">True</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">2.6968</data>
+</edge>
+<edge source="пропаганда" target="межуев">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">1.2562</data>
+</edge>
+<edge source="пропаганда" target="просвещение">
+  <data key="d0">4</data>
+  <data key="d1">cooccurrence,emotional,perplexity</data>
+  <data key="d5">True</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">2.3342</data>
+</edge>
+<edge source="разведка" target="vs пропаганда">
+  <data key="d0">4</data>
+  <data key="d1">cooccurrence,emotional,perplexity</data>
+  <data key="d5">True</data>
+  <data key="d3">10.2177</data>
+  <data key="d4">2.6968</data>
+</edge>
+<edge source="разведка" target="vs">
+  <data key="d0">4</data>
+  <data key="d1">cooccurrence,emotional,perplexity</data>
+  <data key="d5">True</data>
+  <data key="d3">9.7177</data>
+  <data key="d4">2.6968</data>
+</edge>
+<edge source="разведка" target="межуев">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">1.2562</data>
+</edge>
+<edge source="разведка" target="просвещение">
+  <data key="d0">4</data>
+  <data key="d1">cooccurrence,emotional,perplexity</data>
+  <data key="d5">True</data>
+  <data key="d3">9.7177</data>
+  <data key="d4">2.3342</data>
+</edge>
+<edge source="межуев" target="просвещение">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">1.7867</data>
+</edge>
+<edge source="межуев" target="беседа">
+  <data key="d0">3</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">9.7177</data>
+  <data key="d4">2.5416</data>
+</edge>
+<edge source="беседа" target="задорин">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">5.2046</data>
+</edge>
+<edge source="взгляд" target="правду">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">5.0346</data>
+</edge>
+<edge source="роман" target="распознать">
+  <data key="d0">7</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">0.5633</data>
+</edge>
+<edge source="роман" target="распознать ложь">
+  <data key="d0">7</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">0.5633</data>
+</edge>
+<edge source="роман" target="роман максишко">
+  <data key="d0">12</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">8.8675</data>
+  <data key="d4">0.8603</data>
+</edge>
+<edge source="роман" target="обзор">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">1.5972</data>
+</edge>
+<edge source="идея" target="национальная">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">4.0346</data>
+</edge>
+<edge source="идея" target="национальная идея">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">4.0346</data>
+</edge>
+<edge source="роман максишко" target="распознать">
+  <data key="d0">7</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">0.6788</data>
+</edge>
+<edge source="роман максишко" target="распознать ложь">
+  <data key="d0">7</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">0.6788</data>
+</edge>
+<edge source="роман максишко" target="обзор">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">9.9252</data>
+  <data key="d4">1.7127</data>
+</edge>
+<edge source="национальная" target="национальная идея">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">9.7177</data>
+  <data key="d4">4.2046</data>
+</edge>
+<edge source="распознать" target="распознать ложь">
+  <data key="d0">7</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">9.2177</data>
+  <data key="d4">1.1594</data>
+</edge>
+<edge source="распознать" target="лед">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">0.971</data>
+</edge>
+<edge source="распознать ложь" target="лед">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">0.971</data>
+</edge>
+<edge source="просвещение" target="vs пропаганда">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,emotional,perplexity</data>
+  <data key="d5">True</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">2.2273</data>
+</edge>
+<edge source="просвещение" target="vs">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,emotional,perplexity</data>
+  <data key="d5">True</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">2.2273</data>
+</edge>
+<edge source="vs пропаганда" target="vs">
+  <data key="d0">4</data>
+  <data key="d1">cooccurrence,emotional,perplexity</data>
+  <data key="d5">True</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">3.5899</data>
+</edge>
+<edge source="павел" target="крупкин">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">9.1327</data>
+  <data key="d4">6.2046</data>
+</edge>
+<edge source="павел" target="павел крупкин">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">9.9252</data>
+  <data key="d4">6.2046</data>
+</edge>
+<edge source="крупкин" target="павел крупкин">
+  <data key="d0">2</data>
+  <data key="d1">cooccurrence,perplexity</data>
+  <data key="d3">10.7177</data>
+  <data key="d4">6.2046</data>
+</edge>
+</graph></graphml>

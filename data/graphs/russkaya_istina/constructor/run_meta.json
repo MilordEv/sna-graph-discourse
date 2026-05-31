@@ -1,0 +1,15 @@
+{
+  "n_docs": 44,
+  "vertex_methods": [
+    "tfidf",
+    "yake"
+  ],
+  "edge_methods": [
+    "cooccurrence",
+    "rhetorical",
+    "emotional",
+    "perplexity"
+  ],
+  "nodes": 57,
+  "edges": 113
+}
