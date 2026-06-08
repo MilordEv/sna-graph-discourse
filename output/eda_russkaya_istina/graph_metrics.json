@@ -1,0 +1,35 @@
+{
+  "constructor": {
+    "nodes": 57,
+    "edges": 113,
+    "avg_degree": 3.9649122807017543,
+    "max_degree": 12,
+    "components": 2,
+    "density": 0.07080200501253132,
+    "pmi_median": 2.0498,
+    "edge_weight_median": 2.0,
+    "edges_per_node": 3.96
+  },
+  "graphrag_baseline": {
+    "nodes": 23,
+    "edges": 18,
+    "avg_degree": 1.565217391304348,
+    "max_degree": 2,
+    "components": 9,
+    "density": 0.07114624505928854,
+    "pmi_median": 4.8765,
+    "edge_weight_median": 2.0,
+    "edges_per_node": 1.57
+  },
+  "invariant_core": {
+    "nodes": 56,
+    "edges": 108,
+    "avg_degree": 3.857142857142857,
+    "max_degree": 16,
+    "components": 2,
+    "density": 0.07012987012987013,
+    "pmi_median": null,
+    "edge_weight_median": 1.0,
+    "edges_per_node": 3.86
+  }
+}

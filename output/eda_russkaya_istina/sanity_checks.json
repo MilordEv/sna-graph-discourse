@@ -1,0 +1,77 @@
+{
+  "passed": 14,
+  "total": 14,
+  "all_ok": true,
+  "checks": [
+    {
+      "check": "corpus_size",
+      "ok": true,
+      "detail": "статей: 44"
+    },
+    {
+      "check": "median_summary_len",
+      "ok": true,
+      "detail": "медиана длины аннотации: 88"
+    },
+    {
+      "check": "title_relevance",
+      "ok": true,
+      "detail": "доменных слов в заголовках: 33 статей"
+    },
+    {
+      "check": "author_diversity",
+      "ok": true,
+      "detail": "уникальных авторов: 27"
+    },
+    {
+      "check": "tags_domain",
+      "ok": true,
+      "detail": "доменных тегов: 6"
+    },
+    {
+      "check": "temporal_span",
+      "ok": true,
+      "detail": "лет охвата: 10 (2016–2026)"
+    },
+    {
+      "check": "summaries_present",
+      "ok": true,
+      "detail": "статей с аннотацией: 44/44"
+    },
+    {
+      "check": "constructor_not_dense",
+      "ok": true,
+      "detail": "constructor: 3.96 рёбер/узел (цель ≤6)"
+    },
+    {
+      "check": "constructor_has_edges",
+      "ok": true,
+      "detail": "constructor: 113 рёбер"
+    },
+    {
+      "check": "graphrag_baseline_not_dense",
+      "ok": true,
+      "detail": "graphrag_baseline: 1.57 рёбер/узел (цель ≤6)"
+    },
+    {
+      "check": "graphrag_baseline_has_edges",
+      "ok": true,
+      "detail": "graphrag_baseline: 18 рёбер"
+    },
+    {
+      "check": "invariant_core_not_dense",
+      "ok": true,
+      "detail": "invariant_core: 3.86 рёбер/узел (цель ≤6)"
+    },
+    {
+      "check": "invariant_core_has_edges",
+      "ok": true,
+      "detail": "invariant_core: 108 рёбер"
+    },
+    {
+      "check": "constructor_pmi",
+      "ok": true,
+      "detail": "медиана PMI: 2.0498"
+    }
+  ]
+}

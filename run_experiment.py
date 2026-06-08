@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Запуск полного эксперимента: данные → граф → ответы LLM → отчёт для экспертов.
+Запуск полного эксперимента: данные → граф → ответы LLM → метрики → отчёт.
 
 Перед запуском:
     cp .env.example .env
@@ -45,6 +45,8 @@ QUESTIONS   = Path("data/eval/questions_russkaya_istina.json")
 REPORT_OUT  = Path("output/expert_report_russkaya_istina.md")
 HOT_EDGES   = GRAPH_DIR / "discourse" / "edges.csv"
 HOT_REPORT  = Path("output/hot_edges_report.md")
+METRICS_OUT = Path("output/rag_metrics_report.md")
+FIGURES_DIR = Path("output/rag_eval_figures")
 
 
 def step(msg: str) -> None:
@@ -55,7 +57,7 @@ def step(msg: str) -> None:
 
 # ── Шаг 1: Загрузка данных ──────────────────────────────────────
 
-step("Шаг 1/4: Загрузка xlsx → documents.json")
+step("Шаг 1/5: Загрузка xlsx → documents.json")
 
 if CORPUS_JSON.exists():
     print(f"Уже есть: {CORPUS_JSON} — пропускаем загрузку")
@@ -73,7 +75,7 @@ print(f"Корпус: {len(docs)} документов")
 
 # ── Шаг 2: Построение графа ─────────────────────────────────────
 
-step("Шаг 2/4: Построение дискурс-графа (конструктор)")
+step("Шаг 2/5: Построение дискурс-графа (конструктор)")
 
 if GRAPH_PATH.exists():
     print(f"Уже есть: {GRAPH_PATH} — пропускаем построение")
@@ -99,7 +101,7 @@ print(f"Граф: {G.number_of_nodes()} узлов, {G.number_of_edges()} рёб
 
 # ── Шаг 3: Ответы LLM + экспертный отчёт ───────────────────────
 
-step("Шаг 3/4: Генерация ответов LLM → отчёт для экспертов")
+step("Шаг 3/5: Генерация ответов LLM → отчёт для экспертов")
 
 DEFAULT_QUESTIONS = [
     "Какие концепты авторы противопоставляют истине в данном корпусе?",
@@ -202,7 +204,7 @@ print(f"\nОтчёт: {REPORT_OUT}")
 
 # ── Шаг 4: Интерпретатор «жареных» связей ──────────────────────
 
-step("Шаг 4/4: Интерпретатор «жареных» связей")
+step("Шаг 4/5: Интерпретатор «жареных» связей")
 
 from discourse_graph.interpret import interpret_hot_edges
 
@@ -223,6 +225,111 @@ interpret_hot_edges(
 print(f"Hot-edges отчёт: {HOT_REPORT}")
 
 
+# ── Шаг 5: Автоматические метрики + визуализация ────────────────
+
+step("Шаг 5/5: Автоматические метрики сравнения RAG-методов")
+
+from discourse_graph.eval_metrics import (
+    compare_methods,
+    plot_metrics_comparison,
+    plot_radar_comparison,
+    plot_per_question_heatmap,
+    plot_composite_ranking,
+    save_metrics_report,
+)
+
+FIGURES_DIR.mkdir(parents=True, exist_ok=True)
+
+# Пропускаем метрики для stub-ответов (нет ключа)
+if not OPENROUTER_KEY:
+    print("OPENROUTER_KEY не задан — метрики считаются по stub-ответам (нулевые).")
+    print("Для реальных метрик добавьте ключ в .env и перезапустите.")
+
+answers_by_method = {
+    "discourse_graph": answers_our,
+    "graphrag_baseline": answers_baseline,
+    "long_context": answers_longctx,
+}
+
+print("Вычисляем метрики...")
+comparison = compare_methods(
+    questions=questions,
+    answers_by_method=answers_by_method,
+    corpus_docs=docs,
+)
+
+# Вывод сводной таблицы в консоль
+print("\n── Сводная таблица метрик ──────────────────────────────────")
+metric_fields = ["rouge1", "rouge2", "rougeL", "lexical_diversity",
+                 "context_coverage", "specificity", "length_score", "composite"]
+header = f"{'Метод':<22}" + "".join(f"{m:>12}" for m in metric_fields)
+print(header)
+print("-" * len(header))
+for method, data in comparison.items():
+    row = f"{method:<22}" + "".join(f"{data.get(m, 0.0):>12.3f}" for m in metric_fields)
+    print(row)
+
+# Определяем победителя по composite
+best_method = max(comparison, key=lambda m: comparison[m].get("composite", 0.0))
+best_score = comparison[best_method].get("composite", 0.0)
+print(f"\n🏆 Лучший метод по итоговому баллу: {best_method} ({best_score:.3f})")
+
+# Сохраняем markdown-отчёт
+save_metrics_report(comparison, questions, out_path=str(METRICS_OUT))
+print(f"\nМетрики-отчёт: {METRICS_OUT}")
+
+# ── Визуализации ─────────────────────────────────────────────────
+
+print("\nСтроим визуализации...")
+
+# 1. Bar-chart по всем метрикам
+fig1 = plot_metrics_comparison(
+    comparison,
+    out_path=str(FIGURES_DIR / "01_metrics_comparison.png"),
+    title="Сравнение RAG-методов: автоматические метрики",
+)
+print(f"  → {FIGURES_DIR}/01_metrics_comparison.png")
+
+# 2. Radar-диаграмма профилей методов
+fig2 = plot_radar_comparison(
+    comparison,
+    out_path=str(FIGURES_DIR / "02_radar_comparison.png"),
+    title="Радар-диаграмма: профиль методов",
+)
+print(f"  → {FIGURES_DIR}/02_radar_comparison.png")
+
+# 3. Тепловая карта composite по вопросам
+fig3 = plot_per_question_heatmap(
+    comparison,
+    questions=questions,
+    metric="composite",
+    out_path=str(FIGURES_DIR / "03_heatmap_composite.png"),
+    title="Итоговый балл по вопросам (методы × вопросы)",
+)
+print(f"  → {FIGURES_DIR}/03_heatmap_composite.png")
+
+# 4. Тепловая карта context_coverage по вопросам
+fig4 = plot_per_question_heatmap(
+    comparison,
+    questions=questions,
+    metric="context_coverage",
+    out_path=str(FIGURES_DIR / "04_heatmap_coverage.png"),
+    title="Покрытие запроса по вопросам",
+)
+print(f"  → {FIGURES_DIR}/04_heatmap_coverage.png")
+
+# 5. Stacked ranking chart
+fig5 = plot_composite_ranking(
+    comparison,
+    out_path=str(FIGURES_DIR / "05_composite_ranking.png"),
+    title="Итоговый рейтинг методов (вклад каждой метрики)",
+)
+print(f"  → {FIGURES_DIR}/05_composite_ranking.png")
+
+import matplotlib.pyplot as plt
+plt.close("all")
+
+
 # ── Итог ────────────────────────────────────────────────────────
 
 print(f"""
@@ -232,5 +339,11 @@ print(f"""
   {GRAPH_PATH}
   {REPORT_OUT}
   {HOT_REPORT}
+  {METRICS_OUT}
+  {FIGURES_DIR}/01_metrics_comparison.png
+  {FIGURES_DIR}/02_radar_comparison.png
+  {FIGURES_DIR}/03_heatmap_composite.png
+  {FIGURES_DIR}/04_heatmap_coverage.png
+  {FIGURES_DIR}/05_composite_ranking.png
 {'='*60}
 """)
