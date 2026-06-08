@@ -10,6 +10,8 @@ import networkx as nx
 from discourse_graph.config import ConstructorConfig, EdgeMethod
 from discourse_graph.utils import (
     add_cooccurrence_edges,
+    lemma_grams,
+    lemmatize_tokens,
     merge_edge_attrs,
     normalize_label,
     split_paragraphs,
@@ -77,9 +79,10 @@ EMOTION_LEXICON = {
 
 
 def _nodes_in_text(text: str, vertex_set: set[str]) -> list[str]:
-    tl = text.lower()
-    found = [v for v in vertex_set if v in tl]
-    return list(dict.fromkeys(found))
+    """Сопоставление узлов по ЛЕММАМ: узел-лемма/лемма-биграмма ищется среди
+    лемм-граммов текста (а не подстрокой), поэтому «истина» находит «истины/истину»."""
+    grams = lemma_grams(text)
+    return [v for v in vertex_set if v in grams]
 
 
 def _units(doc: dict, level: str, window_size: int) -> list[str]:
@@ -101,11 +104,19 @@ def build_cooccurrence(
     vertices: dict[str, VertexCandidate],
     config: ConstructorConfig,
 ) -> None:
+    """Со-встречаемость с весом = ЧИСЛО ДОКУМЕНТОВ (а не предложений), где пара
+    встретилась в одной единице. Это убирает доминирование одной многословной
+    статьи и согласует вес ребра с документной частотой."""
     vset = set(vertices.keys())
     for doc in docs:
+        pairs: set[tuple[str, str]] = set()
         for unit in _units(doc, config.cooccurrence_level, config.window_size):
             nodes = _nodes_in_text(unit, vset)
-            add_cooccurrence_edges(G, nodes, weight=1, method="cooccurrence")
+            uniq = list(dict.fromkeys(nodes))
+            for a, b in combinations(uniq, 2):
+                pairs.add((a, b) if a <= b else (b, a))
+        for a, b in pairs:
+            merge_edge_attrs(G, a, b, weight=1, methods=["cooccurrence"])
 
 
 def build_anaphora(
@@ -133,22 +144,19 @@ def build_rhetorical(
     docs: list[dict],
     vertices: dict[str, VertexCandidate],
 ) -> None:
+    """Контраст-связи (RST): вес = число документов, где пара появилась в
+    предложении с маркером контраста."""
     vset = set(vertices.keys())
     for doc in docs:
+        pairs: set[tuple[str, str]] = set()
         for sent in split_sentences(doc.get("text", "")):
             if not any(p.search(sent) for p in CONTRAST_PATTERNS):
                 continue
             nodes = _nodes_in_text(sent, vset)
-            if len(nodes) >= 2:
-                for a, b in combinations(nodes, 2):
-                    merge_edge_attrs(
-                        G,
-                        a,
-                        b,
-                        weight=2,
-                        methods=["rhetorical"],
-                        relation="contrast",
-                    )
+            for a, b in combinations(dict.fromkeys(nodes), 2):
+                pairs.add((a, b) if a <= b else (b, a))
+        for a, b in pairs:
+            merge_edge_attrs(G, a, b, weight=2, methods=["rhetorical"], relation="contrast")
 
 
 def build_emotional(
@@ -156,23 +164,20 @@ def build_emotional(
     docs: list[dict],
     vertices: dict[str, VertexCandidate],
 ) -> None:
+    """Эмоционально окрашенные связи: вес = число документов, где пара появилась
+    в эмоционально маркированном предложении."""
     vset = set(vertices.keys())
     for doc in docs:
+        pairs: set[tuple[str, str]] = set()
         for sent in split_sentences(doc.get("text", "")):
             sl = sent.lower()
             if not any(m in sl for m in EMOTION_LEXICON):
                 continue
             nodes = _nodes_in_text(sent, vset)
-            if len(nodes) >= 2:
-                for a, b in combinations(nodes, 2):
-                    merge_edge_attrs(
-                        G,
-                        a,
-                        b,
-                        weight=1,
-                        methods=["emotional"],
-                        emotional=True,
-                    )
+            for a, b in combinations(dict.fromkeys(nodes), 2):
+                pairs.add((a, b) if a <= b else (b, a))
+        for a, b in pairs:
+            merge_edge_attrs(G, a, b, weight=1, methods=["emotional"], emotional=True)
 
 
 def build_perplexity_scores(
@@ -183,7 +188,7 @@ def build_perplexity_scores(
     uni: Counter[str] = Counter()
     bi: Counter[tuple[str, str]] = Counter()
     for doc in docs:
-        toks = tokenize(doc.get("text", ""))
+        toks = lemmatize_tokens(doc.get("text", ""))
         uni.update(toks)
         for i in range(len(toks) - 1):
             bi[(toks[i], toks[i + 1])] += 1

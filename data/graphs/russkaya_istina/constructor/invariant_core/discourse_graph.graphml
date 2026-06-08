@@ -1,166 +1,1147 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="undirected"><node id="сергей воронин"/>
-<node id="распознать"/>
-<node id="россии"/>
-<node id="честность"/>
-<node id="общества"/>
-<node id="обзор"/>
-<node id="русской идеей"/>
-<node id="распознать ложь"/>
-<node id="концепция"/>
-<node id="vs пропаганда"/>
-<node id="задорин"/>
-<node id="заблуждение"/>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="undirected"><node id="хорошо"/>
+<node id="мнение"/>
+<node id="ссср"/>
+<node id="русский истина"/>
+<node id="сомнение"/>
+<node id="лидер"/>
+<node id="либерал"/>
+<node id="религиозный"/>
+<node id="геополитика"/>
+<node id="лицо"/>
+<node id="исторический"/>
+<node id="россия"/>
+<node id="бог"/>
 <node id="истина"/>
-<node id="истины"/>
-<node id="николаев"/>
-<node id="роман"/>
-<node id="русской"/>
-<node id="максишко"/>
-<node id="идеей"/>
-<node id="взгляд"/>
-<node id="сергей"/>
-<node id="николай"/>
-<node id="стремление"/>
-<node id="рустем вахитов"/>
-<node id="роман максишко"/>
-<node id="лжи"/>
-<node id="ложь"/>
-<node id="беседа"/>
-<node id="русская истина"/>
-<node id="добро"/>
-<node id="понятия"/>
-<node id="мира"/>
-<node id="vs"/>
-<node id="книги"/>
+<node id="история"/>
 <node id="пропаганда"/>
-<node id="поиск истины"/>
-<node id="проблема"/>
-<node id="поиск"/>
-<node id="разведка"/>
-<node id="нечто"/>
-<node id="николай николаев"/>
-<node id="истине"/>
-<node id="воронин"/>
-<node id="межуев"/>
-<node id="рустем"/>
-<node id="вахитов"/>
-<node id="идея"/>
-<node id="правда"/>
-<node id="жизни"/>
-<node id="правды"/>
-<node id="истину"/>
-<node id="русская"/>
-<node id="место"/>
+<node id="слава"/>
+<node id="культура"/>
+<node id="обсуждение"/>
+<node id="справедливость"/>
+<node id="зима"/>
+<node id="миф"/>
+<node id="борьба"/>
+<node id="факт"/>
+<node id="вера"/>
+<node id="публикация"/>
+<node id="стремление"/>
+<node id="любовь"/>
+<node id="общественный"/>
+<node id="речь"/>
+<node id="консервативный"/>
+<node id="движение"/>
+<node id="зло"/>
+<node id="заблуждение"/>
 <node id="политика"/>
-<node id="правду"/>
+<node id="ближний"/>
+<node id="смерть"/>
+<node id="национальный"/>
+<node id="интеллектуальный"/>
+<node id="обращение"/>
 <node id="просвещение"/>
-<edge source="сергей воронин" target="концепция"/>
-<edge source="сергей воронин" target="истина"/>
-<edge source="сергей воронин" target="воронин"/>
-<edge source="сергей воронин" target="сергей"/>
-<edge source="распознать" target="лжи"/>
-<edge source="распознать" target="роман максишко"/>
-<edge source="распознать" target="распознать ложь"/>
-<edge source="россии" target="истины"/>
-<edge source="россии" target="жизни"/>
-<edge source="честность" target="политика"/>
-<edge source="общества" target="правды"/>
-<edge source="общества" target="ложь"/>
-<edge source="обзор" target="роман"/>
-<edge source="обзор" target="максишко"/>
-<edge source="обзор" target="роман максишко"/>
-<edge source="русской идеей" target="идеей"/>
-<edge source="русской идеей" target="стремление"/>
-<edge source="русской идеей" target="русской"/>
-<edge source="распознать ложь" target="лжи"/>
-<edge source="распознать ложь" target="роман максишко"/>
-<edge source="концепция" target="жизни"/>
-<edge source="концепция" target="сергей"/>
-<edge source="концепция" target="русская"/>
-<edge source="концепция" target="воронин"/>
-<edge source="концепция" target="русская истина"/>
-<edge source="vs пропаганда" target="vs"/>
-<edge source="vs пропаганда" target="разведка"/>
-<edge source="vs пропаганда" target="просвещение"/>
-<edge source="vs пропаганда" target="пропаганда"/>
-<edge source="задорин" target="беседа"/>
-<edge source="заблуждение" target="истина"/>
-<edge source="заблуждение" target="ложь"/>
-<edge source="истина" target="воронин"/>
-<edge source="истина" target="русская истина"/>
-<edge source="истина" target="проблема"/>
-<edge source="истина" target="идея"/>
-<edge source="истина" target="понятия"/>
-<edge source="истина" target="сергей"/>
-<edge source="истина" target="идеей"/>
-<edge source="истина" target="истину"/>
-<edge source="истина" target="истине"/>
-<edge source="истина" target="правду"/>
-<edge source="истина" target="русская"/>
-<edge source="истина" target="стремление"/>
-<edge source="истина" target="взгляд"/>
-<edge source="истина" target="нечто"/>
-<edge source="истины" target="русской"/>
-<edge source="истины" target="жизни"/>
-<edge source="истины" target="поиск истины"/>
-<edge source="истины" target="николай николаев"/>
-<edge source="истины" target="истину"/>
-<edge source="истины" target="николаев"/>
-<edge source="истины" target="мира"/>
-<edge source="истины" target="рустем"/>
-<edge source="истины" target="поиск"/>
-<edge source="истины" target="рустем вахитов"/>
-<edge source="истины" target="николай"/>
-<edge source="истины" target="добро"/>
-<edge source="истины" target="вахитов"/>
-<edge source="николаев" target="николай"/>
-<edge source="николаев" target="николай николаев"/>
-<edge source="роман" target="максишко"/>
-<edge source="роман" target="роман максишко"/>
-<edge source="роман" target="лжи"/>
-<edge source="русской" target="русская"/>
-<edge source="русской" target="идеей"/>
-<edge source="русской" target="стремление"/>
-<edge source="максишко" target="беседа"/>
-<edge source="максишко" target="роман максишко"/>
-<edge source="максишко" target="книги"/>
-<edge source="максишко" target="место"/>
-<edge source="идеей" target="стремление"/>
-<edge source="взгляд" target="истину"/>
-<edge source="взгляд" target="правду"/>
-<edge source="сергей" target="жизни"/>
-<edge source="сергей" target="мира"/>
-<edge source="сергей" target="воронин"/>
-<edge source="николай" target="николай николаев"/>
-<edge source="рустем вахитов" target="вахитов"/>
-<edge source="рустем вахитов" target="рустем"/>
-<edge source="роман максишко" target="лжи"/>
-<edge source="ложь" target="место"/>
-<edge source="беседа" target="межуев"/>
-<edge source="беседа" target="правда"/>
-<edge source="русская истина" target="русская"/>
-<edge source="русская истина" target="жизни"/>
-<edge source="понятия" target="правда"/>
-<edge source="мира" target="жизни"/>
-<edge source="vs" target="разведка"/>
-<edge source="vs" target="пропаганда"/>
-<edge source="vs" target="просвещение"/>
-<edge source="пропаганда" target="разведка"/>
+<node id="социальный"/>
+<node id="манипуляция"/>
+<node id="человек"/>
+<node id="ширма"/>
+<node id="выбор"/>
+<node id="оправдание"/>
+<node id="цель"/>
+<node id="принцип"/>
+<node id="национализм"/>
+<node id="диалог"/>
+<node id="марксизм"/>
+<node id="революция"/>
+<node id="обман"/>
+<node id="философия"/>
+<node id="интересный"/>
+<node id="смута"/>
+<node id="тень"/>
+<node id="катастрофа"/>
+<node id="константа"/>
+<node id="борис"/>
+<node id="сильный"/>
+<node id="польза"/>
+<node id="нация"/>
+<node id="франция"/>
+<node id="ложь"/>
+<node id="игил"/>
+<node id="правда"/>
+<node id="традиционный"/>
+<node id="распознать ложь"/>
+<node id="материал"/>
+<node id="запад"/>
+<node id="война"/>
+<node id="главный"/>
+<node id="страх"/>
+<node id="мир"/>
+<node id="сила"/>
+<node id="европа"/>
+<node id="конфликт"/>
+<node id="истинный"/>
+<node id="друг"/>
+<node id="сообщение"/>
+<node id="добро"/>
+<node id="рукопись"/>
+<node id="трубецкой"/>
+<node id="литература"/>
+<node id="развитие"/>
+<node id="площадка"/>
+<node id="действительно"/>
+<node id="свобода"/>
+<node id="реальность"/>
+<node id="экономика"/>
+<node id="общество"/>
+<node id="смена"/>
+<node id="сознание"/>
+<node id="слой"/>
+<node id="вечный"/>
+<node id="остриё"/>
+<node id="порядок"/>
+<node id="премодерация"/>
+<node id="наука"/>
+<node id="доблесть"/>
+<node id="контекст"/>
+<node id="центр"/>
+<node id="класс"/>
+<node id="религия"/>
+<node id="познание"/>
+<node id="власть"/>
+<node id="открытый"/>
+<node id="князь"/>
+<node id="мысль"/>
+<node id="смысл"/>
+<node id="идеология"/>
+<node id="политический"/>
+<node id="русский"/>
+<node id="враг"/>
+<node id="возможно"/>
+<node id="служение"/>
+<node id="работа"/>
+<node id="критика"/>
+<node id="метод"/>
+<edge source="хорошо" target="человек"/>
+<edge source="хорошо" target="диалог"/>
+<edge source="хорошо" target="общество"/>
+<edge source="хорошо" target="сила"/>
+<edge source="хорошо" target="правда"/>
+<edge source="хорошо" target="религиозный"/>
+<edge source="хорошо" target="ложь"/>
+<edge source="хорошо" target="лидер"/>
+<edge source="хорошо" target="литература"/>
+<edge source="хорошо" target="друг"/>
+<edge source="хорошо" target="пропаганда"/>
+<edge source="хорошо" target="просвещение"/>
+<edge source="мнение" target="общественный"/>
+<edge source="мнение" target="наука"/>
+<edge source="мнение" target="россия"/>
+<edge source="мнение" target="мысль"/>
+<edge source="мнение" target="человек"/>
+<edge source="мнение" target="обсуждение"/>
+<edge source="мнение" target="материал"/>
+<edge source="мнение" target="правда"/>
+<edge source="мнение" target="история"/>
+<edge source="мнение" target="истина"/>
+<edge source="мнение" target="ложь"/>
+<edge source="мнение" target="лидер"/>
+<edge source="мнение" target="реальность"/>
+<edge source="ссср" target="мир"/>
+<edge source="ссср" target="контекст"/>
+<edge source="ссср" target="главный"/>
+<edge source="ссср" target="экономика"/>
+<edge source="ссср" target="история"/>
+<edge source="ссср" target="конфликт"/>
+<edge source="ссср" target="класс"/>
+<edge source="ссср" target="манипуляция"/>
+<edge source="ссср" target="ближний"/>
+<edge source="ссср" target="либерал"/>
+<edge source="ссср" target="европа"/>
+<edge source="ссср" target="культура"/>
+<edge source="ссср" target="сознание"/>
+<edge source="русский истина" target="национальный"/>
+<edge source="русский истина" target="диалог"/>
+<edge source="русский истина" target="россия"/>
+<edge source="русский истина" target="борис"/>
+<edge source="русский истина" target="истинный"/>
+<edge source="русский истина" target="работа"/>
+<edge source="русский истина" target="общественный"/>
+<edge source="русский истина" target="служение"/>
+<edge source="русский истина" target="князь"/>
+<edge source="русский истина" target="оправдание"/>
+<edge source="русский истина" target="стремление"/>
+<edge source="русский истина" target="сомнение"/>
+<edge source="русский истина" target="бог"/>
+<edge source="русский истина" target="русский"/>
+<edge source="русский истина" target="центр"/>
+<edge source="русский истина" target="обсуждение"/>
+<edge source="русский истина" target="трубецкой"/>
+<edge source="русский истина" target="истина"/>
+<edge source="сомнение" target="политический"/>
+<edge source="сомнение" target="контекст"/>
+<edge source="сомнение" target="правда"/>
+<edge source="сомнение" target="истина"/>
+<edge source="сомнение" target="ложь"/>
+<edge source="сомнение" target="класс"/>
+<edge source="сомнение" target="пропаганда"/>
+<edge source="сомнение" target="русский"/>
+<edge source="сомнение" target="человек"/>
+<edge source="сомнение" target="война"/>
+<edge source="лидер" target="выбор"/>
+<edge source="лидер" target="россия"/>
+<edge source="лидер" target="класс"/>
+<edge source="лидер" target="князь"/>
+<edge source="лидер" target="интеллектуальный"/>
+<edge source="лидер" target="традиционный"/>
+<edge source="лидер" target="служение"/>
+<edge source="лидер" target="политический"/>
+<edge source="лидер" target="смута"/>
+<edge source="лидер" target="русский"/>
+<edge source="лидер" target="возможно"/>
+<edge source="лидер" target="общественный"/>
+<edge source="лидер" target="добро"/>
+<edge source="лидер" target="трубецкой"/>
+<edge source="либерал" target="манипуляция"/>
+<edge source="либерал" target="запад"/>
+<edge source="либерал" target="политика"/>
+<edge source="либерал" target="ближний"/>
+<edge source="либерал" target="геополитика"/>
+<edge source="либерал" target="национализм"/>
+<edge source="либерал" target="главный"/>
+<edge source="либерал" target="европа"/>
+<edge source="либерал" target="культура"/>
+<edge source="либерал" target="контекст"/>
+<edge source="либерал" target="конфликт"/>
+<edge source="либерал" target="религия"/>
+<edge source="либерал" target="класс"/>
+<edge source="либерал" target="игил"/>
+<edge source="либерал" target="литература"/>
+<edge source="либерал" target="история"/>
+<edge source="либерал" target="борьба"/>
+<edge source="религиозный" target="диалог"/>
+<edge source="религиозный" target="открытый"/>
+<edge source="религиозный" target="друг"/>
+<edge source="религиозный" target="принцип"/>
+<edge source="религиозный" target="философия"/>
+<edge source="религиозный" target="вера"/>
+<edge source="религиозный" target="наука"/>
+<edge source="религиозный" target="бог"/>
+<edge source="религиозный" target="трубецкой"/>
+<edge source="религиозный" target="человек"/>
+<edge source="религиозный" target="вечный"/>
+<edge source="религиозный" target="истина"/>
+<edge source="геополитика" target="конфликт"/>
+<edge source="геополитика" target="сознание"/>
+<edge source="геополитика" target="история"/>
+<edge source="геополитика" target="класс"/>
+<edge source="геополитика" target="ближний"/>
+<edge source="геополитика" target="главный"/>
+<edge source="геополитика" target="манипуляция"/>
+<edge source="лицо" target="мир"/>
+<edge source="лицо" target="европа"/>
+<edge source="лицо" target="остриё"/>
+<edge source="лицо" target="человек"/>
+<edge source="лицо" target="правда"/>
+<edge source="лицо" target="речь"/>
+<edge source="лицо" target="россия"/>
+<edge source="лицо" target="общество"/>
+<edge source="лицо" target="истина"/>
+<edge source="лицо" target="действительно"/>
+<edge source="лицо" target="ложь"/>
+<edge source="лицо" target="враг"/>
+<edge source="лицо" target="порядок"/>
+<edge source="лицо" target="сознание"/>
+<edge source="исторический" target="просвещение"/>
+<edge source="исторический" target="россия"/>
+<edge source="исторический" target="идеология"/>
+<edge source="исторический" target="истина"/>
+<edge source="исторический" target="константа"/>
+<edge source="исторический" target="страх"/>
+<edge source="исторический" target="метод"/>
+<edge source="исторический" target="марксизм"/>
+<edge source="исторический" target="принцип"/>
+<edge source="исторический" target="развитие"/>
+<edge source="исторический" target="социальный"/>
+<edge source="исторический" target="русский"/>
+<edge source="исторический" target="борис"/>
+<edge source="исторический" target="консервативный"/>
+<edge source="россия" target="трубецкой"/>
+<edge source="россия" target="общество"/>
+<edge source="россия" target="история"/>
+<edge source="россия" target="движение"/>
+<edge source="россия" target="конфликт"/>
+<edge source="россия" target="национализм"/>
+<edge source="россия" target="служение"/>
+<edge source="россия" target="выбор"/>
+<edge source="россия" target="национальный"/>
+<edge source="россия" target="действительно"/>
+<edge source="россия" target="вера"/>
+<edge source="россия" target="класс"/>
+<edge source="россия" target="власть"/>
+<edge source="россия" target="запад"/>
+<edge source="россия" target="враг"/>
+<edge source="россия" target="борис"/>
+<edge source="россия" target="возможно"/>
+<edge source="россия" target="манипуляция"/>
+<edge source="россия" target="князь"/>
+<edge source="россия" target="обращение"/>
+<edge source="россия" target="интеллектуальный"/>
+<edge source="россия" target="борьба"/>
+<edge source="россия" target="мир"/>
+<edge source="россия" target="консервативный"/>
+<edge source="россия" target="традиционный"/>
+<edge source="россия" target="принцип"/>
+<edge source="россия" target="общественный"/>
+<edge source="россия" target="пропаганда"/>
+<edge source="россия" target="марксизм"/>
+<edge source="россия" target="метод"/>
+<edge source="россия" target="сознание"/>
+<edge source="россия" target="война"/>
+<edge source="россия" target="развитие"/>
+<edge source="россия" target="нация"/>
+<edge source="россия" target="экономика"/>
+<edge source="россия" target="просвещение"/>
+<edge source="россия" target="социальный"/>
+<edge source="россия" target="идеология"/>
+<edge source="россия" target="цель"/>
+<edge source="россия" target="стремление"/>
+<edge source="россия" target="смерть"/>
+<edge source="россия" target="русский"/>
+<edge source="россия" target="европа"/>
+<edge source="россия" target="политика"/>
+<edge source="россия" target="культура"/>
+<edge source="россия" target="страх"/>
+<edge source="россия" target="контекст"/>
+<edge source="россия" target="правда"/>
+<edge source="россия" target="слой"/>
+<edge source="россия" target="истина"/>
+<edge source="россия" target="польза"/>
+<edge source="россия" target="ширма"/>
+<edge source="россия" target="главный"/>
+<edge source="россия" target="литература"/>
+<edge source="россия" target="катастрофа"/>
+<edge source="россия" target="смысл"/>
+<edge source="россия" target="речь"/>
+<edge source="россия" target="порядок"/>
+<edge source="россия" target="политический"/>
+<edge source="россия" target="франция"/>
+<edge source="бог" target="истина"/>
+<edge source="бог" target="обращение"/>
+<edge source="бог" target="истинный"/>
+<edge source="бог" target="смерть"/>
+<edge source="бог" target="русский"/>
+<edge source="бог" target="мысль"/>
+<edge source="бог" target="реальность"/>
+<edge source="бог" target="свобода"/>
+<edge source="бог" target="познание"/>
+<edge source="бог" target="правда"/>
+<edge source="бог" target="вера"/>
+<edge source="бог" target="человек"/>
+<edge source="бог" target="любовь"/>
+<edge source="бог" target="сила"/>
+<edge source="бог" target="мир"/>
+<edge source="бог" target="национальный"/>
+<edge source="бог" target="нация"/>
+<edge source="бог" target="страх"/>
+<edge source="истина" target="добро"/>
+<edge source="истина" target="факт"/>
+<edge source="истина" target="оправдание"/>
+<edge source="истина" target="война"/>
+<edge source="истина" target="идеология"/>
+<edge source="истина" target="класс"/>
+<edge source="истина" target="контекст"/>
+<edge source="истина" target="публикация"/>
+<edge source="истина" target="общество"/>
+<edge source="истина" target="работа"/>
+<edge source="истина" target="обсуждение"/>
+<edge source="истина" target="открытый"/>
+<edge source="истина" target="сила"/>
+<edge source="истина" target="философия"/>
+<edge source="истина" target="революция"/>
+<edge source="истина" target="литература"/>
+<edge source="истина" target="критика"/>
+<edge source="истина" target="принцип"/>
+<edge source="истина" target="интересный"/>
+<edge source="истина" target="главный"/>
+<edge source="истина" target="обращение"/>
+<edge source="истина" target="конфликт"/>
+<edge source="истина" target="диалог"/>
+<edge source="истина" target="культура"/>
+<edge source="истина" target="истинный"/>
+<edge source="истина" target="сознание"/>
+<edge source="истина" target="манипуляция"/>
+<edge source="истина" target="зло"/>
+<edge source="истина" target="социальный"/>
+<edge source="истина" target="цель"/>
+<edge source="истина" target="любовь"/>
+<edge source="истина" target="русский"/>
+<edge source="истина" target="справедливость"/>
+<edge source="истина" target="слава"/>
+<edge source="истина" target="пропаганда"/>
+<edge source="истина" target="реальность"/>
+<edge source="истина" target="мир"/>
+<edge source="истина" target="свобода"/>
+<edge source="истина" target="национальный"/>
+<edge source="истина" target="миф"/>
+<edge source="истина" target="нация"/>
+<edge source="истина" target="вечный"/>
+<edge source="истина" target="выбор"/>
+<edge source="истина" target="тень"/>
+<edge source="истина" target="вера"/>
+<edge source="истина" target="политика"/>
+<edge source="истина" target="заблуждение"/>
+<edge source="истина" target="запад"/>
+<edge source="истина" target="речь"/>
+<edge source="истина" target="европа"/>
+<edge source="истина" target="наука"/>
+<edge source="истина" target="история"/>
+<edge source="истина" target="смысл"/>
+<edge source="истина" target="друг"/>
+<edge source="истина" target="обман"/>
+<edge source="истина" target="борьба"/>
+<edge source="истина" target="франция"/>
+<edge source="истина" target="мысль"/>
+<edge source="истина" target="материал"/>
+<edge source="истина" target="ближний"/>
+<edge source="истина" target="человек"/>
+<edge source="истина" target="ложь"/>
+<edge source="истина" target="познание"/>
+<edge source="истина" target="зима"/>
+<edge source="истина" target="правда"/>
+<edge source="истина" target="национализм"/>
+<edge source="история" target="наука"/>
+<edge source="история" target="класс"/>
+<edge source="история" target="контекст"/>
+<edge source="история" target="обман"/>
+<edge source="история" target="национализм"/>
+<edge source="история" target="литература"/>
+<edge source="история" target="заблуждение"/>
+<edge source="история" target="запад"/>
+<edge source="история" target="марксизм"/>
+<edge source="история" target="культура"/>
+<edge source="история" target="общество"/>
+<edge source="история" target="борьба"/>
+<edge source="история" target="ближний"/>
+<edge source="история" target="пропаганда"/>
+<edge source="история" target="мир"/>
+<edge source="история" target="философия"/>
+<edge source="история" target="революция"/>
+<edge source="история" target="политика"/>
+<edge source="история" target="война"/>
+<edge source="история" target="конфликт"/>
+<edge source="история" target="сознание"/>
+<edge source="история" target="европа"/>
+<edge source="история" target="манипуляция"/>
+<edge source="история" target="экономика"/>
+<edge source="история" target="социальный"/>
+<edge source="история" target="русский"/>
+<edge source="история" target="франция"/>
+<edge source="история" target="реальность"/>
+<edge source="история" target="игил"/>
+<edge source="история" target="главный"/>
+<edge source="история" target="зло"/>
+<edge source="пропаганда" target="идеология"/>
+<edge source="пропаганда" target="политика"/>
+<edge source="пропаганда" target="мир"/>
 <edge source="пропаганда" target="просвещение"/>
-<edge source="пропаганда" target="межуев"/>
-<edge source="поиск истины" target="поиск"/>
-<edge source="поиск" target="правды"/>
-<edge source="разведка" target="межуев"/>
-<edge source="разведка" target="просвещение"/>
-<edge source="нечто" target="истину"/>
-<edge source="истине" target="истину"/>
-<edge source="межуев" target="правда"/>
-<edge source="межуев" target="просвещение"/>
-<edge source="межуев" target="правды"/>
-<edge source="рустем" target="вахитов"/>
-<edge source="правда" target="истину"/>
-<edge source="жизни" target="русская"/>
-<edge source="правды" target="просвещение"/>
-<edge source="истину" target="правду"/>
+<edge source="пропаганда" target="главный"/>
+<edge source="пропаганда" target="истинный"/>
+<edge source="пропаганда" target="общество"/>
+<edge source="пропаганда" target="конфликт"/>
+<edge source="пропаганда" target="ближний"/>
+<edge source="пропаганда" target="сознание"/>
+<edge source="пропаганда" target="цель"/>
+<edge source="пропаганда" target="русский"/>
+<edge source="пропаганда" target="война"/>
+<edge source="слава" target="друг"/>
+<edge source="слава" target="философия"/>
+<edge source="слава" target="мир"/>
+<edge source="слава" target="русский"/>
+<edge source="слава" target="интересный"/>
+<edge source="слава" target="социальный"/>
+<edge source="слава" target="человек"/>
+<edge source="слава" target="доблесть"/>
+<edge source="слава" target="любовь"/>
+<edge source="слава" target="власть"/>
+<edge source="культура" target="общество"/>
+<edge source="культура" target="контекст"/>
+<edge source="культура" target="мир"/>
+<edge source="культура" target="национальный"/>
+<edge source="культура" target="нация"/>
+<edge source="культура" target="главный"/>
+<edge source="культура" target="сознание"/>
+<edge source="культура" target="манипуляция"/>
+<edge source="культура" target="конфликт"/>
+<edge source="культура" target="русский"/>
+<edge source="культура" target="познание"/>
+<edge source="культура" target="вера"/>
+<edge source="культура" target="класс"/>
+<edge source="культура" target="ближний"/>
+<edge source="культура" target="национализм"/>
+<edge source="культура" target="европа"/>
+<edge source="обсуждение" target="истинный"/>
+<edge source="обсуждение" target="страх"/>
+<edge source="обсуждение" target="смерть"/>
+<edge source="обсуждение" target="русский"/>
+<edge source="обсуждение" target="мир"/>
+<edge source="обсуждение" target="любовь"/>
+<edge source="обсуждение" target="человек"/>
+<edge source="обсуждение" target="наука"/>
+<edge source="обсуждение" target="материал"/>
+<edge source="справедливость" target="нация"/>
+<edge source="справедливость" target="друг"/>
+<edge source="справедливость" target="мир"/>
+<edge source="справедливость" target="принцип"/>
+<edge source="справедливость" target="война"/>
+<edge source="справедливость" target="сознание"/>
+<edge source="справедливость" target="правда"/>
+<edge source="справедливость" target="свобода"/>
+<edge source="справедливость" target="смысл"/>
+<edge source="справедливость" target="истинный"/>
+<edge source="справедливость" target="общество"/>
+<edge source="справедливость" target="человек"/>
+<edge source="справедливость" target="традиционный"/>
+<edge source="зима" target="выбор"/>
+<edge source="зима" target="социальный"/>
+<edge source="миф" target="тень"/>
+<edge source="миф" target="смена"/>
+<edge source="миф" target="человек"/>
+<edge source="миф" target="правда"/>
+<edge source="миф" target="вера"/>
+<edge source="борьба" target="ближний"/>
+<edge source="борьба" target="идеология"/>
+<edge source="борьба" target="франция"/>
+<edge source="борьба" target="европа"/>
+<edge source="борьба" target="класс"/>
+<edge source="борьба" target="религия"/>
+<edge source="борьба" target="главный"/>
+<edge source="борьба" target="сознание"/>
+<edge source="борьба" target="манипуляция"/>
+<edge source="борьба" target="война"/>
+<edge source="борьба" target="конфликт"/>
+<edge source="факт" target="наука"/>
+<edge source="факт" target="смысл"/>
+<edge source="факт" target="ложь"/>
+<edge source="факт" target="философия"/>
+<edge source="факт" target="речь"/>
+<edge source="факт" target="реальность"/>
+<edge source="факт" target="мир"/>
+<edge source="факт" target="принцип"/>
+<edge source="факт" target="человек"/>
+<edge source="факт" target="главный"/>
+<edge source="факт" target="правда"/>
+<edge source="вера" target="наука"/>
+<edge source="вера" target="обман"/>
+<edge source="вера" target="человек"/>
+<edge source="вера" target="ложь"/>
+<edge source="вера" target="развитие"/>
+<edge source="вера" target="революция"/>
+<edge source="вера" target="русский"/>
+<edge source="публикация" target="политика"/>
+<edge source="публикация" target="философия"/>
+<edge source="публикация" target="правда"/>
+<edge source="публикация" target="наука"/>
+<edge source="публикация" target="работа"/>
+<edge source="публикация" target="русский"/>
+<edge source="стремление" target="возможно"/>
+<edge source="стремление" target="служение"/>
+<edge source="стремление" target="русский"/>
+<edge source="стремление" target="традиционный"/>
+<edge source="стремление" target="польза"/>
+<edge source="стремление" target="политический"/>
+<edge source="стремление" target="движение"/>
+<edge source="стремление" target="свобода"/>
+<edge source="стремление" target="национальный"/>
+<edge source="стремление" target="класс"/>
+<edge source="стремление" target="власть"/>
+<edge source="стремление" target="диалог"/>
+<edge source="стремление" target="борис"/>
+<edge source="стремление" target="центр"/>
+<edge source="стремление" target="князь"/>
+<edge source="стремление" target="интеллектуальный"/>
+<edge source="стремление" target="смута"/>
+<edge source="стремление" target="трубецкой"/>
+<edge source="стремление" target="смерть"/>
+<edge source="стремление" target="общественный"/>
+<edge source="стремление" target="слой"/>
+<edge source="любовь" target="страх"/>
+<edge source="любовь" target="тень"/>
+<edge source="любовь" target="человек"/>
+<edge source="любовь" target="интересный"/>
+<edge source="любовь" target="действительно"/>
+<edge source="любовь" target="сильный"/>
+<edge source="любовь" target="истинный"/>
+<edge source="любовь" target="рукопись"/>
+<edge source="любовь" target="смерть"/>
+<edge source="любовь" target="русский"/>
+<edge source="любовь" target="мир"/>
+<edge source="общественный" target="власть"/>
+<edge source="общественный" target="возможно"/>
+<edge source="общественный" target="центр"/>
+<edge source="общественный" target="князь"/>
+<edge source="общественный" target="трубецкой"/>
+<edge source="общественный" target="служение"/>
+<edge source="общественный" target="традиционный"/>
+<edge source="общественный" target="класс"/>
+<edge source="общественный" target="диалог"/>
+<edge source="общественный" target="политический"/>
+<edge source="общественный" target="борис"/>
+<edge source="общественный" target="смута"/>
+<edge source="общественный" target="движение"/>
+<edge source="общественный" target="русский"/>
+<edge source="речь" target="человек"/>
+<edge source="речь" target="ложь"/>
+<edge source="речь" target="действительно"/>
+<edge source="речь" target="традиционный"/>
+<edge source="речь" target="обращение"/>
+<edge source="речь" target="ширма"/>
+<edge source="речь" target="правда"/>
+<edge source="речь" target="русский"/>
+<edge source="речь" target="политический"/>
+<edge source="речь" target="общество"/>
+<edge source="консервативный" target="принцип"/>
+<edge source="консервативный" target="идеология"/>
+<edge source="консервативный" target="мысль"/>
+<edge source="консервативный" target="просвещение"/>
+<edge source="консервативный" target="материал"/>
+<edge source="консервативный" target="марксизм"/>
+<edge source="консервативный" target="борис"/>
+<edge source="консервативный" target="развитие"/>
+<edge source="консервативный" target="открытый"/>
+<edge source="консервативный" target="страх"/>
+<edge source="консервативный" target="метод"/>
+<edge source="движение" target="класс"/>
+<edge source="движение" target="традиционный"/>
+<edge source="движение" target="служение"/>
+<edge source="движение" target="политический"/>
+<edge source="движение" target="князь"/>
+<edge source="движение" target="смута"/>
+<edge source="движение" target="русский"/>
+<edge source="движение" target="интеллектуальный"/>
+<edge source="движение" target="трубецкой"/>
+<edge source="движение" target="возможно"/>
+<edge source="зло" target="обман"/>
+<edge source="зло" target="ложь"/>
+<edge source="зло" target="война"/>
+<edge source="зло" target="добро"/>
+<edge source="зло" target="смерть"/>
+<edge source="зло" target="сила"/>
+<edge source="зло" target="мир"/>
+<edge source="зло" target="конфликт"/>
+<edge source="зло" target="человек"/>
+<edge source="зло" target="возможно"/>
+<edge source="заблуждение" target="правда"/>
+<edge source="заблуждение" target="обман"/>
+<edge source="заблуждение" target="ложь"/>
+<edge source="заблуждение" target="мир"/>
+<edge source="заблуждение" target="цель"/>
+<edge source="заблуждение" target="мысль"/>
+<edge source="заблуждение" target="человек"/>
+<edge source="политика" target="сознание"/>
+<edge source="политика" target="экономика"/>
+<edge source="политика" target="социальный"/>
+<edge source="политика" target="русский"/>
+<edge source="политика" target="война"/>
+<edge source="политика" target="европа"/>
+<edge source="политика" target="мир"/>
+<edge source="политика" target="главный"/>
+<edge source="политика" target="литература"/>
+<edge source="политика" target="общество"/>
+<edge source="политика" target="конфликт"/>
+<edge source="политика" target="обман"/>
+<edge source="политика" target="запад"/>
+<edge source="политика" target="философия"/>
+<edge source="политика" target="революция"/>
+<edge source="политика" target="манипуляция"/>
+<edge source="политика" target="ближний"/>
+<edge source="ближний" target="конфликт"/>
+<edge source="ближний" target="идеология"/>
+<edge source="ближний" target="франция"/>
+<edge source="ближний" target="друг"/>
+<edge source="ближний" target="игил"/>
+<edge source="ближний" target="европа"/>
+<edge source="ближний" target="класс"/>
+<edge source="ближний" target="контекст"/>
+<edge source="ближний" target="общество"/>
+<edge source="ближний" target="религия"/>
+<edge source="ближний" target="главный"/>
+<edge source="ближний" target="национализм"/>
+<edge source="ближний" target="литература"/>
+<edge source="ближний" target="обращение"/>
+<edge source="ближний" target="сознание"/>
+<edge source="ближний" target="манипуляция"/>
+<edge source="ближний" target="экономика"/>
+<edge source="ближний" target="война"/>
+<edge source="ближний" target="борис"/>
+<edge source="ближний" target="запад"/>
+<edge source="смерть" target="возможно"/>
+<edge source="смерть" target="князь"/>
+<edge source="смерть" target="трубецкой"/>
+<edge source="смерть" target="служение"/>
+<edge source="смерть" target="русский"/>
+<edge source="смерть" target="традиционный"/>
+<edge source="смерть" target="политический"/>
+<edge source="смерть" target="класс"/>
+<edge source="смерть" target="интеллектуальный"/>
+<edge source="смерть" target="смута"/>
+<edge source="смерть" target="обман"/>
+<edge source="смерть" target="власть"/>
+<edge source="национальный" target="мысль"/>
+<edge source="национальный" target="истинный"/>
+<edge source="национальный" target="политический"/>
+<edge source="национальный" target="цель"/>
+<edge source="национальный" target="русский"/>
+<edge source="национальный" target="нация"/>
+<edge source="национальный" target="мир"/>
+<edge source="национальный" target="человек"/>
+<edge source="интеллектуальный" target="центр"/>
+<edge source="интеллектуальный" target="возможно"/>
+<edge source="интеллектуальный" target="трубецкой"/>
+<edge source="интеллектуальный" target="познание"/>
+<edge source="интеллектуальный" target="класс"/>
+<edge source="интеллектуальный" target="традиционный"/>
+<edge source="интеллектуальный" target="служение"/>
+<edge source="интеллектуальный" target="политический"/>
+<edge source="интеллектуальный" target="власть"/>
+<edge source="интеллектуальный" target="князь"/>
+<edge source="интеллектуальный" target="смута"/>
+<edge source="интеллектуальный" target="русский"/>
+<edge source="интеллектуальный" target="реальность"/>
+<edge source="интеллектуальный" target="слой"/>
+<edge source="обращение" target="мир"/>
+<edge source="обращение" target="человек"/>
+<edge source="обращение" target="правда"/>
+<edge source="обращение" target="ложь"/>
+<edge source="обращение" target="действительно"/>
+<edge source="обращение" target="ширма"/>
+<edge source="просвещение" target="цель"/>
+<edge source="просвещение" target="принцип"/>
+<edge source="просвещение" target="марксизм"/>
+<edge source="просвещение" target="метод"/>
+<edge source="просвещение" target="идеология"/>
+<edge source="просвещение" target="страх"/>
+<edge source="просвещение" target="константа"/>
+<edge source="просвещение" target="развитие"/>
+<edge source="просвещение" target="борис"/>
+<edge source="просвещение" target="истинный"/>
+<edge source="социальный" target="мир"/>
+<edge source="социальный" target="человек"/>
+<edge source="социальный" target="русский"/>
+<edge source="социальный" target="интересный"/>
+<edge source="социальный" target="правда"/>
+<edge source="социальный" target="наука"/>
+<edge source="социальный" target="материал"/>
+<edge source="социальный" target="экономика"/>
+<edge source="социальный" target="выбор"/>
+<edge source="социальный" target="слой"/>
+<edge source="манипуляция" target="контекст"/>
+<edge source="манипуляция" target="игил"/>
+<edge source="манипуляция" target="война"/>
+<edge source="манипуляция" target="главный"/>
+<edge source="манипуляция" target="европа"/>
+<edge source="манипуляция" target="конфликт"/>
+<edge source="манипуляция" target="национализм"/>
+<edge source="манипуляция" target="класс"/>
+<edge source="манипуляция" target="запад"/>
+<edge source="манипуляция" target="литература"/>
+<edge source="манипуляция" target="религия"/>
+<edge source="манипуляция" target="выбор"/>
+<edge source="манипуляция" target="сознание"/>
+<edge source="манипуляция" target="идеология"/>
+<edge source="человек" target="открытый"/>
+<edge source="человек" target="истинный"/>
+<edge source="человек" target="обман"/>
+<edge source="человек" target="работа"/>
+<edge source="человек" target="выбор"/>
+<edge source="человек" target="реальность"/>
+<edge source="человек" target="познание"/>
+<edge source="человек" target="враг"/>
+<edge source="человек" target="сообщение"/>
+<edge source="человек" target="нация"/>
+<edge source="человек" target="друг"/>
+<edge source="человек" target="цель"/>
+<edge source="человек" target="мысль"/>
+<edge source="человек" target="страх"/>
+<edge source="человек" target="мир"/>
+<edge source="человек" target="наука"/>
+<edge source="человек" target="сильный"/>
+<edge source="человек" target="интересный"/>
+<edge source="человек" target="порядок"/>
+<edge source="человек" target="общество"/>
+<edge source="человек" target="сила"/>
+<edge source="человек" target="правда"/>
+<edge source="человек" target="свобода"/>
+<edge source="человек" target="смысл"/>
+<edge source="человек" target="ложь"/>
+<edge source="ширма" target="правда"/>
+<edge source="ширма" target="действительно"/>
+<edge source="выбор" target="ложь"/>
+<edge source="выбор" target="порядок"/>
+<edge source="выбор" target="враг"/>
+<edge source="выбор" target="работа"/>
+<edge source="выбор" target="страх"/>
+<edge source="выбор" target="сознание"/>
+<edge source="оправдание" target="русский"/>
+<edge source="оправдание" target="работа"/>
+<edge source="цель" target="мир"/>
+<edge source="цель" target="война"/>
+<edge source="цель" target="правда"/>
+<edge source="цель" target="смысл"/>
+<edge source="цель" target="ложь"/>
+<edge source="цель" target="истинный"/>
+<edge source="цель" target="обман"/>
+<edge source="цель" target="нация"/>
+<edge source="цель" target="возможно"/>
+<edge source="принцип" target="тень"/>
+<edge source="принцип" target="марксизм"/>
+<edge source="принцип" target="метод"/>
+<edge source="принцип" target="идеология"/>
+<edge source="принцип" target="порядок"/>
+<edge source="принцип" target="наука"/>
+<edge source="принцип" target="константа"/>
+<edge source="принцип" target="смысл"/>
+<edge source="принцип" target="развитие"/>
+<edge source="принцип" target="нация"/>
+<edge source="принцип" target="борис"/>
+<edge source="принцип" target="страх"/>
+<edge source="национализм" target="главный"/>
+<edge source="национализм" target="класс"/>
+<edge source="национализм" target="сознание"/>
+<edge source="национализм" target="русский"/>
+<edge source="национализм" target="мир"/>
+<edge source="национализм" target="европа"/>
+<edge source="национализм" target="конфликт"/>
+<edge source="диалог" target="трубецкой"/>
+<edge source="диалог" target="друг"/>
+<edge source="диалог" target="служение"/>
+<edge source="диалог" target="борис"/>
+<edge source="диалог" target="князь"/>
+<edge source="диалог" target="русский"/>
+<edge source="диалог" target="познание"/>
+<edge source="диалог" target="центр"/>
+<edge source="марксизм" target="страх"/>
+<edge source="марксизм" target="метод"/>
+<edge source="марксизм" target="константа"/>
+<edge source="марксизм" target="борис"/>
+<edge source="марксизм" target="развитие"/>
+<edge source="марксизм" target="идеология"/>
+<edge source="революция" target="сознание"/>
+<edge source="революция" target="русский"/>
+<edge source="революция" target="европа"/>
+<edge source="революция" target="класс"/>
+<edge source="обман" target="общество"/>
+<edge source="обман" target="мир"/>
+<edge source="обман" target="русский"/>
+<edge source="обман" target="ложь"/>
+<edge source="обман" target="правда"/>
+<edge source="философия" target="война"/>
+<edge source="философия" target="интересный"/>
+<edge source="философия" target="европа"/>
+<edge source="философия" target="сознание"/>
+<edge source="философия" target="сила"/>
+<edge source="философия" target="конфликт"/>
+<edge source="философия" target="наука"/>
+<edge source="философия" target="борис"/>
+<edge source="философия" target="работа"/>
+<edge source="философия" target="познание"/>
+<edge source="философия" target="мир"/>
+<edge source="философия" target="русский"/>
+<edge source="интересный" target="власть"/>
+<edge source="интересный" target="мир"/>
+<edge source="интересный" target="друг"/>
+<edge source="интересный" target="правда"/>
+<edge source="интересный" target="ложь"/>
+<edge source="смута" target="князь"/>
+<edge source="смута" target="трубецкой"/>
+<edge source="смута" target="служение"/>
+<edge source="смута" target="русский"/>
+<edge source="смута" target="польза"/>
+<edge source="смута" target="катастрофа"/>
+<edge source="смута" target="политический"/>
+<edge source="смута" target="традиционный"/>
+<edge source="смута" target="власть"/>
+<edge source="смута" target="слой"/>
+<edge source="смута" target="возможно"/>
+<edge source="тень" target="правда"/>
+<edge source="тень" target="рукопись"/>
+<edge source="тень" target="смысл"/>
+<edge source="тень" target="сильный"/>
+<edge source="тень" target="порядок"/>
+<edge source="тень" target="действительно"/>
+<edge source="катастрофа" target="традиционный"/>
+<edge source="катастрофа" target="служение"/>
+<edge source="катастрофа" target="политический"/>
+<edge source="катастрофа" target="князь"/>
+<edge source="катастрофа" target="русский"/>
+<edge source="катастрофа" target="трубецкой"/>
+<edge source="катастрофа" target="возможно"/>
+<edge source="катастрофа" target="класс"/>
+<edge source="константа" target="борис"/>
+<edge source="константа" target="страх"/>
+<edge source="константа" target="идеология"/>
+<edge source="борис" target="идеология"/>
+<edge source="борис" target="мысль"/>
+<edge source="борис" target="трубецкой"/>
+<edge source="борис" target="материал"/>
+<edge source="борис" target="площадка"/>
+<edge source="борис" target="открытый"/>
+<edge source="борис" target="служение"/>
+<edge source="борис" target="метод"/>
+<edge source="борис" target="развитие"/>
+<edge source="борис" target="князь"/>
+<edge source="борис" target="страх"/>
+<edge source="борис" target="конфликт"/>
+<edge source="борис" target="европа"/>
+<edge source="борис" target="центр"/>
+<edge source="сильный" target="идеология"/>
+<edge source="сильный" target="правда"/>
+<edge source="сильный" target="действительно"/>
+<edge source="сильный" target="враг"/>
+<edge source="сильный" target="рукопись"/>
+<edge source="польза" target="традиционный"/>
+<edge source="польза" target="политический"/>
+<edge source="польза" target="русский"/>
+<edge source="польза" target="класс"/>
+<edge source="польза" target="князь"/>
+<edge source="польза" target="трубецкой"/>
+<edge source="польза" target="служение"/>
+<edge source="нация" target="русский"/>
+<edge source="нация" target="свобода"/>
+<edge source="нация" target="правда"/>
+<edge source="нация" target="общество"/>
+<edge source="нация" target="политический"/>
+<edge source="франция" target="идеология"/>
+<edge source="франция" target="сознание"/>
+<edge source="франция" target="конфликт"/>
+<edge source="ложь" target="правда"/>
+<edge source="ложь" target="распознать ложь"/>
+<edge source="ложь" target="общество"/>
+<edge source="ложь" target="вечный"/>
+<edge source="ложь" target="работа"/>
+<edge source="ложь" target="сила"/>
+<edge source="ложь" target="порядок"/>
+<edge source="ложь" target="враг"/>
+<edge source="ложь" target="друг"/>
+<edge source="ложь" target="сознание"/>
+<edge source="ложь" target="экономика"/>
+<edge source="ложь" target="реальность"/>
+<edge source="ложь" target="свобода"/>
+<edge source="игил" target="конфликт"/>
+<edge source="игил" target="сознание"/>
+<edge source="игил" target="главный"/>
+<edge source="игил" target="класс"/>
+<edge source="правда" target="действительно"/>
+<edge source="правда" target="познание"/>
+<edge source="правда" target="работа"/>
+<edge source="правда" target="друг"/>
+<edge source="правда" target="русский"/>
+<edge source="правда" target="реальность"/>
+<edge source="правда" target="свобода"/>
+<edge source="правда" target="добро"/>
+<edge source="правда" target="смысл"/>
+<edge source="правда" target="общество"/>
+<edge source="традиционный" target="служение"/>
+<edge source="традиционный" target="политический"/>
+<edge source="традиционный" target="класс"/>
+<edge source="традиционный" target="власть"/>
+<edge source="традиционный" target="центр"/>
+<edge source="традиционный" target="слой"/>
+<edge source="традиционный" target="трубецкой"/>
+<edge source="традиционный" target="князь"/>
+<edge source="традиционный" target="русский"/>
+<edge source="традиционный" target="возможно"/>
+<edge source="материал" target="открытый"/>
+<edge source="материал" target="политический"/>
+<edge source="материал" target="наука"/>
+<edge source="материал" target="мысль"/>
+<edge source="запад" target="враг"/>
+<edge source="запад" target="класс"/>
+<edge source="запад" target="главный"/>
+<edge source="запад" target="европа"/>
+<edge source="запад" target="русский"/>
+<edge source="запад" target="открытый"/>
+<edge source="запад" target="мир"/>
+<edge source="запад" target="конфликт"/>
+<edge source="запад" target="сознание"/>
+<edge source="война" target="порядок"/>
+<edge source="война" target="враг"/>
+<edge source="война" target="конфликт"/>
+<edge source="война" target="сознание"/>
+<edge source="война" target="мир"/>
+<edge source="война" target="класс"/>
+<edge source="война" target="друг"/>
+<edge source="война" target="главный"/>
+<edge source="война" target="общество"/>
+<edge source="война" target="работа"/>
+<edge source="главный" target="литература"/>
+<edge source="главный" target="сознание"/>
+<edge source="главный" target="русский"/>
+<edge source="главный" target="конфликт"/>
+<edge source="главный" target="европа"/>
+<edge source="главный" target="класс"/>
+<edge source="главный" target="контекст"/>
+<edge source="страх" target="метод"/>
+<edge source="страх" target="развитие"/>
+<edge source="страх" target="идеология"/>
+<edge source="мир" target="враг"/>
+<edge source="мир" target="сознание"/>
+<edge source="мир" target="европа"/>
+<edge source="мир" target="экономика"/>
+<edge source="мир" target="русский"/>
+<edge source="мир" target="реальность"/>
+<edge source="мир" target="смысл"/>
+<edge source="мир" target="познание"/>
+<edge source="мир" target="вечный"/>
+<edge source="мир" target="истинный"/>
+<edge source="мир" target="общество"/>
+<edge source="мир" target="друг"/>
+<edge source="мир" target="работа"/>
+<edge source="мир" target="религия"/>
+<edge source="мир" target="сила"/>
+<edge source="мир" target="порядок"/>
+<edge source="мир" target="свобода"/>
+<edge source="сила" target="сознание"/>
+<edge source="сила" target="общество"/>
+<edge source="сила" target="вечный"/>
+<edge source="сила" target="работа"/>
+<edge source="сила" target="власть"/>
+<edge source="сила" target="враг"/>
+<edge source="сила" target="возможно"/>
+<edge source="сила" target="мысль"/>
+<edge source="сила" target="русский"/>
+<edge source="европа" target="критика"/>
+<edge source="европа" target="враг"/>
+<edge source="европа" target="конфликт"/>
+<edge source="европа" target="сознание"/>
+<edge source="европа" target="остриё"/>
+<edge source="европа" target="экономика"/>
+<edge source="европа" target="порядок"/>
+<edge source="европа" target="литература"/>
+<edge source="конфликт" target="сообщение"/>
+<edge source="конфликт" target="премодерация"/>
+<edge source="конфликт" target="общество"/>
+<edge source="конфликт" target="религия"/>
+<edge source="конфликт" target="идеология"/>
+<edge source="конфликт" target="литература"/>
+<edge source="конфликт" target="контекст"/>
+<edge source="конфликт" target="сознание"/>
+<edge source="конфликт" target="экономика"/>
+<edge source="конфликт" target="класс"/>
+<edge source="истинный" target="мысль"/>
+<edge source="истинный" target="русский"/>
+<edge source="истинный" target="свобода"/>
+<edge source="истинный" target="друг"/>
+<edge source="друг" target="враг"/>
+<edge source="друг" target="смысл"/>
+<edge source="друг" target="добро"/>
+<edge source="друг" target="вечный"/>
+<edge source="сообщение" target="премодерация"/>
+<edge source="добро" target="смысл"/>
+<edge source="добро" target="религия"/>
+<edge source="рукопись" target="действительно"/>
+<edge source="трубецкой" target="князь"/>
+<edge source="трубецкой" target="слой"/>
+<edge source="трубецкой" target="возможно"/>
+<edge source="трубецкой" target="центр"/>
+<edge source="трубецкой" target="служение"/>
+<edge source="трубецкой" target="русский"/>
+<edge source="трубецкой" target="политический"/>
+<edge source="трубецкой" target="класс"/>
+<edge source="трубецкой" target="познание"/>
+<edge source="трубецкой" target="власть"/>
+<edge source="литература" target="общество"/>
+<edge source="литература" target="класс"/>
+<edge source="литература" target="сознание"/>
+<edge source="литература" target="идеология"/>
+<edge source="развитие" target="вечный"/>
+<edge source="развитие" target="метод"/>
+<edge source="развитие" target="идеология"/>
+<edge source="площадка" target="политический"/>
+<edge source="площадка" target="сознание"/>
+<edge source="площадка" target="открытый"/>
+<edge source="площадка" target="общество"/>
+<edge source="площадка" target="мысль"/>
+<edge source="действительно" target="общество"/>
+<edge source="действительно" target="сознание"/>
+<edge source="свобода" target="мысль"/>
+<edge source="свобода" target="общество"/>
+<edge source="свобода" target="смысл"/>
+<edge source="свобода" target="работа"/>
+<edge source="реальность" target="общество"/>
+<edge source="реальность" target="русский"/>
+<edge source="реальность" target="познание"/>
+<edge source="экономика" target="русский"/>
+<edge source="экономика" target="сознание"/>
+<edge source="экономика" target="наука"/>
+<edge source="экономика" target="класс"/>
+<edge source="экономика" target="общество"/>
+<edge source="общество" target="порядок"/>
+<edge source="общество" target="класс"/>
+<edge source="общество" target="работа"/>
+<edge source="общество" target="вечный"/>
+<edge source="общество" target="сознание"/>
+<edge source="общество" target="идеология"/>
+<edge source="сознание" target="русский"/>
+<edge source="сознание" target="идеология"/>
+<edge source="сознание" target="контекст"/>
+<edge source="сознание" target="класс"/>
+<edge source="сознание" target="открытый"/>
+<edge source="слой" target="власть"/>
+<edge source="слой" target="возможно"/>
+<edge source="слой" target="князь"/>
+<edge source="слой" target="центр"/>
+<edge source="слой" target="русский"/>
+<edge source="слой" target="служение"/>
+<edge source="слой" target="политический"/>
+<edge source="слой" target="класс"/>
+<edge source="вечный" target="смысл"/>
+<edge source="вечный" target="политический"/>
+<edge source="вечный" target="работа"/>
+<edge source="вечный" target="метод"/>
+<edge source="вечный" target="враг"/>
+<edge source="остриё" target="враг"/>
+<edge source="остриё" target="порядок"/>
+<edge source="порядок" target="враг"/>
+<edge source="наука" target="политический"/>
+<edge source="наука" target="русский"/>
+<edge source="наука" target="познание"/>
+<edge source="наука" target="смысл"/>
+<edge source="доблесть" target="русский"/>
+<edge source="контекст" target="класс"/>
+<edge source="центр" target="служение"/>
+<edge source="центр" target="русский"/>
+<edge source="центр" target="класс"/>
+<edge source="центр" target="князь"/>
+<edge source="класс" target="власть"/>
+<edge source="класс" target="возможно"/>
+<edge source="класс" target="политический"/>
+<edge source="класс" target="князь"/>
+<edge source="класс" target="русский"/>
+<edge source="класс" target="познание"/>
+<edge source="религия" target="идеология"/>
+<edge source="познание" target="власть"/>
+<edge source="власть" target="служение"/>
+<edge source="власть" target="возможно"/>
+<edge source="власть" target="политический"/>
+<edge source="власть" target="князь"/>
+<edge source="власть" target="русский"/>
+<edge source="открытый" target="политический"/>
+<edge source="открытый" target="мысль"/>
+<edge source="князь" target="русский"/>
+<edge source="князь" target="служение"/>
+<edge source="князь" target="политический"/>
+<edge source="князь" target="возможно"/>
+<edge source="мысль" target="политический"/>
+<edge source="мысль" target="русский"/>
+<edge source="смысл" target="русский"/>
+<edge source="идеология" target="метод"/>
+<edge source="политический" target="работа"/>
+<edge source="политический" target="русский"/>
+<edge source="политический" target="враг"/>
+<edge source="политический" target="служение"/>
+<edge source="политический" target="возможно"/>
+<edge source="русский" target="возможно"/>
+<edge source="русский" target="критика"/>
+<edge source="русский" target="служение"/>
+<edge source="русский" target="работа"/>
+<edge source="возможно" target="служение"/>
 </graph></graphml>

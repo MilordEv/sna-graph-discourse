@@ -44,6 +44,7 @@ class DiscourseGraphConstructor:
             top_nodes=cfg.max_vertices,
             min_weight=cfg.min_edge_weight,
             min_pmi=cfg.min_pmi,
+            backbone_k=cfg.backbone_k,
         )
 
         do_sum = run_summarize if run_summarize is not None else cfg.summarize_vertices

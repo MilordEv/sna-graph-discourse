@@ -18,7 +18,13 @@ numpy>=1.24
 matplotlib>=3.7
 scikit-learn>=1.3
 
-# LLM evaluation/reporting
+# Russian NLP for discourse-graph construction
+pymorphy3            # lemmatisation + POS tagging (concept merging / filtering)
+pymorphy3-dicts-ru   # Russian dictionaries for pymorphy3
+razdel               # sentence/word segmentation
+yake                 # keyphrase extraction (multi-word concepts)
+
+# LLM evaluation/reporting (any OpenAI-compatible endpoint: OpenRouter, Ollama, …)
 openai>=1.0
 
 # Optional: heavy models (keybert, bertscore, paraphrase_cluster).

@@ -14,13 +14,17 @@ def build_vanilla_graphrag_graph(
     docs: list[dict],
     top_nodes: int = 300,
     min_weight: int = 2,
-    min_pmi: float = 4.0,
+    min_pmi: float = 1.0,
+    per_doc_terms: int = 20,
 ) -> nx.Graph:
     """
     Упрощённый GraphRAG-baseline: NER-сущности + co-occurrence по документу,
     без риторики/эмоций. Если NER пустой — фолбэк на TF-IDF термины.
     """
     from sklearn.feature_extraction.text import TfidfVectorizer
+
+    from discourse_graph.utils import lemma, lemmatize_tokens
+    from discourse_graph.vertices.extractors import _RU_STOP_WORDS
 
     G = nx.Graph()
 
@@ -36,7 +40,8 @@ def build_vanilla_graphrag_graph(
         )
         all_entities.append(ents)
 
-    # Если NER пустой везде — фолбэк на TF-IDF топ-термины
+    # Если NER пустой везде — фолбэк на TF-IDF: топ-термины В КАЖДОМ документе
+    # (аналог «сущностей чанка» в GraphRAG, без переполнения co-occurrence).
     if not any(all_entities):
         texts = [d.get("text", "") for d in docs]
         try:
@@ -44,14 +49,18 @@ def build_vanilla_graphrag_graph(
                 max_features=top_nodes,
                 ngram_range=(1, 2),
                 min_df=2,
-                token_pattern=r"(?u)\b[а-яёa-z][а-яёa-z\-]{2,}\b",
+                tokenizer=lemmatize_tokens,
+                token_pattern=None,
+                stop_words=sorted({lemma(w) for w in _RU_STOP_WORDS} | _RU_STOP_WORDS),
             )
             X = vec.fit_transform(texts)
             terms = vec.get_feature_names_out()
-            for doc_idx, doc in enumerate(docs):
-                tl = doc.get("text", "").lower()
-                ents = [t for t in terms if t in tl]
-                all_entities[doc_idx] = ents
+            for doc_idx in range(len(docs)):
+                row = X[doc_idx].toarray().ravel()
+                if not row.any():
+                    continue
+                top_idx = row.argsort()[::-1][:per_doc_terms]
+                all_entities[doc_idx] = [terms[i] for i in top_idx if row[i] > 0]
         except Exception:
             pass
 

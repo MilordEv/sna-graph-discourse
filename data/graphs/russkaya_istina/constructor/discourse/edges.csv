@@ -1,114 +1,815 @@
-source,target,weight,methods,relation,surprisal,pmi,emotional
-мира,жизни,3,"['cooccurrence', 'rhetorical', 'perplexity']",contrast,10.7177,2.6297,
-мира,власть,3,"['cooccurrence', 'rhetorical', 'perplexity']",contrast,10.7177,4.1602,
-мира,истины,3,"['cooccurrence', 'rhetorical', 'perplexity']",contrast,10.7177,1.5752,
-мира,сергей,2,"['cooccurrence', 'perplexity']",,10.7177,2.8382,
-жизни,власть,3,"['cooccurrence', 'rhetorical', 'perplexity']",contrast,10.7177,2.9192,
-жизни,россии,2,"['cooccurrence', 'emotional', 'perplexity']",,10.7177,3.5041,True
-жизни,истины,4,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",contrast,10.7177,0.7492,True
-жизни,сергей,2,"['cooccurrence', 'perplexity']",,10.7177,1.5972,
-жизни,концепция,3,"['cooccurrence', 'rhetorical', 'perplexity']",contrast,10.7177,1.8412,
-жизни,русская,3,"['cooccurrence', 'rhetorical', 'perplexity']",contrast,10.7177,1.4452,
-жизни,русская истина,3,"['cooccurrence', 'rhetorical', 'perplexity']",contrast,10.7177,1.7672,
-власть,истины,3,"['cooccurrence', 'rhetorical', 'perplexity']",contrast,10.7177,1.8647,
-истины,россии,2,"['cooccurrence', 'emotional', 'perplexity']",,10.7177,2.4497,True
-истины,рустем,2,"['cooccurrence', 'perplexity']",,10.7177,1.1278,
-истины,рустем вахитов,2,"['cooccurrence', 'perplexity']",,10.7177,1.1278,
-истины,добро,2,"['cooccurrence', 'perplexity']",,9.7177,3.4497,
-истины,вахитов,2,"['cooccurrence', 'perplexity']",,10.7177,1.1278,
-истины,человек,3,"['cooccurrence', 'perplexity']",,10.7177,1.7127,
-истины,русской,3,"['cooccurrence', 'perplexity']",,10.7177,1.1278,
-истины,поиск,3,"['cooccurrence', 'perplexity']",,10.7177,1.8647,
-истины,поиск истины,2,"['cooccurrence', 'perplexity']",,10.7177,2.4497,
-сергей,воронин,3,"['cooccurrence', 'perplexity']",,8.7177,3.4232,
-сергей,сергей воронин,3,"['cooccurrence', 'perplexity']",,9.7177,3.4232,
-сергей,концепция,2,"['cooccurrence', 'perplexity']",,10.7177,2.0498,
-концепция,русская,3,"['cooccurrence', 'rhetorical', 'perplexity']",contrast,10.7177,1.8977,
-концепция,воронин,2,"['cooccurrence', 'perplexity']",,10.7177,2.4972,
-концепция,сергей воронин,2,"['cooccurrence', 'perplexity']",,10.7177,2.4972,
-концепция,русская истина,3,"['cooccurrence', 'rhetorical', 'perplexity']",contrast,10.7177,2.2197,
-истина,истину,8,"['cooccurrence', 'perplexity']",,10.7177,0.5154,
-истина,истине,6,"['cooccurrence', 'perplexity']",,10.7177,0.9935,
-истина,нечто,2,"['cooccurrence', 'perplexity']",,10.7177,1.2159,
-истина,проблема,4,"['cooccurrence', 'emotional', 'perplexity']",,9.7177,2.2159,True
-истина,взгляд,2,"['cooccurrence', 'perplexity']",,10.7177,0.6309,
-истина,правду,2,"['cooccurrence', 'perplexity']",,10.7177,0.6309,
-истина,идея,3,"['cooccurrence', 'perplexity']",,10.7177,0.6309,
-истина,понятия,4,"['cooccurrence', 'rhetorical', 'perplexity']",contrast,10.7177,1.4085,
-истина,русская истина,7,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",contrast,10.7177,0.7013,True
-русская,русской,3,"['cooccurrence', 'perplexity']",,10.7177,2.2388,
-русская,русская истина,7,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",contrast,9.4252,3.0461,True
-истину,нечто,2,"['cooccurrence', 'perplexity']",,10.7177,3.5041,
-истину,истине,2,"['cooccurrence', 'perplexity']",,10.7177,1.6968,
-истину,взгляд,2,"['cooccurrence', 'perplexity']",,10.7177,2.9192,
-истину,правду,2,"['cooccurrence', 'perplexity']",,10.7177,2.9192,
-истину,правды,2,"['cooccurrence', 'perplexity']",,10.7177,0.5972,
-истину,правда,2,"['cooccurrence', 'perplexity']",,10.7177,0.7492,
-рустем,рустем вахитов,3,"['cooccurrence', 'perplexity']",,9.7177,4.1457,
-рустем,вахитов,3,"['cooccurrence', 'perplexity']",,8.7177,4.1457,
-рустем вахитов,вахитов,3,"['cooccurrence', 'perplexity']",,9.7177,4.1457,
-лжи,распознать,6,"['cooccurrence', 'perplexity']",,10.7177,0.7486,
-лжи,роман,8,"['cooccurrence', 'perplexity']",,10.7177,0.5675,
-лжи,распознать ложь,6,"['cooccurrence', 'perplexity']",,10.7177,0.7486,
-лжи,роман максишко,8,"['cooccurrence', 'perplexity']",,10.7177,0.683,
-лжи,лед,2,"['cooccurrence', 'perplexity']",,10.7177,0.7825,
-правды,поиск,2,"['cooccurrence', 'perplexity']",,9.7177,2.1278,
-правды,пропаганда,2,"['cooccurrence', 'perplexity']",,10.7177,0.5972,
-правды,разведка,2,"['cooccurrence', 'perplexity']",,10.7177,0.5972,
-правды,межуев,2,"['cooccurrence', 'perplexity']",,10.7177,1.0498,
-правды,правда,2,"['cooccurrence', 'perplexity']",,10.7177,0.5428,
-правды,просвещение,2,"['cooccurrence', 'perplexity']",,10.7177,1.1278,
-правды,общества,2,"['cooccurrence', 'emotional', 'perplexity']",,10.7177,3.2977,True
-человек,ложь,2,"['cooccurrence', 'perplexity']",,10.7177,0.5972,
-человек,правда,2,"['cooccurrence', 'perplexity']",,10.7177,2.1278,
-ложь,общества,2,"['cooccurrence', 'perplexity']",,10.7177,1.9192,
-правда,межуев,2,"['cooccurrence', 'perplexity']",,10.7177,1.2018,
-правда,беседа,3,"['cooccurrence', 'perplexity']",,10.7177,2.0346,
-правда,понятия,3,"['cooccurrence', 'rhetorical', 'perplexity']",contrast,10.7177,3.2273,
-русской,идеей,2,"['cooccurrence', 'perplexity']",,9.1327,2.7127,
-русской,стремление,2,"['cooccurrence', 'perplexity']",,10.7177,2.7127,
-русской,русской идеей,2,"['cooccurrence', 'perplexity']",,9.9252,3.2977,
-максишко,обзор,2,"['cooccurrence', 'perplexity']",,9.1327,1.1933,
-максишко,книги,2,"['cooccurrence', 'perplexity']",,10.7177,2.7783,
-максишко,национальная,2,"['cooccurrence', 'perplexity']",,10.7177,0.7783,
-максишко,идея,2,"['cooccurrence', 'perplexity']",,10.7177,0.6084,
-максишко,национальная идея,2,"['cooccurrence', 'perplexity']",,10.7177,0.7783,
-поиск,поиск истины,2,"['cooccurrence', 'perplexity']",,9.9252,5.0346,
-воронин,сергей воронин,3,"['cooccurrence', 'perplexity']",,10.7177,3.8707,
-идеей,стремление,3,"['cooccurrence', 'perplexity']",,10.7177,3.6196,
-идеей,русской идеей,2,"['cooccurrence', 'perplexity']",,10.7177,3.6196,
-идеей,истине,2,"['cooccurrence', 'perplexity']",,10.7177,2.8123,
-стремление,русской идеей,2,"['cooccurrence', 'perplexity']",,10.7177,3.6196,
-стремление,истине,2,"['cooccurrence', 'perplexity']",,10.7177,2.8123,
-пропаганда,разведка,6,"['cooccurrence', 'emotional', 'perplexity']",,10.7177,2.3887,True
-пропаганда,vs пропаганда,4,"['cooccurrence', 'emotional', 'perplexity']",,10.7177,2.6968,True
-пропаганда,vs,4,"['cooccurrence', 'emotional', 'perplexity']",,10.7177,2.6968,True
-пропаганда,межуев,2,"['cooccurrence', 'perplexity']",,10.7177,1.2562,
-пропаганда,просвещение,4,"['cooccurrence', 'emotional', 'perplexity']",,10.7177,2.3342,True
-разведка,vs пропаганда,4,"['cooccurrence', 'emotional', 'perplexity']",,10.2177,2.6968,True
-разведка,vs,4,"['cooccurrence', 'emotional', 'perplexity']",,9.7177,2.6968,True
-разведка,межуев,2,"['cooccurrence', 'perplexity']",,10.7177,1.2562,
-разведка,просвещение,4,"['cooccurrence', 'emotional', 'perplexity']",,9.7177,2.3342,True
-межуев,просвещение,2,"['cooccurrence', 'perplexity']",,10.7177,1.7867,
-межуев,беседа,3,"['cooccurrence', 'perplexity']",,9.7177,2.5416,
-беседа,задорин,2,"['cooccurrence', 'perplexity']",,10.7177,5.2046,
-взгляд,правду,2,"['cooccurrence', 'perplexity']",,10.7177,5.0346,
-роман,распознать,7,"['cooccurrence', 'perplexity']",,10.7177,0.5633,
-роман,распознать ложь,7,"['cooccurrence', 'perplexity']",,10.7177,0.5633,
-роман,роман максишко,12,"['cooccurrence', 'perplexity']",,8.8675,0.8603,
-роман,обзор,2,"['cooccurrence', 'perplexity']",,10.7177,1.5972,
-идея,национальная,2,"['cooccurrence', 'perplexity']",,10.7177,4.0346,
-идея,национальная идея,2,"['cooccurrence', 'perplexity']",,10.7177,4.0346,
-роман максишко,распознать,7,"['cooccurrence', 'perplexity']",,10.7177,0.6788,
-роман максишко,распознать ложь,7,"['cooccurrence', 'perplexity']",,10.7177,0.6788,
-роман максишко,обзор,2,"['cooccurrence', 'perplexity']",,9.9252,1.7127,
-национальная,национальная идея,2,"['cooccurrence', 'perplexity']",,9.7177,4.2046,
-распознать,распознать ложь,7,"['cooccurrence', 'perplexity']",,9.2177,1.1594,
-распознать,лед,2,"['cooccurrence', 'perplexity']",,10.7177,0.971,
-распознать ложь,лед,2,"['cooccurrence', 'perplexity']",,10.7177,0.971,
-просвещение,vs пропаганда,2,"['cooccurrence', 'emotional', 'perplexity']",,10.7177,2.2273,True
-просвещение,vs,2,"['cooccurrence', 'emotional', 'perplexity']",,10.7177,2.2273,True
-vs пропаганда,vs,4,"['cooccurrence', 'emotional', 'perplexity']",,10.7177,3.5899,True
-павел,крупкин,2,"['cooccurrence', 'perplexity']",,9.1327,6.2046,
-павел,павел крупкин,2,"['cooccurrence', 'perplexity']",,9.9252,6.2046,
-крупкин,павел крупкин,2,"['cooccurrence', 'perplexity']",,10.7177,6.2046,
+source,target,weight,methods,emotional,surprisal,pmi,relation
+революция,война,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,-0.0373,
+революция,сознание,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,-0.0279,
+революция,идеология,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,-0.5782,
+революция,русский,75,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,-0.8548,
+революция,европа,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,-0.0651,
+революция,философия,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,-0.0473,
+революция,культура,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,0.002,
+революция,контекст,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,0.0381,
+революция,конфликт,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,0.0304,
+революция,национализм,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,0.0388,
+революция,экономика,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,0.0423,
+революция,вера,2,"['cooccurrence', 'perplexity']",,16.2844,0.4384,
+революция,пропаганда,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,-0.0001,
+революция,политика,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,0.0423,
+движение,класс,74,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.141,
+движение,россия,74,"['cooccurrence', 'emotional', 'perplexity']",True,14.6659,-0.7432,
+движение,катастрофа,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,1.0531,
+движение,служение,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.074,0.9483,
+движение,польза,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,1.045,
+движение,политический,77,"['cooccurrence', 'emotional', 'perplexity']",True,16.0926,0.8432,
+движение,стремление,74,"['cooccurrence', 'emotional', 'perplexity']",True,16.6452,0.9009,
+движение,русский,74,"['cooccurrence', 'emotional', 'perplexity']",True,14.2879,-0.3896,
+движение,интеллектуальный,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,1.0091,
+движение,борис,74,"['cooccurrence', 'emotional', 'perplexity']",True,14.3538,-0.6068,
+движение,слой,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,1.0379,
+движение,общественный,75,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,0.9012,
+русский,нация,7,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.2879,0.3456,contrast
+русский,возможно,74,"['cooccurrence', 'emotional', 'perplexity']",True,14.2879,-0.4203,
+русский,князь,79,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.2879,-0.3929,contrast
+русский,политика,74,"['cooccurrence', 'emotional', 'perplexity']",True,14.2879,-0.8926,
+русский,оправдание,38,"['cooccurrence', 'perplexity']",,14.2879,1.8769,
+русский,мир,80,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,11.6697,-1.0723,contrast
+русский,экономика,74,"['cooccurrence', 'emotional', 'perplexity']",True,14.2879,-0.8926,
+русский,критика,3,"['cooccurrence', 'emotional', 'perplexity']",True,14.2879,2.3108,
+русский,стремление,75,"['cooccurrence', 'emotional', 'perplexity']",True,14.2879,-0.4993,
+русский,бог,11,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.2879,-0.3383,contrast
+русский,смерть,78,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.2879,-0.3647,contrast
+русский,слава,111,"['cooccurrence', 'rhetorical', 'perplexity']",,14.2879,2.7129,contrast
+русский,польза,74,"['cooccurrence', 'emotional', 'perplexity']",True,14.2879,-0.3745,
+русский,главный,77,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.2879,-0.8626,contrast
+русский,катастрофа,74,"['cooccurrence', 'emotional', 'perplexity']",True,14.2879,-0.3664,
+русский,слой,74,"['cooccurrence', 'emotional', 'perplexity']",True,14.2879,-0.3816,
+русский,политический,76,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.0926,-0.5952,contrast
+русский,культура,76,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.1145,-0.8945,contrast
+русский,обсуждение,11,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.2879,0.4604,contrast
+русский,правда,24,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.1145,-0.7577,contrast
+русский,карамзин,111,"['cooccurrence', 'rhetorical', 'perplexity']",,14.2879,2.8764,contrast
+русский,смысл,13,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.2879,-0.8426,contrast
+русский,национализм,76,"['cooccurrence', 'emotional', 'perplexity']",True,14.2879,-0.8577,
+русский,истина,95,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,10.3419,-1.161,contrast
+русский,трубецкой,77,"['cooccurrence', 'emotional', 'perplexity']",True,14.2879,-0.4503,
+русский,национальный,15,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.2879,0.9698,contrast
+русский,лидер,76,"['cooccurrence', 'emotional', 'perplexity']",True,14.2879,-0.3661,
+русский,класс,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-1.5221,
+русский,запад,76,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.2879,-0.8773,contrast
+русский,русский истина,47,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,12.3149,0.3523,contrast
+русский,диалог,38,"['cooccurrence', 'perplexity']",,14.2879,0.0562,
+русский,россия,80,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.2879,-2.0502,contrast
+русский,речь,4,"['cooccurrence', 'rhetorical', 'perplexity']",,14.2879,-1.7189,contrast
+русский,традиционный,76,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.2879,-0.3511,contrast
+русский,служение,75,"['cooccurrence', 'emotional', 'perplexity']",True,14.2879,-0.4519,
+русский,истинный,8,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.2879,-0.9116,contrast
+русский,история,76,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.2879,-0.9244,contrast
+русский,интеллектуальный,74,"['cooccurrence', 'emotional', 'perplexity']",True,14.2879,-0.4105,
+русский,полемика,4,"['cooccurrence', 'rhetorical', 'perplexity']",,14.2879,-1.5554,contrast
+русский,обман,4,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.2879,-1.0111,contrast
+русский,иллюзия,2,"['cooccurrence', 'emotional', 'perplexity']",True,14.2879,-0.8047,
+русский,работа,38,"['cooccurrence', 'perplexity']",,14.2879,1.1664,
+русский,сомнение,4,"['cooccurrence', 'rhetorical', 'perplexity']",,14.2879,0.4364,contrast
+русский,общественный,75,"['cooccurrence', 'emotional', 'perplexity']",True,14.2879,-0.5184,
+русский,вера,3,"['cooccurrence', 'perplexity']",,14.2879,0.0884,
+русский,любовь,4,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.2879,-1.8524,contrast
+русский,пропаганда,74,"['cooccurrence', 'emotional', 'perplexity']",True,14.2879,-0.9351,
+русский,власть,74,"['cooccurrence', 'emotional', 'perplexity']",True,14.2879,-0.4608,
+русский,философия,76,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,11.999,-0.9438,contrast
+русский,публикация,5,"['cooccurrence', 'perplexity']",,14.2879,1.9698,
+политический,мысль,37,"['cooccurrence', 'perplexity']",,11.9625,1.4165,
+политический,сомнение,2,"['cooccurrence', 'emotional', 'perplexity']",True,16.0926,0.6118,
+политический,наука,8,"['cooccurrence', 'perplexity']",,15.2844,0.2133,
+политический,традиционный,74,"['cooccurrence', 'emotional', 'perplexity']",True,16.0926,0.7858,
+политический,польза,74,"['cooccurrence', 'emotional', 'perplexity']",True,16.0926,0.8009,
+политический,катастрофа,74,"['cooccurrence', 'emotional', 'perplexity']",True,12.0365,0.809,
+политический,стремление,74,"['cooccurrence', 'emotional', 'perplexity']",True,16.0926,0.6568,
+политический,смерть,74,"['cooccurrence', 'emotional', 'perplexity']",True,16.0926,0.7348,
+политический,материал,37,"['cooccurrence', 'perplexity']",,16.0926,2.0233,
+политический,национальный,4,"['cooccurrence', 'emotional', 'perplexity']",True,16.0926,0.2383,
+политический,лидер,74,"['cooccurrence', 'emotional', 'perplexity']",True,16.0926,0.7709,
+политический,класс,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.3466,
+политический,слой,74,"['cooccurrence', 'emotional', 'perplexity']",True,16.0926,0.7939,
+политический,открытый,37,"['cooccurrence', 'perplexity']",,16.0926,2.5392,
+политический,интеллектуальный,74,"['cooccurrence', 'emotional', 'perplexity']",True,16.0926,0.765,
+политический,трубецкой,74,"['cooccurrence', 'emotional', 'perplexity']",True,16.0926,0.6678,
+политический,иллюзия,2,"['cooccurrence', 'emotional', 'perplexity']",True,16.0926,0.3708,
+политический,общественный,76,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.0926,0.6762,contrast
+политический,власть,76,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.0926,0.7531,contrast
+политический,служение,74,"['cooccurrence', 'emotional', 'perplexity']",True,16.0926,0.7042,
+политический,нация,3,"['cooccurrence', 'emotional', 'perplexity']",True,15.6994,0.2986,
+политический,возможно,74,"['cooccurrence', 'emotional', 'perplexity']",True,16.0926,0.7552,
+политический,князь,74,"['cooccurrence', 'emotional', 'perplexity']",True,16.0926,0.6882,
+вера,наука,4,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.2844,4.5599,contrast
+вера,россия,2,"['cooccurrence', 'emotional', 'perplexity']",True,14.6659,-0.8501,
+вера,обман,2,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,4.511,
+вера,человек,6,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.9692,3.258,contrast
+вера,ложь,4,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,3.6798,
+вера,религиозный,3,"['cooccurrence', 'perplexity']",,15.6994,4.3446,
+вера,развитие,2,"['cooccurrence', 'emotional', 'perplexity']",True,16.578,1.1152,
+вера,заблуждение,2,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,5.0959,
+вера,истина,6,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.3041,1.3762,contrast
+вера,миф,2,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,5.8329,
+социальный,мир,8,"['cooccurrence', 'rhetorical', 'perplexity']",,16.1402,-0.5351,contrast
+социальный,человек,10,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.9692,1.332,contrast
+социальный,развитие,6,"['cooccurrence', 'rhetorical', 'perplexity']",,16.1402,0.0372,contrast
+социальный,интересный,3,"['cooccurrence', 'rhetorical', 'perplexity']",,16.1402,4.2955,contrast
+социальный,слава,3,"['cooccurrence', 'rhetorical', 'perplexity']",,16.1402,1.3626,contrast
+социальный,сила,5,"['cooccurrence', 'rhetorical', 'perplexity']",,16.1402,2.3626,contrast
+социальный,правда,6,"['cooccurrence', 'emotional', 'perplexity']",True,16.1402,1.1014,
+социальный,наука,8,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.1402,2.8969,contrast
+социальный,материал,5,"['cooccurrence', 'rhetorical', 'perplexity']",,16.1402,1.8194,contrast
+социальный,истина,43,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.1402,1.5545,contrast
+социальный,россия,38,"['cooccurrence', 'perplexity']",,16.1402,0.7349,
+социальный,история,7,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.9625,-0.5059,contrast
+социальный,выбор,38,"['cooccurrence', 'perplexity']",,16.1402,5.8531,
+социальный,слой,6,"['cooccurrence', 'emotional', 'perplexity']",True,16.1402,-0.147,
+человек,хорошо,8,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.9692,1.5977,contrast
+человек,речь,4,"['cooccurrence', 'perplexity']",,13.9692,0.4506,
+человек,открытый,6,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.9692,0.9088,contrast
+человек,бесконечный,2,"['cooccurrence', 'perplexity']",,13.9692,-0.2293,
+человек,истинный,44,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.9692,3.7174,contrast
+человек,обращение,6,"['cooccurrence', 'rhetorical', 'perplexity']",,13.9692,1.258,contrast
+человек,обман,18,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.9692,3.3284,contrast
+человек,иллюзия,4,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.9692,2.3649,contrast
+человек,работа,12,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.9692,1.673,contrast
+человек,выбор,6,"['cooccurrence', 'rhetorical', 'perplexity']",,13.9692,1.5006,contrast
+человек,реальность,17,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.9692,2.5829,contrast
+человек,любовь,13,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.9692,2.0176,contrast
+человек,познание,10,"['cooccurrence', 'emotional', 'perplexity']",True,13.9692,3.1019,
+человек,мнение,6,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.9692,1.043,contrast
+человек,нация,6,"['cooccurrence', 'rhetorical', 'perplexity']",,13.9692,2.2927,contrast
+человек,лицо,16,"['cooccurrence', 'emotional', 'perplexity']",True,13.9692,1.9992,
+человек,миф,3,"['cooccurrence', 'emotional', 'perplexity']",True,13.9692,2.0653,
+человек,слава,3,"['cooccurrence', 'rhetorical', 'perplexity']",,13.9692,-0.327,contrast
+человек,друг,20,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.9692,2.2787,contrast
+человек,цель,17,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.9692,1.8954,contrast
+человек,мысль,40,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.9692,2.5231,contrast
+человек,мир,40,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.9692,0.0972,contrast
+человек,наука,11,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.9692,1.6668,contrast
+человек,бог,24,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.9625,2.9568,contrast
+человек,сильный,3,"['cooccurrence', 'perplexity']",,13.9692,0.6169,
+человек,интересный,3,"['cooccurrence', 'rhetorical', 'perplexity']",,13.9692,2.6059,contrast
+человек,порядок,9,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.9692,1.3526,contrast
+человек,факт,6,"['cooccurrence', 'emotional', 'perplexity']",True,13.9692,2.1746,
+человек,зло,8,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.9692,3.0209,contrast
+человек,общество,21,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.9692,-0.6619,contrast
+человек,справедливость,10,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.9692,2.3873,contrast
+человек,сила,23,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.9692,2.8747,contrast
+человек,обсуждение,5,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.9692,1.4924,contrast
+человек,правда,37,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.9692,2.0364,contrast
+человек,свобода,44,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.9692,3.9473,contrast
+человек,религиозный,4,"['cooccurrence', 'rhetorical', 'perplexity']",,17.2844,0.4071,contrast
+человек,смысл,11,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.9692,1.086,contrast
+человек,истина,49,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.3775,0.0534,contrast
+человек,ложь,32,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.9692,2.3272,contrast
+человек,национальный,5,"['cooccurrence', 'rhetorical', 'perplexity']",,13.9692,1.5544,contrast
+человек,сомнение,3,"['cooccurrence', 'perplexity']",,13.9692,2.1909,
+человек,заблуждение,8,"['cooccurrence', 'emotional', 'perplexity']",True,13.9692,2.7434,
+война,философия,76,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,15.9165,-0.1068,contrast
+война,порядок,4,"['cooccurrence', 'emotional', 'perplexity']",True,17.2719,-1.15,
+война,истина,80,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.3041,-0.572,contrast
+война,зло,3,"['cooccurrence', 'rhetorical', 'perplexity']",,16.2097,0.2733,contrast
+война,политика,77,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.9331,0.0016,contrast
+война,враг,4,"['cooccurrence', 'emotional', 'perplexity']",True,16.2097,-1.256,
+война,сознание,78,"['cooccurrence', 'emotional', 'perplexity']",True,16.2097,-0.05,
+война,цель,8,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.2097,-0.5247,contrast
+война,справедливость,6,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.2097,0.3176,contrast
+война,мир,79,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.8125,-0.2536,contrast
+война,история,79,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,15.6994,-0.0316,contrast
+война,класс,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.6852,
+война,главный,77,"['cooccurrence', 'emotional', 'perplexity']",True,16.2097,-0.0257,
+война,борьба,77,"['cooccurrence', 'emotional', 'perplexity']",True,17.2509,-0.0138,
+война,общество,76,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,15.9844,-0.139,contrast
+война,пропаганда,78,"['cooccurrence', 'emotional', 'perplexity']",True,16.2097,-0.0222,
+сознание,мир,77,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.8125,-0.2812,contrast
+сознание,философия,76,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,15.9165,-0.0975,contrast
+сознание,идеология,78,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.315,-0.5909,contrast
+сознание,сила,8,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.2405,0.0278,contrast
+сознание,класс,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.6758,
+сознание,россия,78,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.6659,-1.2405,contrast
+сознание,борис,76,"['cooccurrence', 'emotional', 'perplexity']",True,14.3538,-1.1415,
+сознание,бесконечный,2,"['cooccurrence', 'perplexity']",,16.2844,-1.5526,
+сознание,общество,77,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,15.9844,-0.1107,contrast
+сознание,ближний,78,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.4768,0.0155,contrast
+сознание,пропаганда,78,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.4768,-0.0128,contrast
+идеология,борис,152,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.3538,-0.6918,contrast
+идеология,сильный,4,"['cooccurrence', 'rhetorical', 'perplexity']",,16.315,-0.8416,contrast
+идеология,пропаганда,76,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.315,-0.6006,contrast
+идеология,консервативный,114,"['cooccurrence', 'rhetorical', 'perplexity']",,16.7595,0.6704,contrast
+идеология,борьба,77,"['cooccurrence', 'emotional', 'perplexity']",True,16.2844,-0.5548,
+идеология,ближний,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.315,-0.5722,
+идеология,страх,114,"['cooccurrence', 'rhetorical', 'perplexity']",,16.315,0.7863,contrast
+идеология,истина,79,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.3041,-1.1311,contrast
+идеология,метод,115,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,17.2844,0.8242,contrast
+идеология,принцип,114,"['cooccurrence', 'rhetorical', 'perplexity']",,16.659,0.7027,contrast
+идеология,конфликт,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.315,-0.5701,
+идеология,исторический,114,"['cooccurrence', 'rhetorical', 'perplexity']",,16.9165,0.7439,contrast
+идеология,франция,77,"['cooccurrence', 'emotional', 'perplexity']",True,16.315,-0.5344,
+идеология,европа,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.315,-0.6655,
+идеология,просвещение,115,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.4768,0.7681,contrast
+идеология,контекст,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.315,-0.5624,
+идеология,россия,152,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.6659,-0.8282,contrast
+идеология,главный,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.315,-0.5854,
+идеология,национализм,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.315,-0.5617,
+идеология,литература,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.315,-0.5575,
+идеология,марксизм,114,"['cooccurrence', 'rhetorical', 'perplexity']",,17.2844,0.8623,contrast
+идеология,культура,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.315,-0.5985,
+идеология,развитие,114,"['cooccurrence', 'rhetorical', 'perplexity']",,16.578,0.722,contrast
+идеология,запад,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.315,-0.5813,
+идеология,манипуляция,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.315,-0.5687,
+европа,мир,77,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.8125,-0.3183,contrast
+европа,философия,75,"['cooccurrence', 'emotional', 'perplexity']",True,15.9165,-0.1537,
+европа,критика,2,"['cooccurrence', 'emotional', 'perplexity']",True,16.3594,2.535,
+европа,истина,76,"['cooccurrence', 'emotional', 'perplexity']",True,13.3041,-0.6738,
+европа,лицо,37,"['cooccurrence', 'perplexity']",,16.3594,1.8483,
+европа,враг,37,"['cooccurrence', 'perplexity']",,16.3594,1.9257,
+европа,политика,75,"['cooccurrence', 'emotional', 'perplexity']",True,16.9331,-0.0642,
+европа,конфликт,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.3594,-0.057,
+европа,борьба,76,"['cooccurrence', 'emotional', 'perplexity']",True,17.2509,-0.0605,
+европа,манипуляция,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.3594,-0.0556,
+европа,франция,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.3594,-0.0401,
+европа,чисто,37,"['cooccurrence', 'perplexity']",,16.3594,2.307,
+европа,история,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.121,-0.1153,
+европа,класс,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.7129,
+европа,контекст,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.3594,-0.0493,
+европа,россия,80,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.6659,-1.2411,contrast
+европа,порядок,37,"['cooccurrence', 'perplexity']",,17.2719,2.0317,
+европа,национализм,77,"['cooccurrence', 'emotional', 'perplexity']",True,16.3594,-0.0297,
+европа,литература,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.3594,-0.0443,
+европа,борис,77,"['cooccurrence', 'emotional', 'perplexity']",True,14.3538,-1.1598,
+европа,культура,77,"['cooccurrence', 'emotional', 'perplexity']",True,16.6045,-0.0665,
+философия,публикация,2,"['cooccurrence', 'perplexity']",,15.9165,1.4748,
+философия,интересный,3,"['cooccurrence', 'rhetorical', 'perplexity']",,15.9165,1.2633,contrast
+философия,слава,3,"['cooccurrence', 'rhetorical', 'perplexity']",,15.9165,-1.6696,contrast
+философия,сила,6,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,15.9165,-0.4066,contrast
+философия,наука,17,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,15.2844,0.9522,contrast
+философия,религиозный,4,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.2844,-0.9355,contrast
+философия,истина,85,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,15.6994,-0.4945,contrast
+философия,класс,74,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.7336,
+философия,борис,75,"['cooccurrence', 'emotional', 'perplexity']",True,15.9165,-1.18,
+философия,история,78,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,15.9165,-0.06,contrast
+философия,работа,6,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,15.9165,-0.6696,contrast
+философия,познание,4,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,15.9165,0.4373,contrast
+философия,пропаганда,74,"['cooccurrence', 'emotional', 'perplexity']",True,15.9165,-0.1081,
+философия,экономика,74,"['cooccurrence', 'emotional', 'perplexity']",True,15.9165,-0.0657,
+философия,мир,77,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.8125,-0.3005,contrast
+философия,сильный,2,"['cooccurrence', 'emotional', 'perplexity']",True,15.9165,-1.3107,
+культура,контекст,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.6045,0.0178,
+культура,нация,4,"['cooccurrence', 'emotional', 'perplexity']",True,16.2844,0.4144,
+культура,главный,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.6045,-0.0053,
+культура,история,77,"['cooccurrence', 'emotional', 'perplexity']",True,16.2844,-0.0294,
+культура,манипуляция,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.6045,0.0114,
+культура,конфликт,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.6045,0.01,
+культура,франция,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.6045,0.0269,
+культура,истина,78,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.3041,-0.5693,contrast
+культура,познание,3,"['cooccurrence', 'emotional', 'perplexity']",True,16.6045,0.0715,
+культура,класс,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.6459,
+культура,запад,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.6045,-0.0011,
+культура,борис,76,"['cooccurrence', 'emotional', 'perplexity']",True,14.3538,-1.1117,
+культура,борьба,76,"['cooccurrence', 'emotional', 'perplexity']",True,17.2509,0.0065,
+культура,ближний,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.6045,0.0079,
+культура,россия,76,"['cooccurrence', 'emotional', 'perplexity']",True,14.6659,-1.2481,
+культура,национализм,77,"['cooccurrence', 'emotional', 'perplexity']",True,16.6045,0.0373,
+культура,литература,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.6045,0.0227,
+контекст,история,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.121,-0.0121,
+контекст,истина,76,"['cooccurrence', 'emotional', 'perplexity']",True,13.3041,-0.5706,
+контекст,сомнение,3,"['cooccurrence', 'rhetorical', 'perplexity']",,17.2844,0.9336,contrast
+контекст,класс,78,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.659,-0.5723,contrast
+контекст,борис,76,"['cooccurrence', 'emotional', 'perplexity']",True,14.3538,-1.0755,
+контекст,борьба,76,"['cooccurrence', 'emotional', 'perplexity']",True,17.2509,0.0427,
+контекст,франция,76,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,0.063,
+контекст,россия,76,"['cooccurrence', 'emotional', 'perplexity']",True,14.6659,-1.212,
+конфликт,россия,76,"['cooccurrence', 'emotional', 'perplexity']",True,14.6659,-1.2197,
+конфликт,истина,76,"['cooccurrence', 'emotional', 'perplexity']",True,13.3041,-0.5784,
+конфликт,история,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.121,-0.0198,
+конфликт,политика,75,"['cooccurrence', 'emotional', 'perplexity']",True,16.9331,0.0313,
+конфликт,класс,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.6175,
+конфликт,франция,76,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,0.0553,
+конфликт,борис,76,"['cooccurrence', 'emotional', 'perplexity']",True,14.3538,-1.0833,
+конфликт,борьба,76,"['cooccurrence', 'emotional', 'perplexity']",True,17.2509,0.0349,
+национализм,россия,76,"['cooccurrence', 'emotional', 'perplexity']",True,14.6659,-1.2113,
+национализм,класс,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.6091,
+национализм,борис,76,"['cooccurrence', 'emotional', 'perplexity']",True,14.3538,-1.0748,
+национализм,борьба,76,"['cooccurrence', 'emotional', 'perplexity']",True,17.2509,0.0434,
+национализм,мир,76,"['cooccurrence', 'emotional', 'perplexity']",True,14.8125,-0.2333,
+национализм,истина,76,"['cooccurrence', 'emotional', 'perplexity']",True,13.3041,-0.5699,
+истина,бог,22,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.3041,0.9495,contrast
+истина,добро,6,"['cooccurrence', 'emotional', 'perplexity']",True,13.3041,2.3091,
+истина,факт,14,"['cooccurrence', 'emotional', 'perplexity']",True,13.3041,1.5152,
+истина,оправдание,38,"['cooccurrence', 'perplexity']",,13.3041,2.1647,
+истина,класс,77,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-1.2154,
+истина,публикация,2,"['cooccurrence', 'perplexity']",,13.3041,0.9356,
+истина,общество,79,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,15.9844,-0.6323,contrast
+истина,работа,39,"['cooccurrence', 'emotional', 'perplexity']",True,11.999,1.4917,
+истина,обсуждение,10,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.3041,0.6107,contrast
+истина,сомнение,12,"['cooccurrence', 'rhetorical', 'perplexity']",,13.3041,2.3091,contrast
+истина,открытый,3,"['cooccurrence', 'perplexity']",,13.3041,-1.973,
+истина,литература,76,"['cooccurrence', 'emotional', 'perplexity']",True,13.3041,-0.5657,
+истина,критика,4,"['cooccurrence', 'emotional', 'perplexity']",True,13.3041,3.0136,
+истина,интересный,5,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.3041,1.4611,contrast
+истина,главный,76,"['cooccurrence', 'emotional', 'perplexity']",True,13.3041,-0.5937,
+истина,обращение,2,"['cooccurrence', 'perplexity']",,13.3041,-2.2088,
+истина,диалог,38,"['cooccurrence', 'perplexity']",,13.3041,0.344,
+истина,истинный,9,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.3041,-0.4539,contrast
+истина,манипуляция,76,"['cooccurrence', 'emotional', 'perplexity']",True,13.3041,-0.577,
+истина,цель,11,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.3041,-0.6144,contrast
+истина,любовь,11,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.3041,-0.1052,contrast
+истина,полемика,4,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.3041,-1.2677,contrast
+истина,справедливость,10,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.3041,0.5055,contrast
+истина,слава,3,"['cooccurrence', 'rhetorical', 'perplexity']",,13.3041,-2.2088,contrast
+истина,реальность,21,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.3041,1.006,contrast
+истина,мир,86,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.6994,-0.6802,contrast
+истина,свобода,12,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.9331,0.1911,contrast
+истина,национальный,23,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.3041,1.8742,contrast
+истина,миф,3,"['cooccurrence', 'rhetorical', 'perplexity']",,13.3041,0.1835,contrast
+истина,чисто,2,"['cooccurrence', 'perplexity']",,13.3041,-2.4238,
+истина,нация,8,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.3041,0.826,contrast
+истина,выбор,38,"['cooccurrence', 'perplexity']",,11.999,2.2817,
+истина,мнение,13,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.3041,0.2767,contrast
+истина,лицо,7,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.3041,-1.0752,contrast
+истина,действительно,4,"['cooccurrence', 'perplexity']",,13.3041,-2.1293,
+истина,заблуждение,10,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.3041,1.1835,contrast
+истина,запад,76,"['cooccurrence', 'emotional', 'perplexity']",True,13.3041,-0.5895,
+истина,речь,6,"['cooccurrence', 'rhetorical', 'perplexity']",,13.3041,-0.8462,contrast
+истина,наука,19,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.3041,0.5735,contrast
+истина,история,80,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,11.999,-0.5626,contrast
+истина,россия,80,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.6659,-1.7625,contrast
+истина,смысл,22,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.3041,0.2042,contrast
+истина,друг,13,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.3041,-0.2245,contrast
+истина,обман,6,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.3041,-0.1384,contrast
+истина,борьба,76,"['cooccurrence', 'emotional', 'perplexity']",True,13.3041,-0.5818,
+истина,франция,76,"['cooccurrence', 'emotional', 'perplexity']",True,13.3041,-0.5615,
+истина,мысль,15,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.3041,-0.7737,contrast
+истина,материал,4,"['cooccurrence', 'rhetorical', 'perplexity']",,13.3041,-2.0738,contrast
+истина,ближний,76,"['cooccurrence', 'emotional', 'perplexity']",True,13.3041,-0.5805,
+истина,ложь,41,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,12.3775,0.803,contrast
+истина,познание,11,"['cooccurrence', 'emotional', 'perplexity']",True,13.3041,1.3576,
+истина,религиозный,4,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,17.2844,-1.4747,contrast
+истина,русский истина,47,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,13.3041,0.6401,contrast
+истина,правда,56,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,11.7925,0.7525,contrast
+главный,борис,76,"['cooccurrence', 'emotional', 'perplexity']",True,14.3538,-1.0986,
+главный,борьба,76,"['cooccurrence', 'emotional', 'perplexity']",True,17.2509,0.0196,
+главный,факт,3,"['cooccurrence', 'emotional', 'perplexity']",True,16.8837,-0.1057,
+главный,история,78,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.121,0.0023,contrast
+главный,класс,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.6328,
+главный,россия,76,"['cooccurrence', 'emotional', 'perplexity']",True,14.6659,-1.235,
+литература,история,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.121,-0.0072,
+литература,общество,76,"['cooccurrence', 'emotional', 'perplexity']",True,15.9844,-0.0587,
+литература,класс,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.6049,
+литература,борис,76,"['cooccurrence', 'emotional', 'perplexity']",True,14.3538,-1.0706,
+литература,борьба,76,"['cooccurrence', 'emotional', 'perplexity']",True,17.2509,0.0476,
+литература,россия,76,"['cooccurrence', 'emotional', 'perplexity']",True,14.6659,-1.207,
+экономика,политика,76,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.9331,0.0623,contrast
+экономика,мир,76,"['cooccurrence', 'emotional', 'perplexity']",True,14.8125,-0.2298,
+экономика,ложь,12,"['cooccurrence', 'perplexity']",,17.2844,-0.3408,
+экономика,класс,74,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.644,
+экономика,россия,74,"['cooccurrence', 'emotional', 'perplexity']",True,14.6659,-1.2462,
+экономика,борис,74,"['cooccurrence', 'emotional', 'perplexity']",True,14.3538,-1.1098,
+экономика,общество,76,"['cooccurrence', 'emotional', 'perplexity']",True,15.9844,-0.0594,
+экономика,история,76,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.121,-0.0079,contrast
+франция,борис,76,"['cooccurrence', 'emotional', 'perplexity']",True,14.3538,-1.0664,
+франция,манипуляция,76,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,0.0567,
+франция,борьба,77,"['cooccurrence', 'emotional', 'perplexity']",True,17.2509,0.0707,
+франция,история,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.121,-0.0029,
+франция,класс,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.6006,
+франция,россия,76,"['cooccurrence', 'emotional', 'perplexity']",True,14.6659,-1.2028,
+общество,россия,76,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.6659,-1.3294,contrast
+общество,порядок,6,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,15.9844,-0.6071,contrast
+общество,ложь,19,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,15.9844,0.2004,contrast
+общество,действительно,4,"['cooccurrence', 'emotional', 'perplexity']",True,15.9844,-1.6223,
+общество,класс,75,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.7464,
+общество,хорошо,2,"['cooccurrence', 'emotional', 'perplexity']",True,15.9844,-1.777,
+общество,работа,5,"['cooccurrence', 'emotional', 'perplexity']",True,15.9844,-0.9648,
+общество,ближний,76,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,15.9844,-0.0734,contrast
+общество,пропаганда,76,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,15.9844,-0.1018,contrast
+общество,свобода,4,"['cooccurrence', 'emotional', 'perplexity']",True,16.9331,-0.8868,
+общество,обман,4,"['cooccurrence', 'emotional', 'perplexity']",True,15.9844,-0.2163,
+общество,политика,75,"['cooccurrence', 'emotional', 'perplexity']",True,16.9331,-0.0785,
+общество,нация,4,"['cooccurrence', 'emotional', 'perplexity']",True,15.9844,0.333,
+общество,лицо,7,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,15.9844,-0.5682,contrast
+общество,справедливость,6,"['cooccurrence', 'emotional', 'perplexity']",True,15.9844,0.2755,
+общество,реальность,7,"['cooccurrence', 'emotional', 'perplexity']",True,15.9844,-0.0719,
+общество,мир,83,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.8125,-0.2244,contrast
+общество,правда,15,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,15.9844,-0.6409,contrast
+общество,речь,4,"['cooccurrence', 'rhetorical', 'perplexity']",,15.9844,-0.9241,contrast
+история,наука,8,"['cooccurrence', 'rhetorical', 'perplexity']",,16.121,-0.1159,contrast
+история,класс,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.6758,
+история,россия,76,"['cooccurrence', 'emotional', 'perplexity']",True,14.6659,-1.278,
+история,запад,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.121,-0.031,
+история,борис,76,"['cooccurrence', 'emotional', 'perplexity']",True,14.3538,-1.1415,
+история,борьба,76,"['cooccurrence', 'emotional', 'perplexity']",True,17.2509,-0.0233,
+история,ближний,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.121,-0.0219,
+история,мир,77,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.8125,-0.2812,contrast
+история,манипуляция,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.121,-0.0184,
+история,чисто,2,"['cooccurrence', 'perplexity']",,16.121,-1.8653,
+история,зло,5,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.121,1.0196,contrast
+класс,лидер,74,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.1559,
+класс,россия,78,"['cooccurrence', 'emotional', 'perplexity']",True,12.0365,-1.8382,
+класс,власть,74,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.2122,
+класс,запад,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.6287,
+класс,сомнение,3,"['cooccurrence', 'rhetorical', 'perplexity']",,16.659,0.2699,contrast
+класс,борис,76,"['cooccurrence', 'emotional', 'perplexity']",True,11.999,-1.7392,
+класс,возможно,74,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.1717,
+класс,интеллектуальный,74,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.1619,
+класс,борьба,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.621,
+класс,ближний,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.6196,
+класс,традиционный,74,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.141,
+класс,служение,74,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.2226,
+класс,польза,74,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.1259,
+класс,манипуляция,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.6161,
+класс,князь,74,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.2386,
+класс,стремление,74,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.27,
+класс,смерть,74,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.1921,
+класс,пропаганда,74,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.6864,
+класс,политика,74,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.644,
+класс,слой,75,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.1136,
+класс,трубецкой,74,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.259,
+класс,катастрофа,74,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.1178,
+пропаганда,политика,74,"['cooccurrence', 'emotional', 'perplexity']",True,16.9331,-0.0186,
+пропаганда,мир,76,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.8125,-0.2722,contrast
+пропаганда,истинный,8,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.9165,-0.0375,contrast
+запад,враг,4,"['cooccurrence', 'rhetorical', 'perplexity']",,17.1499,-1.1995,contrast
+запад,россия,78,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.6659,-1.1934,contrast
+запад,открытый,3,"['cooccurrence', 'rhetorical', 'perplexity']",,17.2844,-1.3673,contrast
+запад,мир,76,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.8125,-0.2529,contrast
+запад,борис,76,"['cooccurrence', 'emotional', 'perplexity']",True,14.3538,-1.0944,
+запад,борьба,76,"['cooccurrence', 'emotional', 'perplexity']",True,17.2509,0.0238,
+россия,трубецкой,75,"['cooccurrence', 'emotional', 'perplexity']",True,14.6659,-0.8418,
+россия,русский истина,39,"['cooccurrence', 'emotional', 'perplexity']",True,14.6659,-0.2704,
+россия,служение,75,"['cooccurrence', 'emotional', 'perplexity']",True,17.074,-0.8055,
+россия,выбор,38,"['cooccurrence', 'perplexity']",,14.6659,1.6404,
+россия,исторический,116,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.2844,0.1194,contrast
+россия,действительно,37,"['cooccurrence', 'perplexity']",,14.6659,0.4388,
+россия,лидер,74,"['cooccurrence', 'emotional', 'perplexity']",True,12.0365,-0.7581,
+россия,власть,74,"['cooccurrence', 'emotional', 'perplexity']",True,14.6659,-0.8144,
+россия,враг,37,"['cooccurrence', 'perplexity']",,14.6659,0.763,
+россия,борис,152,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.3538,-1.3414,contrast
+россия,возможно,74,"['cooccurrence', 'emotional', 'perplexity']",True,14.6659,-0.7739,
+россия,манипуляция,76,"['cooccurrence', 'emotional', 'perplexity']",True,14.6659,-1.2183,
+россия,бесконечный,37,"['cooccurrence', 'perplexity']",,14.6659,1.457,
+россия,князь,75,"['cooccurrence', 'emotional', 'perplexity']",True,14.6659,-0.8214,
+россия,обращение,37,"['cooccurrence', 'perplexity']",,14.6659,1.3593,
+россия,интеллектуальный,74,"['cooccurrence', 'emotional', 'perplexity']",True,14.6659,-0.764,
+россия,борьба,76,"['cooccurrence', 'emotional', 'perplexity']",True,14.6659,-1.2232,
+россия,ближний,76,"['cooccurrence', 'emotional', 'perplexity']",True,14.6659,-1.2218,
+россия,полемика,3,"['cooccurrence', 'rhetorical', 'perplexity']",,14.6659,-2.324,contrast
+россия,мир,78,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.8125,-1.4624,contrast
+россия,консервативный,114,"['cooccurrence', 'rhetorical', 'perplexity']",,14.6659,0.0209,contrast
+россия,традиционный,74,"['cooccurrence', 'emotional', 'perplexity']",True,14.6659,-0.7432,
+россия,принцип,114,"['cooccurrence', 'rhetorical', 'perplexity']",,16.659,0.0532,contrast
+россия,общественный,75,"['cooccurrence', 'emotional', 'perplexity']",True,14.6659,-0.8719,
+россия,марксизм,114,"['cooccurrence', 'rhetorical', 'perplexity']",,17.2844,0.2127,contrast
+россия,метод,114,"['cooccurrence', 'rhetorical', 'perplexity']",,17.2844,0.162,contrast
+россия,развитие,116,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,11.999,0.0976,contrast
+россия,просвещение,115,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.4768,0.1186,contrast
+россия,лицо,37,"['cooccurrence', 'perplexity']",,14.6659,0.6856,
+россия,цель,37,"['cooccurrence', 'perplexity']",,14.6659,0.4943,
+россия,стремление,75,"['cooccurrence', 'emotional', 'perplexity']",True,14.6659,-0.8528,
+россия,смерть,74,"['cooccurrence', 'emotional', 'perplexity']",True,14.6659,-0.7943,
+россия,политика,76,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.2844,-1.2077,contrast
+россия,чисто,37,"['cooccurrence', 'perplexity']",,14.6659,1.1443,
+россия,страх,114,"['cooccurrence', 'rhetorical', 'perplexity']",,14.6659,0.1367,contrast
+россия,правда,38,"['cooccurrence', 'emotional', 'perplexity']",True,14.6659,-0.4483,
+россия,слой,74,"['cooccurrence', 'emotional', 'perplexity']",True,14.6659,-0.7352,
+россия,польза,74,"['cooccurrence', 'emotional', 'perplexity']",True,14.6659,-0.7281,
+россия,национальный,11,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.6659,0.1688,contrast
+россия,диалог,38,"['cooccurrence', 'perplexity']",,14.6659,-0.2973,
+россия,катастрофа,74,"['cooccurrence', 'emotional', 'perplexity']",True,14.6659,-0.72,
+россия,смысл,37,"['cooccurrence', 'perplexity']",,14.6659,0.3129,
+россия,речь,37,"['cooccurrence', 'perplexity']",,14.6659,1.137,
+россия,порядок,37,"['cooccurrence', 'perplexity']",,12.0365,0.869,
+борис,мысль,37,"['cooccurrence', 'perplexity']",,14.3538,0.0239,
+борис,трубецкой,75,"['cooccurrence', 'emotional', 'perplexity']",True,14.3538,-0.7054,
+борис,русский истина,38,"['cooccurrence', 'perplexity']",,14.3538,-0.1715,
+борис,лидер,74,"['cooccurrence', 'emotional', 'perplexity']",True,14.3538,-0.6217,
+борис,диалог,38,"['cooccurrence', 'perplexity']",,14.3538,-0.1609,
+борис,материал,37,"['cooccurrence', 'perplexity']",,14.3538,0.6307,
+борис,открытый,37,"['cooccurrence', 'perplexity']",,14.3538,1.1466,
+борис,традиционный,74,"['cooccurrence', 'emotional', 'perplexity']",True,14.3538,-0.6068,
+борис,катастрофа,74,"['cooccurrence', 'emotional', 'perplexity']",True,14.3538,-0.5836,
+борис,служение,75,"['cooccurrence', 'emotional', 'perplexity']",True,17.074,-0.669,
+борис,метод,115,"['cooccurrence', 'rhetorical', 'perplexity']",,14.3538,0.311,contrast
+борис,марксизм,114,"['cooccurrence', 'rhetorical', 'perplexity']",,17.2844,0.3491,contrast
+борис,польза,74,"['cooccurrence', 'emotional', 'perplexity']",True,14.3538,-0.5917,
+борис,возможно,74,"['cooccurrence', 'emotional', 'perplexity']",True,14.3538,-0.6374,
+борис,развитие,114,"['cooccurrence', 'rhetorical', 'perplexity']",,14.3538,0.2089,contrast
+борис,манипуляция,76,"['cooccurrence', 'emotional', 'perplexity']",True,14.3538,-1.0819,
+борис,князь,75,"['cooccurrence', 'emotional', 'perplexity']",True,14.3538,-0.685,
+борис,заблуждение,2,"['cooccurrence', 'emotional', 'perplexity']",True,14.3538,-1.6433,
+борис,стремление,75,"['cooccurrence', 'emotional', 'perplexity']",True,14.3538,-0.7164,
+борис,смерть,74,"['cooccurrence', 'emotional', 'perplexity']",True,14.3538,-0.6578,
+борис,интеллектуальный,74,"['cooccurrence', 'emotional', 'perplexity']",True,14.3538,-0.6276,
+борис,консервативный,114,"['cooccurrence', 'rhetorical', 'perplexity']",,14.3538,0.1573,contrast
+борис,страх,114,"['cooccurrence', 'rhetorical', 'perplexity']",,14.3538,0.2731,contrast
+борис,власть,74,"['cooccurrence', 'emotional', 'perplexity']",True,14.3538,-0.678,
+борис,общественный,75,"['cooccurrence', 'emotional', 'perplexity']",True,14.3538,-0.7355,
+борис,слой,74,"['cooccurrence', 'emotional', 'perplexity']",True,14.3538,-0.5987,
+борис,принцип,114,"['cooccurrence', 'rhetorical', 'perplexity']",,16.659,0.1896,contrast
+борис,ближний,76,"['cooccurrence', 'emotional', 'perplexity']",True,14.3538,-1.0854,
+борис,исторический,114,"['cooccurrence', 'rhetorical', 'perplexity']",,16.9165,0.2308,contrast
+борис,просвещение,115,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.4768,0.255,contrast
+борис,борьба,76,"['cooccurrence', 'emotional', 'perplexity']",True,14.3538,-1.0868,
+манипуляция,борьба,76,"['cooccurrence', 'emotional', 'perplexity']",True,17.2509,0.0363,
+политика,публикация,2,"['cooccurrence', 'emotional', 'perplexity']",True,16.9331,1.5644,
+политика,мир,75,"['cooccurrence', 'emotional', 'perplexity']",True,16.2844,-0.2489,
+политика,обман,4,"['cooccurrence', 'emotional', 'perplexity']",True,16.9331,-0.0946,
+борьба,ближний,76,"['cooccurrence', 'emotional', 'perplexity']",True,17.2509,0.0328,
+ближний,обращение,3,"['cooccurrence', 'rhetorical', 'perplexity']",,17.2844,-1.0091,contrast
+мир,враг,7,"['cooccurrence', 'rhetorical', 'perplexity']",,14.8125,-0.6612,contrast
+мир,обращение,3,"['cooccurrence', 'rhetorical', 'perplexity']",,14.8125,-1.2872,contrast
+мир,лицо,4,"['cooccurrence', 'emotional', 'perplexity']",True,14.8125,-1.5459,
+мир,цель,44,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.8125,1.7222,contrast
+мир,полемика,3,"['cooccurrence', 'rhetorical', 'perplexity']",,14.8125,-1.3461,contrast
+мир,справедливость,10,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.8125,0.8421,contrast
+мир,слава,3,"['cooccurrence', 'rhetorical', 'perplexity']",,14.8125,-1.8722,contrast
+мир,реальность,7,"['cooccurrence', 'emotional', 'perplexity']",True,14.8125,-0.2423,
+мир,свобода,6,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.8125,-0.4723,contrast
+мир,интересный,3,"['cooccurrence', 'rhetorical', 'perplexity']",,14.8125,1.0607,contrast
+мир,зло,4,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.8125,0.4758,contrast
+мир,смысл,44,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.8125,1.5408,contrast
+мир,обман,8,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.8125,0.6133,contrast
+мир,познание,12,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.8125,1.8197,contrast
+мир,обсуждение,5,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.8125,-0.0527,contrast
+мир,заблуждение,2,"['cooccurrence', 'emotional', 'perplexity']",True,14.8125,-0.8018,
+мир,факт,8,"['cooccurrence', 'rhetorical', 'perplexity']",,14.8125,1.0444,contrast
+мир,бесконечный,37,"['cooccurrence', 'perplexity']",,14.8125,2.435,
+мир,истинный,5,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.8125,-0.9653,contrast
+мир,друг,8,"['cooccurrence', 'rhetorical', 'perplexity']",,14.8125,-0.5884,contrast
+мир,работа,7,"['cooccurrence', 'emotional', 'perplexity']",True,14.8125,-0.6498,
+мир,сила,9,"['cooccurrence', 'emotional', 'perplexity']",True,14.8125,-0.0242,
+мир,иллюзия,2,"['cooccurrence', 'emotional', 'perplexity']",True,14.8125,-0.1803,
+мир,национальный,4,"['cooccurrence', 'emotional', 'perplexity']",True,14.8125,-0.3127,
+мир,бог,19,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.8125,1.0746,contrast
+мир,любовь,12,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.8125,0.3569,contrast
+порядок,сомнение,2,"['cooccurrence', 'emotional', 'perplexity']",True,17.2719,3.4681,
+порядок,принцип,4,"['cooccurrence', 'rhetorical', 'perplexity']",,16.659,-0.3944,contrast
+порядок,выбор,3,"['cooccurrence', 'rhetorical', 'perplexity']",,17.2719,2.3627,contrast
+порядок,ложь,4,"['cooccurrence', 'emotional', 'perplexity']",True,17.2719,1.1894,
+порядок,заблуждение,2,"['cooccurrence', 'emotional', 'perplexity']",True,17.2719,2.6056,
+порядок,чисто,37,"['cooccurrence', 'perplexity']",,17.2719,5.5296,
+порядок,враг,37,"['cooccurrence', 'perplexity']",,17.2719,5.1483,
+порядок,лицо,37,"['cooccurrence', 'perplexity']",,17.2719,5.0709,
+смысл,бесконечный,37,"['cooccurrence', 'perplexity']",,15.6452,5.2862,
+смысл,факт,7,"['cooccurrence', 'emotional', 'perplexity']",True,15.6452,3.703,
+смысл,принцип,7,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,-0.1432,
+смысл,цель,37,"['cooccurrence', 'perplexity']",,15.6452,4.3234,
+смысл,добро,2,"['cooccurrence', 'emotional', 'perplexity']",True,15.6452,3.9119,
+смысл,справедливость,8,"['cooccurrence', 'emotional', 'perplexity']",True,15.6452,3.3714,
+смысл,правда,10,"['cooccurrence', 'emotional', 'perplexity']",True,15.6452,1.4549,
+смысл,свобода,5,"['cooccurrence', 'emotional', 'perplexity']",True,16.9331,2.1159,
+интеллектуальный,познание,4,"['cooccurrence', 'emotional', 'perplexity']",True,17.2719,1.0091,
+интеллектуальный,служение,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.074,0.9274,
+интеллектуальный,польза,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,1.0241,
+интеллектуальный,стремление,74,"['cooccurrence', 'emotional', 'perplexity']",True,16.6452,0.88,
+интеллектуальный,реальность,7,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.489,0.532,contrast
+интеллектуальный,слой,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,1.0171,
+религиозный,диалог,37,"['cooccurrence', 'perplexity']",,17.2844,4.2739,
+религиозный,открытый,3,"['cooccurrence', 'rhetorical', 'perplexity']",,17.2844,1.9955,contrast
+религиозный,друг,37,"['cooccurrence', 'perplexity']",,17.2844,5.2529,
+религиозный,полемика,37,"['cooccurrence', 'perplexity']",,17.2844,5.9102,
+религиозный,иллюзия,2,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,3.4515,
+религиозный,хорошо,37,"['cooccurrence', 'perplexity']",,17.2844,5.8938,
+религиозный,наука,7,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,17.2844,3.1013,contrast
+религиозный,трубецкой,4,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,17.2844,-0.4609,contrast
+диалог,трубецкой,38,"['cooccurrence', 'perplexity']",,16.3707,1.3578,
+диалог,друг,37,"['cooccurrence', 'perplexity']",,15.9082,3.8236,
+диалог,русский истина,38,"['cooccurrence', 'perplexity']",,13.796,2.8726,
+диалог,иллюзия,4,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.9,3.0223,contrast
+диалог,служение,38,"['cooccurrence', 'perplexity']",,17.074,1.3942,
+диалог,хорошо,37,"['cooccurrence', 'perplexity']",,16.9,4.4646,
+диалог,князь,38,"['cooccurrence', 'perplexity']",,16.4287,1.3782,
+диалог,полемика,37,"['cooccurrence', 'perplexity']",,17.2844,4.4809,
+диалог,стремление,38,"['cooccurrence', 'perplexity']",,16.6452,1.3468,
+диалог,познание,4,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.9,2.4373,contrast
+диалог,общественный,38,"['cooccurrence', 'perplexity']",,15.7447,1.3277,
+друг,полемика,37,"['cooccurrence', 'perplexity']",,15.9082,5.4599,
+друг,справедливость,6,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,15.9082,3.2866,contrast
+друг,правда,7,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,15.9082,1.2706,contrast
+друг,ложь,7,"['cooccurrence', 'rhetorical', 'perplexity']",,15.9082,1.7709,contrast
+друг,интересный,3,"['cooccurrence', 'rhetorical', 'perplexity']",,17.2844,4.2422,contrast
+друг,добро,2,"['cooccurrence', 'emotional', 'perplexity']",True,15.9082,4.2422,
+друг,хорошо,37,"['cooccurrence', 'perplexity']",,15.9082,5.4435,
+друг,истинный,5,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,15.9082,2.2162,contrast
+полемика,мысль,4,"['cooccurrence', 'rhetorical', 'perplexity']",,17.2844,1.4948,contrast
+полемика,хорошо,37,"['cooccurrence', 'perplexity']",,17.2844,6.1008,
+полемика,исторический,4,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.9165,0.0782,contrast
+хорошо,правда,3,"['cooccurrence', 'perplexity']",,14.6247,0.6891,
+хорошо,ложь,4,"['cooccurrence', 'rhetorical', 'perplexity']",,17.0556,1.6045,contrast
+хорошо,лидер,4,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,17.2844,-0.1672,contrast
+хорошо,просвещение,2,"['cooccurrence', 'emotional', 'perplexity']",True,16.4768,-0.9266,
+иллюзия,обман,4,"['cooccurrence', 'emotional', 'perplexity']",True,16.2844,5.2028,
+иллюзия,сила,4,"['cooccurrence', 'emotional', 'perplexity']",True,16.2405,4.3955,
+иллюзия,бог,4,"['cooccurrence', 'emotional', 'perplexity']",True,16.3482,4.4162,
+иллюзия,реальность,6,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.2844,5.1248,contrast
+работа,наука,5,"['cooccurrence', 'rhetorical', 'perplexity']",,16.4052,2.2968,contrast
+работа,ложь,7,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.4768,1.9022,contrast
+работа,русский истина,38,"['cooccurrence', 'perplexity']",,16.4768,3.9828,
+работа,выбор,3,"['cooccurrence', 'rhetorical', 'perplexity']",,17.2844,2.2681,contrast
+работа,публикация,3,"['cooccurrence', 'rhetorical', 'perplexity']",,16.4768,5.1699,contrast
+работа,оправдание,38,"['cooccurrence', 'perplexity']",,17.2844,5.814,
+работа,свобода,4,"['cooccurrence', 'emotional', 'perplexity']",True,16.9331,2.2555,
+сила,правда,6,"['cooccurrence', 'emotional', 'perplexity']",True,16.2405,1.4425,
+сила,ложь,11,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,15.6994,2.8173,contrast
+сила,открытый,2,"['cooccurrence', 'emotional', 'perplexity']",True,16.2405,1.3545,
+сила,зло,4,"['cooccurrence', 'perplexity']",,16.2405,4.0515,
+сила,враг,6,"['cooccurrence', 'emotional', 'perplexity']",True,16.2405,2.6922,
+сила,мысль,38,"['cooccurrence', 'perplexity']",,11.999,4.4797,
+сила,бог,6,"['cooccurrence', 'emotional', 'perplexity']",True,16.2405,2.9874,
+бог,обращение,3,"['cooccurrence', 'rhetorical', 'perplexity']",,16.3482,2.3093,contrast
+бог,истинный,5,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.3482,2.6313,contrast
+бог,смерть,10,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.3482,0.8927,contrast
+бог,свобода,6,"['cooccurrence', 'rhetorical', 'perplexity']",,16.2844,3.1242,contrast
+бог,правда,6,"['cooccurrence', 'emotional', 'perplexity']",True,16.3482,1.4632,
+бог,обсуждение,4,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.3482,3.2219,contrast
+бог,любовь,5,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,17.2844,2.6904,contrast
+ложь,правда,41,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,12.3302,3.1912,contrast
+ложь,факт,5,"['cooccurrence', 'emotional', 'perplexity']",True,16.9165,2.9183,
+ложь,речь,5,"['cooccurrence', 'rhetorical', 'perplexity']",,16.9,1.7793,contrast
+ложь,зло,8,"['cooccurrence', 'emotional', 'perplexity']",True,16.2844,4.0277,
+ложь,оправдание,2,"['cooccurrence', 'emotional', 'perplexity']",True,16.2844,0.8053,
+ложь,распознать ложь,7,"['cooccurrence', 'perplexity']",,14.4228,7.0721,
+ложь,выбор,2,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,0.9223,
+ложь,сильный,2,"['cooccurrence', 'perplexity']",,17.2844,1.0387,
+ложь,сомнение,3,"['cooccurrence', 'rhetorical', 'perplexity']",,14.4228,3.1976,contrast
+ложь,заблуждение,12,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.4228,4.3351,contrast
+ложь,враг,5,"['cooccurrence', 'emotional', 'perplexity']",True,17.1499,1.4053,
+ложь,бесконечный,2,"['cooccurrence', 'perplexity']",,16.2844,0.7775,
+ложь,обращение,3,"['cooccurrence', 'rhetorical', 'perplexity']",,17.2844,1.2647,contrast
+ложь,цель,10,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.2844,2.1366,contrast
+ложь,реальность,14,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,15.6994,3.3096,contrast
+ложь,чисто,2,"['cooccurrence', 'perplexity']",,17.2844,0.4647,
+ложь,мнение,5,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.4169,1.7867,contrast
+ложь,лицо,7,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.9,1.8133,contrast
+ложь,обман,14,"['cooccurrence', 'emotional', 'perplexity']",True,14.4228,3.9725,
+наука,публикация,3,"['cooccurrence', 'rhetorical', 'perplexity']",,16.4052,5.2892,contrast
+наука,мнение,30,"['cooccurrence', 'emotional', 'perplexity']",True,16.4052,5.2517,
+наука,принцип,11,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.2844,1.0897,contrast
+наука,материал,31,"['cooccurrence', 'emotional', 'perplexity']",True,16.4052,4.649,
+наука,обсуждение,6,"['cooccurrence', 'perplexity']",,16.4052,3.6423,
+трубецкой,князь,77,"['cooccurrence', 'emotional', 'perplexity']",True,16.3707,0.8716,
+трубецкой,общественный,75,"['cooccurrence', 'emotional', 'perplexity']",True,15.7447,0.7832,
+трубецкой,служение,75,"['cooccurrence', 'emotional', 'perplexity']",True,17.074,0.8496,
+трубецкой,стремление,75,"['cooccurrence', 'emotional', 'perplexity']",True,16.6452,0.8022,
+трубецкой,лидер,76,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,0.9355,
+трубецкой,русский истина,38,"['cooccurrence', 'perplexity']",,16.3707,1.3472,
+открытый,материал,37,"['cooccurrence', 'perplexity']",,16.7595,5.0208,
+открытый,мысль,37,"['cooccurrence', 'perplexity']",,17.2844,4.414,
+открытый,консервативный,37,"['cooccurrence', 'perplexity']",,16.7595,2.9239,
+принцип,консервативный,114,"['cooccurrence', 'rhetorical', 'perplexity']",,16.659,1.9669,contrast
+принцип,марксизм,114,"['cooccurrence', 'rhetorical', 'perplexity']",,17.2844,2.1587,contrast
+принцип,метод,114,"['cooccurrence', 'rhetorical', 'perplexity']",,16.659,2.108,contrast
+принцип,справедливость,6,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.2844,1.0732,contrast
+принцип,просвещение,114,"['cooccurrence', 'rhetorical', 'perplexity']",,16.659,2.052,contrast
+принцип,факт,4,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,1.0125,
+принцип,исторический,114,"['cooccurrence', 'rhetorical', 'perplexity']",,16.9165,2.0404,contrast
+принцип,развитие,114,"['cooccurrence', 'rhetorical', 'perplexity']",,16.659,2.0185,contrast
+принцип,нация,4,"['cooccurrence', 'emotional', 'perplexity']",True,16.659,1.1307,
+принцип,страх,114,"['cooccurrence', 'rhetorical', 'perplexity']",,11.999,2.0827,contrast
+исторический,просвещение,115,"['cooccurrence', 'rhetorical', 'perplexity']",,16.9165,2.1058,contrast
+исторический,страх,114,"['cooccurrence', 'rhetorical', 'perplexity']",,16.9165,2.1239,contrast
+исторический,метод,114,"['cooccurrence', 'rhetorical', 'perplexity']",,16.9165,2.1492,contrast
+исторический,марксизм,114,"['cooccurrence', 'rhetorical', 'perplexity']",,16.9165,2.1999,contrast
+исторический,развитие,114,"['cooccurrence', 'rhetorical', 'perplexity']",,11.999,2.0597,contrast
+исторический,консервативный,114,"['cooccurrence', 'rhetorical', 'perplexity']",,16.9165,2.008,contrast
+просвещение,консервативный,114,"['cooccurrence', 'rhetorical', 'perplexity']",,16.2844,2.0197,contrast
+просвещение,марксизм,114,"['cooccurrence', 'rhetorical', 'perplexity']",,17.2844,2.2115,contrast
+просвещение,метод,114,"['cooccurrence', 'rhetorical', 'perplexity']",,16.4768,2.1608,contrast
+просвещение,страх,114,"['cooccurrence', 'rhetorical', 'perplexity']",,16.4768,2.1355,contrast
+просвещение,развитие,114,"['cooccurrence', 'rhetorical', 'perplexity']",,16.4768,2.0713,contrast
+просвещение,истинный,8,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.4768,0.7337,contrast
+общественный,власть,76,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.5912,0.8491,contrast
+общественный,слой,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,0.8898,
+общественный,мнение,11,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.6994,1.0193,contrast
+общественный,князь,75,"['cooccurrence', 'emotional', 'perplexity']",True,15.7447,0.8036,
+общественный,русский истина,38,"['cooccurrence', 'perplexity']",,15.7447,1.3171,
+общественный,служение,75,"['cooccurrence', 'emotional', 'perplexity']",True,17.074,0.8196,
+общественный,лидер,76,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,15.7447,0.9054,contrast
+общественный,стремление,75,"['cooccurrence', 'emotional', 'perplexity']",True,16.6452,0.7722,
+страх,любовь,4,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,17.2844,-0.1764,contrast
+страх,марксизм,114,"['cooccurrence', 'rhetorical', 'perplexity']",,17.2844,2.2423,contrast
+страх,метод,114,"['cooccurrence', 'rhetorical', 'perplexity']",,17.2844,2.1916,contrast
+страх,развитие,114,"['cooccurrence', 'rhetorical', 'perplexity']",,16.578,2.102,contrast
+страх,выбор,2,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,-0.578,
+страх,консервативный,114,"['cooccurrence', 'rhetorical', 'perplexity']",,16.7595,2.0504,contrast
+метод,марксизм,114,"['cooccurrence', 'rhetorical', 'perplexity']",,17.2844,2.2676,contrast
+метод,развитие,115,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,17.2844,2.1399,contrast
+метод,консервативный,114,"['cooccurrence', 'rhetorical', 'perplexity']",,17.2844,2.0757,contrast
+марксизм,консервативный,114,"['cooccurrence', 'rhetorical', 'perplexity']",,17.2844,2.1264,contrast
+марксизм,развитие,114,"['cooccurrence', 'rhetorical', 'perplexity']",,17.2844,2.178,contrast
+развитие,консервативный,114,"['cooccurrence', 'rhetorical', 'perplexity']",,16.578,1.9862,contrast
+консервативный,мысль,37,"['cooccurrence', 'perplexity']",,16.7595,1.8012,
+консервативный,материал,37,"['cooccurrence', 'perplexity']",,16.7595,2.408,
+смерть,служение,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.074,0.8972,
+смерть,польза,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,0.9939,
+смерть,зло,4,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,17.2844,1.2198,contrast
+смерть,стремление,75,"['cooccurrence', 'emotional', 'perplexity']",True,16.6452,0.8692,
+смерть,власть,75,"['cooccurrence', 'emotional', 'perplexity']",True,16.5912,0.927,
+смерть,слой,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,0.9869,
+реальность,факт,8,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.2844,4.7646,contrast
+реальность,правда,8,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.2844,2.0019,contrast
+реальность,бесконечный,3,"['cooccurrence', 'rhetorical', 'perplexity']",,16.489,2.5307,contrast
+реальность,познание,4,"['cooccurrence', 'emotional', 'perplexity']",True,16.489,3.9549,
+реальность,мнение,6,"['cooccurrence', 'rhetorical', 'perplexity']",,16.489,3.2179,contrast
+русский истина,национальный,4,"['cooccurrence', 'rhetorical', 'perplexity']",,15.4919,1.8792,contrast
+русский истина,истинный,6,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.9165,1.4897,contrast
+русский истина,служение,38,"['cooccurrence', 'perplexity']",,17.074,1.3836,
+русский истина,оправдание,38,"['cooccurrence', 'perplexity']",,14.6417,4.6933,
+русский истина,стремление,38,"['cooccurrence', 'perplexity']",,15.5611,1.3362,
+русский истина,сомнение,3,"['cooccurrence', 'rhetorical', 'perplexity']",,13.796,2.8377,contrast
+русский истина,обсуждение,9,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,17.2844,2.9872,contrast
+правда,действительно,39,"['cooccurrence', 'emotional', 'perplexity']",True,14.6247,3.5443,
+правда,заблуждение,4,"['cooccurrence', 'emotional', 'perplexity']",True,14.6247,2.2498,
+правда,познание,5,"['cooccurrence', 'emotional', 'perplexity']",True,14.6247,2.6083,
+правда,публикация,2,"['cooccurrence', 'perplexity']",,17.2844,3.3238,
+правда,сильный,2,"['cooccurrence', 'perplexity']",,14.6247,0.5383,
+правда,сомнение,5,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.6247,3.4343,contrast
+правда,обращение,37,"['cooccurrence', 'perplexity']",,14.6247,4.3889,
+правда,мнение,10,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.6247,2.2864,contrast
+правда,нация,6,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,2.7992,
+правда,цель,12,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.6247,1.8993,contrast
+правда,миф,3,"['cooccurrence', 'rhetorical', 'perplexity']",,14.6247,2.5718,contrast
+правда,справедливость,14,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.6247,3.3791,contrast
+правда,добро,4,"['cooccurrence', 'emotional', 'perplexity']",True,14.6247,4.1123,
+правда,речь,39,"['cooccurrence', 'rhetorical', 'perplexity']",,14.6247,4.2425,contrast
+правда,интересный,2,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,2.5274,
+правда,обман,16,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,14.6247,3.6649,contrast
+правда,факт,11,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.2844,3.5555,contrast
+истинный,мысль,37,"['cooccurrence', 'perplexity']",,12.0365,4.3481,
+истинный,национальный,4,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,17.2844,3.1699,contrast
+истинный,свобода,37,"['cooccurrence', 'perplexity']",,16.9331,5.6348,
+познание,власть,4,"['cooccurrence', 'emotional', 'perplexity']",True,16.5912,0.9587,
+любовь,интересный,3,"['cooccurrence', 'rhetorical', 'perplexity']",,17.2844,4.6025,contrast
+любовь,действительно,37,"['cooccurrence', 'perplexity']",,17.2844,4.9585,
+любовь,обсуждение,4,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,17.2844,3.1672,contrast
+любовь,сильный,37,"['cooccurrence', 'perplexity']",,17.2844,6.238,
+любовь,рукопись,37,"['cooccurrence', 'perplexity']",,17.2844,6.477,
+любовь,слава,3,"['cooccurrence', 'rhetorical', 'perplexity']",,17.2844,1.6697,contrast
+власть,слой,76,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,1.0052,
+власть,интересный,3,"['cooccurrence', 'rhetorical', 'perplexity']",,17.2844,1.7847,contrast
+власть,служение,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.074,0.8771,
+власть,польза,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,0.9738,
+власть,слава,4,"['cooccurrence', 'rhetorical', 'perplexity']",,16.5912,-0.7332,contrast
+слава,интересный,3,"['cooccurrence', 'rhetorical', 'perplexity']",,17.2844,4.3735,contrast
+слава,карамзин,111,"['cooccurrence', 'rhetorical', 'perplexity']",,17.2844,6.8135,contrast
+традиционный,служение,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.074,0.9483,
+традиционный,польза,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,1.045,
+традиционный,речь,4,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,17.2844,-0.2994,contrast
+традиционный,стремление,74,"['cooccurrence', 'emotional', 'perplexity']",True,16.6452,0.9009,
+традиционный,слой,74,"['cooccurrence', 'emotional', 'perplexity']",True,12.0365,1.0379,
+традиционный,возможно,76,"['cooccurrence', 'emotional', 'perplexity']",True,16.9844,1.0377,
+нация,справедливость,6,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,5.0376,
+нация,национальный,8,"['cooccurrence', 'rhetorical', 'perplexity']",,17.2844,5.6197,contrast
+речь,действительно,37,"['cooccurrence', 'perplexity']",,16.9,5.092,
+речь,факт,3,"['cooccurrence', 'emotional', 'perplexity']",True,16.9165,3.3047,
+речь,обращение,37,"['cooccurrence', 'perplexity']",,16.9,6.0126,
+сильный,действительно,37,"['cooccurrence', 'perplexity']",,17.2844,5.6733,
+сильный,враг,2,"['cooccurrence', 'emotional', 'perplexity']",True,17.1499,1.7881,
+сильный,мысль,3,"['cooccurrence', 'rhetorical', 'perplexity']",,17.2844,1.4975,contrast
+сильный,рукопись,37,"['cooccurrence', 'perplexity']",,17.2844,7.1918,
+враг,чисто,37,"['cooccurrence', 'perplexity']",,17.2844,5.4236,
+враг,выбор,2,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,1.6717,
+враг,лицо,37,"['cooccurrence', 'perplexity']",,12.0365,4.9648,
+обращение,действительно,37,"['cooccurrence', 'perplexity']",,17.2844,5.3144,
+стремление,возможно,74,"['cooccurrence', 'emotional', 'perplexity']",True,16.6452,0.8702,
+стремление,служение,75,"['cooccurrence', 'emotional', 'perplexity']",True,17.074,0.8386,
+стремление,польза,76,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,0.9544,
+стремление,катастрофа,74,"['cooccurrence', 'emotional', 'perplexity']",True,16.6452,0.9241,
+стремление,свобода,6,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.9331,0.1938,contrast
+стремление,князь,75,"['cooccurrence', 'emotional', 'perplexity']",True,16.6452,0.8227,
+возможно,слой,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,1.0073,
+возможно,служение,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.074,0.9176,
+возможно,польза,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,1.0143,
+возможно,зло,5,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.9844,1.5622,contrast
+возможно,цель,8,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.9844,0.0273,contrast
+зло,обман,6,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.2844,5.4438,contrast
+зло,добро,6,"['cooccurrence', 'perplexity']",,15.2844,7.8913,
+мысль,свобода,37,"['cooccurrence', 'perplexity']",,16.9331,4.578,
+мысль,материал,37,"['cooccurrence', 'perplexity']",,16.7595,3.898,
+свобода,карамзин,3,"['cooccurrence', 'rhetorical', 'perplexity']",,16.9331,2.0039,contrast
+лицо,чисто,37,"['cooccurrence', 'perplexity']",,16.9,5.3462,
+лицо,действительно,4,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.2844,1.4312,contrast
+заблуждение,обман,4,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,4.5814,
+заблуждение,выбор,2,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,3.3385,
+заблуждение,цель,8,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.7012,4.2309,contrast
+катастрофа,служение,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.074,0.9715,
+катастрофа,польза,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,1.0682,
+катастрофа,слой,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,1.0611,
+обман,цель,4,"['cooccurrence', 'emotional', 'perplexity']",True,16.7012,2.6459,
+миф,смена,37,"['cooccurrence', 'perplexity']",,12.0365,10.2252,
+цель,национальный,4,"['cooccurrence', 'rhetorical', 'perplexity']",,17.2844,2.7199,contrast
+цель,бесконечный,37,"['cooccurrence', 'perplexity']",,16.7012,5.4676,
+мнение,обсуждение,18,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,5.4779,
+мнение,материал,50,"['cooccurrence', 'emotional', 'perplexity']",True,16.7595,5.5893,
+мнение,лидер,8,"['cooccurrence', 'emotional', 'rhetorical', 'perplexity']",True,16.2844,0.6931,contrast
+действительно,рукопись,37,"['cooccurrence', 'perplexity']",,16.5014,5.9123,
+действительно,чисто,2,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,0.89,
+факт,чисто,2,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,2.7271,
+слой,князь,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,0.9403,
+слой,польза,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,1.053,
+слой,служение,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.074,0.9563,
+слой,лидер,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,1.023,
+обсуждение,материал,16,"['cooccurrence', 'perplexity']",,16.7595,4.658,
+польза,служение,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.074,0.9634,
+лидер,князь,76,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,0.9559,
+лидер,служение,74,"['cooccurrence', 'emotional', 'perplexity']",True,17.074,0.9334,
+лидер,добро,2,"['cooccurrence', 'emotional', 'perplexity']",True,17.2844,1.841,
+служение,князь,75,"['cooccurrence', 'emotional', 'perplexity']",True,11.0365,0.87,

@@ -1,7 +1,7 @@
 {
   "n_docs": 44,
   "vertex_methods": [
-    "tfidf",
+    "docfreq",
     "yake"
   ],
   "edge_methods": [
@@ -10,6 +10,6 @@
     "emotional",
     "perplexity"
   ],
-  "nodes": 57,
-  "edges": 113
+  "nodes": 109,
+  "edges": 814
 }

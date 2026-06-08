@@ -6,6 +6,7 @@ from typing import Literal
 VertexMethod = Literal[
     "ner",
     "tfidf",
+    "docfreq",
     "bertscore",
     "yake",
     "textrank",
@@ -43,6 +44,7 @@ class ConstructorConfig:
     window_size: int = 3
     min_edge_weight: int = 2
     min_pmi: float = 5.0
+    backbone_k: int = 0  # k-next-neighbourhood (Drieger): топ-k рёбер на узел; 0 = выкл.
     target_edge_ratio: float = 2.5  # ~2n–3n рёбер
 
     # Стресс-тест
@@ -62,17 +64,18 @@ class ConstructorConfig:
     def from_preset(cls, name: str) -> "ConstructorConfig":
         """Готовые наборы параметров для конкретных доменов."""
         if name == "russkaya_istina":
-            # Короткие философские аннотации (44 doc, медиана ~150 символов).
-            # Riторика и эмоции — ядро дискурса об истине/лжи.
-            # Мягкие пороги из-за малого объёма корпуса.
+            # Полные тексты статей (44 doc, медиана ~3.7 тыс. слов).
+            # Риторика и эмоции — ядро дискурса об истине/лжи.
             return cls(
-                vertex_methods=["tfidf", "yake"],
+                vertex_methods=["docfreq", "yake"],
                 edge_methods=["cooccurrence", "rhetorical", "emotional", "perplexity"],
-                max_vertices=80,
+                max_vertices=110,
                 min_vertex_score=0.0,
-                cooccurrence_level="paragraph",
+                cooccurrence_level="sentence",
                 min_edge_weight=2,
-                min_pmi=0.5,
+                min_pmi=-10.0,  # PMI оставляем как атрибут, но не фильтруем: иначе
+                                # отсекаются связи между частыми концептами (истина↔пропаганда)
+                backbone_k=10,  # оставляем у каждого концепта ~10 сильнейших связей
                 stress_dropout_fraction=0.2,
                 stress_n_seeds=5,
                 stress_core_threshold=0.5,

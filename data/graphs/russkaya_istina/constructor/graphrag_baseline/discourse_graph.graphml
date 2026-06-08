@@ -2,117 +2,2057 @@
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d2" for="edge" attr.name="pmi" attr.type="double"/>
 <key id="d1" for="edge" attr.name="methods" attr.type="string"/>
 <key id="d0" for="edge" attr.name="weight" attr.type="long"/>
-<graph edgedefault="undirected"><node id="жизни"/>
-<node id="сергей"/>
-<node id="вахитов"/>
-<node id="рустем"/>
-<node id="рустем вахитов"/>
-<node id="николаев"/>
-<node id="николай"/>
-<node id="николай николаев"/>
-<node id="нет"/>
-<node id="поиск"/>
-<node id="поиск истины"/>
-<node id="мира"/>
-<node id="воронин"/>
-<node id="сергей воронин"/>
-<node id="концепция"/>
-<node id="беседа"/>
+<graph edgedefault="undirected"><node id="человек"/>
+<node id="жизнь"/>
+<node id="социальный"/>
+<node id="российский"/>
+<node id="класс"/>
+<node id="государство"/>
+<node id="ценность"/>
+<node id="истина"/>
+<node id="народ"/>
+<node id="общество"/>
+<node id="страна"/>
+<node id="идея"/>
+<node id="развитие"/>
+<node id="форма"/>
+<node id="политический"/>
+<node id="россия"/>
+<node id="друг"/>
+<node id="научный"/>
+<node id="заказчик"/>
+<node id="больший"/>
+<node id="наука"/>
+<node id="иной"/>
+<node id="большой"/>
+<node id="работать"/>
+<node id="русский"/>
+<node id="сфера"/>
+<node id="ведь"/>
+<node id="мир"/>
+<node id="общественный"/>
+<node id="факт"/>
+<node id="работа"/>
+<node id="право"/>
+<node id="либо"/>
+<node id="мой"/>
+<node id="существовать"/>
+<node id="национальный"/>
+<node id="начинать"/>
+<node id="уровень"/>
+<node id="какой-то"/>
+<node id="сделать"/>
+<node id="жить"/>
+<node id="хороший"/>
+<node id="пока"/>
+<node id="война"/>
+<node id="дух"/>
+<node id="бог"/>
+<node id="реальность"/>
+<node id="враг"/>
+<node id="христос"/>
+<node id="казаться"/>
+<node id="политика"/>
+<node id="язык"/>
+<node id="действие"/>
+<node id="чем"/>
+<node id="даже"/>
+<node id="сила"/>
+<node id="любой"/>
+<node id="смысл"/>
+<node id="процесс"/>
+<node id="конкретный"/>
+<node id="будущее"/>
+<node id="человеческий"/>
+<node id="вполне"/>
+<node id="информация"/>
+<node id="межуесть"/>
+<node id="никто"/>
+<node id="без"/>
+<node id="реальный"/>
+<node id="настоящий"/>
+<node id="чернов"/>
+<node id="мнение"/>
+<node id="идеология"/>
+<node id="ложь"/>
+<node id="конец"/>
+<node id="лишь"/>
+<node id="духовный"/>
+<node id="исследование"/>
+<node id="сущность"/>
+<node id="необходимо"/>
 <node id="взгляд"/>
-<node id="правду"/>
-<node id="задорин"/>
-<node id="крупкин"/>
-<node id="павел"/>
-<node id="павел крупкин"/>
-<node id="возможности"/>
-<edge source="жизни" target="сергей">
+<node id="понятие"/>
+<node id="ложный"/>
+<node id="имя"/>
+<node id="свобода"/>
+<node id="правда"/>
+<node id="пропаганда"/>
+<node id="русский истина"/>
+<node id="воронин"/>
+<node id="шумский"/>
+<node id="знание"/>
+<node id="что-то"/>
+<node id="объективный"/>
+<node id="возможность"/>
+<node id="просвещение"/>
+<node id="максишко"/>
+<node id="задорина"/>
+<node id="проблема"/>
+<node id="концепция"/>
+<node id="каждый"/>
+<node id="истинный"/>
+<node id="философия"/>
+<node id="возникать"/>
+<node id="истина правда"/>
+<node id="сообщение"/>
+<node id="обман"/>
+<node id="книга"/>
+<node id="пытаться"/>
+<node id="два"/>
+<node id="тут"/>
+<node id="некий"/>
+<node id="цель"/>
+<node id="мысль"/>
+<node id="значит"/>
+<node id="становиться"/>
+<node id="страх"/>
+<node id="находиться"/>
+<node id="решение"/>
+<node id="позиция"/>
+<node id="некоторый"/>
+<node id="конечно"/>
+<node id="правило"/>
+<node id="познание"/>
+<node id="философ"/>
+<node id="философский"/>
+<node id="принцип"/>
+<node id="илья"/>
+<node id="система"/>
+<node id="представление"/>
+<node id="три"/>
+<node id="европа"/>
+<node id="человечество"/>
+<node id="порядок"/>
+<node id="власть"/>
+<node id="история"/>
+<node id="внимание"/>
+<node id="культура"/>
+<node id="современный"/>
+<node id="состояние"/>
+<node id="цивилизация"/>
+<node id="сознание"/>
+<node id="оставаться"/>
+<node id="однако"/>
+<node id="определённый"/>
+<edge source="человек" target="начинать">
   <data key="d0">2</data>
   <data key="d1">graphrag_baseline</data>
-  <data key="d2">4.7891</data>
+  <data key="d2">1.835</data>
 </edge>
-<edge source="сергей" target="мира">
+<edge source="человек" target="сделать">
   <data key="d0">2</data>
   <data key="d1">graphrag_baseline</data>
-  <data key="d2">4.7891</data>
+  <data key="d2">1.2501</data>
 </edge>
-<edge source="вахитов" target="рустем">
+<edge source="человек" target="пока">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.2501</data>
+</edge>
+<edge source="человек" target="враг">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.2501</data>
+</edge>
+<edge source="человек" target="вполне">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.2501</data>
+</edge>
+<edge source="человек" target="решение">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.835</data>
+</edge>
+<edge source="человек" target="некоторый">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.835</data>
+</edge>
+<edge source="человек" target="конечно">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.835</data>
+</edge>
+<edge source="жизнь" target="развитие">
   <data key="d0">3</data>
   <data key="d1">graphrag_baseline</data>
-  <data key="d2">4.8176</data>
+  <data key="d2">1.5079</data>
 </edge>
-<edge source="вахитов" target="рустем вахитов">
+<edge source="жизнь" target="существовать">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.3152</data>
+</edge>
+<edge source="жизнь" target="жить">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.1453</data>
+</edge>
+<edge source="жизнь" target="реальность">
   <data key="d0">3</data>
   <data key="d1">graphrag_baseline</data>
-  <data key="d2">4.8176</data>
+  <data key="d2">1.0422</data>
 </edge>
-<edge source="рустем" target="рустем вахитов">
+<edge source="жизнь" target="христос">
   <data key="d0">3</data>
   <data key="d1">graphrag_baseline</data>
-  <data key="d2">4.8176</data>
+  <data key="d2">1.5079</data>
 </edge>
-<edge source="николаев" target="николай">
+<edge source="жизнь" target="чем">
   <data key="d0">2</data>
   <data key="d1">graphrag_baseline</data>
-  <data key="d2">4.8765</data>
+  <data key="d2">2.0673</data>
 </edge>
-<edge source="николаев" target="николай николаев">
+<edge source="жизнь" target="любой">
   <data key="d0">2</data>
   <data key="d1">graphrag_baseline</data>
-  <data key="d2">4.8765</data>
+  <data key="d2">1.3152</data>
 </edge>
-<edge source="николай" target="николай николаев">
+<edge source="жизнь" target="будущее">
   <data key="d0">2</data>
   <data key="d1">graphrag_baseline</data>
-  <data key="d2">4.8765</data>
+  <data key="d2">1.9933</data>
 </edge>
-<edge source="нет" target="возможности">
+<edge source="жизнь" target="человеческий">
   <data key="d0">2</data>
   <data key="d1">graphrag_baseline</data>
-  <data key="d2">6.8765</data>
+  <data key="d2">2.2278</data>
 </edge>
-<edge source="поиск" target="поиск истины">
+<edge source="жизнь" target="возможность">
   <data key="d0">2</data>
   <data key="d1">graphrag_baseline</data>
-  <data key="d2">5.0692</data>
+  <data key="d2">1.4573</data>
 </edge>
-<edge source="воронин" target="сергей воронин">
+<edge source="жизнь" target="идеология">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.6148</data>
+</edge>
+<edge source="жизнь" target="человечество">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.0298</data>
+</edge>
+<edge source="жизнь" target="русский истина">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.6714</data>
+</edge>
+<edge source="социальный" target="российский">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.2588</data>
+</edge>
+<edge source="социальный" target="страна">
   <data key="d0">3</data>
   <data key="d1">graphrag_baseline</data>
-  <data key="d2">4.5426</data>
+  <data key="d2">2.2695</data>
 </edge>
-<edge source="воронин" target="концепция">
+<edge source="социальный" target="развитие">
   <data key="d0">2</data>
   <data key="d1">graphrag_baseline</data>
-  <data key="d2">4.4171</data>
+  <data key="d2">2.3583</data>
 </edge>
-<edge source="сергей воронин" target="концепция">
+<edge source="социальный" target="язык">
   <data key="d0">2</data>
   <data key="d1">graphrag_baseline</data>
-  <data key="d2">4.4171</data>
+  <data key="d2">1.0502</data>
 </edge>
-<edge source="беседа" target="задорин">
+<edge source="социальный" target="вполне">
   <data key="d0">2</data>
   <data key="d1">graphrag_baseline</data>
-  <data key="d2">5.5546</data>
+  <data key="d2">5.1657</data>
 </edge>
-<edge source="взгляд" target="правду">
+<edge source="социальный" target="знание">
   <data key="d0">2</data>
   <data key="d1">graphrag_baseline</data>
-  <data key="d2">5.7066</data>
+  <data key="d2">2.0782</data>
 </edge>
-<edge source="крупкин" target="павел">
+<edge source="социальный" target="научный">
   <data key="d0">2</data>
   <data key="d1">graphrag_baseline</data>
-  <data key="d2">6.8765</data>
+  <data key="d2">1.6421</data>
 </edge>
-<edge source="крупкин" target="павел крупкин">
+<edge source="социальный" target="наука">
   <data key="d0">2</data>
   <data key="d1">graphrag_baseline</data>
-  <data key="d2">6.8765</data>
+  <data key="d2">1.4469</data>
 </edge>
-<edge source="павел" target="павел крупкин">
+<edge source="социальный" target="возникать">
   <data key="d0">2</data>
   <data key="d1">graphrag_baseline</data>
-  <data key="d2">6.8765</data>
+  <data key="d2">2.4287</data>
+</edge>
+<edge source="российский" target="государство">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.5483</data>
+</edge>
+<edge source="российский" target="общество">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.483</data>
+</edge>
+<edge source="российский" target="страна">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.2371</data>
+</edge>
+<edge source="российский" target="политический">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.0552</data>
+</edge>
+<edge source="российский" target="каждый">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.6521</data>
+</edge>
+<edge source="класс" target="форма">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.5954</data>
+</edge>
+<edge source="государство" target="ценность">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.6478</data>
+</edge>
+<edge source="государство" target="народ">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.0515</data>
+</edge>
+<edge source="государство" target="общество">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.22</data>
+</edge>
+<edge source="государство" target="политический">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.7922</data>
+</edge>
+<edge source="государство" target="власть">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.4552</data>
+</edge>
+<edge source="государство" target="система">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.4552</data>
+</edge>
+<edge source="государство" target="политика">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.6478</data>
+</edge>
+<edge source="ценность" target="общество">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.5825</data>
+</edge>
+<edge source="ценность" target="реальность">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.9598</data>
+</edge>
+<edge source="ценность" target="политика">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.4254</data>
+</edge>
+<edge source="ценность" target="заказчик">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.6478</data>
+</edge>
+<edge source="ценность" target="просвещение">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.9109</data>
+</edge>
+<edge source="ценность" target="проблема">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.8635</data>
+</edge>
+<edge source="истина" target="начинать">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.7922</data>
+</edge>
+<edge source="истина" target="сделать">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.2072</data>
+</edge>
+<edge source="истина" target="пока">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.2072</data>
+</edge>
+<edge source="истина" target="сознание">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.2072</data>
+</edge>
+<edge source="народ" target="страна">
+  <data key="d0">4</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.1553</data>
+</edge>
+<edge source="народ" target="национальный">
+  <data key="d0">5</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.7884</data>
+</edge>
+<edge source="народ" target="какой-то">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.2214</data>
+</edge>
+<edge source="народ" target="жить">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.0515</data>
+</edge>
+<edge source="народ" target="война">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.2214</data>
+</edge>
+<edge source="народ" target="враг">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.6364</data>
+</edge>
+<edge source="народ" target="политика">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.8291</data>
+</edge>
+<edge source="народ" target="три">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.2214</data>
+</edge>
+<edge source="общество" target="иной">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.3899</data>
+</edge>
+<edge source="общество" target="просвещение">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.068</data>
+</edge>
+<edge source="общество" target="пропаганда">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.3899</data>
+</edge>
+<edge source="общество" target="задорина">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.8663</data>
+</edge>
+<edge source="общество" target="проблема">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.0206</data>
+</edge>
+<edge source="общество" target="система">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.8049</data>
+</edge>
+<edge source="общество" target="три">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.3899</data>
+</edge>
+<edge source="страна" target="политический">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.481</data>
+</edge>
+<edge source="страна" target="концепция">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.2613</data>
+</edge>
+<edge source="страна" target="каждый">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.0779</data>
+</edge>
+<edge source="страна" target="национальный">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.974</data>
+</edge>
+<edge source="идея" target="развитие">
+  <data key="d0">4</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.3339</data>
+</edge>
+<edge source="идея" target="история">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.7876</data>
+</edge>
+<edge source="идея" target="будущее">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.4043</data>
+</edge>
+<edge source="идея" target="максишко">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.9189</data>
+</edge>
+<edge source="идея" target="имя">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.0258</data>
+</edge>
+<edge source="идея" target="европа">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.9189</data>
+</edge>
+<edge source="идея" target="человечество">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.0258</data>
+</edge>
+<edge source="идея" target="оставаться">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.5563</data>
+</edge>
+<edge source="идея" target="русский истина">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.0824</data>
+</edge>
+<edge source="развитие" target="история">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.2942</data>
+</edge>
+<edge source="развитие" target="человечество">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.1173</data>
+</edge>
+<edge source="развитие" target="наука">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.514</data>
+</edge>
+<edge source="форма" target="действие">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.203</data>
+</edge>
+<edge source="форма" target="информация">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.5293</data>
+</edge>
+<edge source="форма" target="однако">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.0104</data>
+</edge>
+<edge source="форма" target="состояние">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.5954</data>
+</edge>
+<edge source="форма" target="процесс">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.5954</data>
+</edge>
+<edge source="политический" target="реальность">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.1042</data>
+</edge>
+<edge source="политический" target="взгляд">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.7922</data>
+</edge>
+<edge source="политический" target="философский">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.0079</data>
+</edge>
+<edge source="политический" target="национальный">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.2072</data>
+</edge>
+<edge source="россия" target="однако">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.4108</data>
+</edge>
+<edge source="россия" target="сознание">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.4108</data>
+</edge>
+<edge source="друг" target="либо">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.3575</data>
+</edge>
+<edge source="друг" target="мой">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.6963</data>
+</edge>
+<edge source="друг" target="какой-то">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.7838</data>
+</edge>
+<edge source="друг" target="жить">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.6139</data>
+</edge>
+<edge source="друг" target="хороший">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.9764</data>
+</edge>
+<edge source="научный" target="история">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.578</data>
+</edge>
+<edge source="научный" target="больший">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.7796</data>
+</edge>
+<edge source="научный" target="наука">
+  <data key="d0">5</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.1197</data>
+</edge>
+<edge source="научный" target="знание">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.0141</data>
+</edge>
+<edge source="научный" target="концепция">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.8039</data>
+</edge>
+<edge source="научный" target="каждый">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.0354</data>
+</edge>
+<edge source="научный" target="философия">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.5166</data>
+</edge>
+<edge source="научный" target="возникать">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.7796</data>
+</edge>
+<edge source="научный" target="познание">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.4291</data>
+</edge>
+<edge source="заказчик" target="иной">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.0401</data>
+</edge>
+<edge source="заказчик" target="работать">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.4552</data>
+</edge>
+<edge source="заказчик" target="сфера">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.7922</data>
+</edge>
+<edge source="заказчик" target="ведь">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.7182</data>
+</edge>
+<edge source="заказчик" target="просвещение">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.1332</data>
+</edge>
+<edge source="заказчик" target="пропаганда">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.0401</data>
+</edge>
+<edge source="заказчик" target="объективный">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.2588</data>
+</edge>
+<edge source="заказчик" target="проблема">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.0859</data>
+</edge>
+<edge source="заказчик" target="реальный">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.6139</data>
+</edge>
+<edge source="заказчик" target="познание">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.3677</data>
+</edge>
+<edge source="больший" target="факт">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.6027</data>
+</edge>
+<edge source="наука" target="история">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.3827</data>
+</edge>
+<edge source="наука" target="знание">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.8188</data>
+</edge>
+<edge source="наука" target="концепция">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.6086</data>
+</edge>
+<edge source="наука" target="философия">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.3213</data>
+</edge>
+<edge source="наука" target="возникать">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.5844</data>
+</edge>
+<edge source="наука" target="либо">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.48</data>
+</edge>
+<edge source="наука" target="познание">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.8188</data>
+</edge>
+<edge source="наука" target="исследование">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.2339</data>
+</edge>
+<edge source="наука" target="человечество">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.6209</data>
+</edge>
+<edge source="иной" target="работа">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.2101</data>
+</edge>
+<edge source="большой" target="мир">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.4287</data>
+</edge>
+<edge source="большой" target="общественный">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.1002</data>
+</edge>
+<edge source="работать" target="ведь">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.3032</data>
+</edge>
+<edge source="работать" target="реальность">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.7671</data>
+</edge>
+<edge source="русский" target="существовать">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.1226</data>
+</edge>
+<edge source="русский" target="сделать">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.5376</data>
+</edge>
+<edge source="русский" target="вполне">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.5376</data>
+</edge>
+<edge source="сфера" target="общественный">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.1742</data>
+</edge>
+<edge source="сфера" target="факт">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.6767</data>
+</edge>
+<edge source="сфера" target="право">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.5359</data>
+</edge>
+<edge source="мир" target="казаться">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.7506</data>
+</edge>
+<edge source="мир" target="тут">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.5282</data>
+</edge>
+<edge source="мир" target="конечно">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.7506</data>
+</edge>
+<edge source="общественный" target="настоящий">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.3067</data>
+</edge>
+<edge source="общественный" target="мнение">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.4222</data>
+</edge>
+<edge source="общественный" target="действие">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.0298</data>
+</edge>
+<edge source="общественный" target="истина правда">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.6148</data>
+</edge>
+<edge source="общественный" target="сообщение">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.6148</data>
+</edge>
+<edge source="общественный" target="власть">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.8372</data>
+</edge>
+<edge source="общественный" target="система">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.4222</data>
+</edge>
+<edge source="общественный" target="порядок">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.8372</data>
+</edge>
+<edge source="факт" target="работа">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.9247</data>
+</edge>
+<edge source="факт" target="право">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.4984</data>
+</edge>
+<edge source="факт" target="информация">
+  <data key="d0">4</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.8586</data>
+</edge>
+<edge source="факт" target="реальный">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.4984</data>
+</edge>
+<edge source="факт" target="конкретный">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.5323</data>
+</edge>
+<edge source="факт" target="война">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.9247</data>
+</edge>
+<edge source="факт" target="идеология">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.2242</data>
+</edge>
+<edge source="факт" target="ложный">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.4652</data>
+</edge>
+<edge source="факт" target="цель">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.8658</data>
+</edge>
+<edge source="факт" target="обман">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.2242</data>
+</edge>
+<edge source="факт" target="значит">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.6027</data>
+</edge>
+<edge source="факт" target="объективный">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.1433</data>
+</edge>
+<edge source="работа" target="процесс">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.2101</data>
+</edge>
+<edge source="работа" target="конкретный">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.8177</data>
+</edge>
+<edge source="работа" target="обман">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.5096</data>
+</edge>
+<edge source="работа" target="книга">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.9812</data>
+</edge>
+<edge source="право" target="христос">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.3915</data>
+</edge>
+<edge source="право" target="объективный">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.0024</data>
+</edge>
+<edge source="право" target="реальность">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.9258</data>
+</edge>
+<edge source="право" target="бог">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.7177</data>
+</edge>
+<edge source="право" target="каждый">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.7177</data>
+</edge>
+<edge source="либо" target="мой">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.1114</data>
+</edge>
+<edge source="либо" target="какой-то">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.7838</data>
+</edge>
+<edge source="либо" target="хороший">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.9764</data>
+</edge>
+<edge source="либо" target="пока">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.1988</data>
+</edge>
+<edge source="либо" target="обман">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.0834</data>
+</edge>
+<edge source="либо" target="находиться">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.1988</data>
+</edge>
+<edge source="мой" target="какой-то">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.5376</data>
+</edge>
+<edge source="мой" target="жить">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.9527</data>
+</edge>
+<edge source="мой" target="хороший">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.7303</data>
+</edge>
+<edge source="мой" target="бог">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.4715</data>
+</edge>
+<edge source="мой" target="имя">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.8372</data>
+</edge>
+<edge source="национальный" target="какой-то">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.4552</data>
+</edge>
+<edge source="национальный" target="книга">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.2264</data>
+</edge>
+<edge source="национальный" target="философский">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.501</data>
+</edge>
+<edge source="уровень" target="какой-то">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.8881</data>
+</edge>
+<edge source="уровень" target="правило">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.4287</data>
+</edge>
+<edge source="уровень" target="определённый">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">7.8881</data>
+</edge>
+<edge source="какой-то" target="хороший">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.4027</data>
+</edge>
+<edge source="какой-то" target="некий">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.6251</data>
+</edge>
+<edge source="жить" target="бог">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.974</data>
+</edge>
+<edge source="жить" target="имя">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.3397</data>
+</edge>
+<edge source="война" target="враг">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.0401</data>
+</edge>
+<edge source="война" target="христос">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.2328</data>
+</edge>
+<edge source="война" target="сила">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.4552</data>
+</edge>
+<edge source="война" target="информация">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.144</data>
+</edge>
+<edge source="война" target="реальный">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.1988</data>
+</edge>
+<edge source="дух" target="казаться">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.5954</data>
+</edge>
+<edge source="дух" target="даже">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.1803</data>
+</edge>
+<edge source="дух" target="сила">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.4254</data>
+</edge>
+<edge source="дух" target="любой">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.5954</data>
+</edge>
+<edge source="дух" target="процесс">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.5954</data>
+</edge>
+<edge source="дух" target="конец">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.6412</data>
+</edge>
+<edge source="дух" target="сущность">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.31</data>
+</edge>
+<edge source="бог" target="реальность">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.286</data>
+</edge>
+<edge source="бог" target="христос">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.7517</data>
+</edge>
+<edge source="бог" target="язык">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.0285</data>
+</edge>
+<edge source="бог" target="любой">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.144</data>
+</edge>
+<edge source="бог" target="каждый">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.0779</data>
+</edge>
+<edge source="бог" target="имя">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.4435</data>
+</edge>
+<edge source="реальность" target="христос">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.9598</data>
+</edge>
+<edge source="реальность" target="политика">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.9598</data>
+</edge>
+<edge source="реальность" target="чем">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.1042</data>
+</edge>
+<edge source="реальность" target="сила">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.1822</data>
+</edge>
+<edge source="реальность" target="любой">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.3521</data>
+</edge>
+<edge source="реальность" target="свобода">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.7671</data>
+</edge>
+<edge source="реальность" target="что-то">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.1822</data>
+</edge>
+<edge source="реальность" target="объективный">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.5707</data>
+</edge>
+<edge source="христос" target="чем">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.5698</data>
+</edge>
+<edge source="христос" target="возможность">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.9598</data>
+</edge>
+<edge source="казаться" target="даже">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.2101</data>
+</edge>
+<edge source="политика" target="даже">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.8177</data>
+</edge>
+<edge source="язык" target="действие">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.1173</data>
+</edge>
+<edge source="язык" target="смысл">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.6352</data>
+</edge>
+<edge source="язык" target="конкретный">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.1173</data>
+</edge>
+<edge source="язык" target="будущее">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.1877</data>
+</edge>
+<edge source="язык" target="возникать">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.1877</data>
+</edge>
+<edge source="язык" target="илья">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.2617</data>
+</edge>
+<edge source="язык" target="философ">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.0502</data>
+</edge>
+<edge source="действие" target="даже">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.8177</data>
+</edge>
+<edge source="даже" target="любой">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.2101</data>
+</edge>
+<edge source="даже" target="лишь">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.5471</data>
+</edge>
+<edge source="даже" target="взгляд">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.0401</data>
+</edge>
+<edge source="даже" target="обман">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.0946</data>
+</edge>
+<edge source="даже" target="пытаться">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.4027</data>
+</edge>
+<edge source="даже" target="два">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.3521</data>
+</edge>
+<edge source="даже" target="позиция">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.1226</data>
+</edge>
+<edge source="сила" target="любой">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.0401</data>
+</edge>
+<edge source="сила" target="воронин">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.4958</data>
+</edge>
+<edge source="сила" target="шумский">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.0401</data>
+</edge>
+<edge source="сила" target="илья">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.7922</data>
+</edge>
+<edge source="любой" target="конец">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.2559</data>
+</edge>
+<edge source="смысл" target="конкретный">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.3583</data>
+</edge>
+<edge source="смысл" target="философия">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.5807</data>
+</edge>
+<edge source="смысл" target="мысль">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.9177</data>
+</edge>
+<edge source="процесс" target="состояние">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.2101</data>
+</edge>
+<edge source="процесс" target="никто">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.8881</data>
+</edge>
+<edge source="процесс" target="оставаться">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.0401</data>
+</edge>
+<edge source="процесс" target="философский">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.2559</data>
+</edge>
+<edge source="процесс" target="философ">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.7506</data>
+</edge>
+<edge source="процесс" target="концепция">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.3274</data>
+</edge>
+<edge source="конкретный" target="исследование">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.1453</data>
+</edge>
+<edge source="конкретный" target="книга">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.5889</data>
+</edge>
+<edge source="конкретный" target="сущность">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.5323</data>
+</edge>
+<edge source="информация" target="никто">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.822</data>
+</edge>
+<edge source="информация" target="реальный">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.3027</data>
+</edge>
+<edge source="информация" target="просвещение">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.2371</data>
+</edge>
+<edge source="информация" target="пропаганда">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.144</data>
+</edge>
+<edge source="информация" target="объективный">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.3626</data>
+</edge>
+<edge source="межуесть" target="однако">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.2942</data>
+</edge>
+<edge source="межуесть" target="сознание">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.2942</data>
+</edge>
+<edge source="никто" target="настоящий">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.1877</data>
+</edge>
+<edge source="никто" target="мнение">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.8881</data>
+</edge>
+<edge source="никто" target="духовный">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.2882</data>
+</edge>
+<edge source="без" target="чернов">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.2942</data>
+</edge>
+<edge source="реальный" target="просвещение">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.8769</data>
+</edge>
+<edge source="реальный" target="пропаганда">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.7838</data>
+</edge>
+<edge source="реальный" target="задорина">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.2602</data>
+</edge>
+<edge source="реальный" target="объективный">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.0024</data>
+</edge>
+<edge source="реальный" target="проблема">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.8296</data>
+</edge>
+<edge source="реальный" target="исследование">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.1114</data>
+</edge>
+<edge source="настоящий" target="чернов">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.1787</data>
+</edge>
+<edge source="настоящий" target="мнение">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.5096</data>
+</edge>
+<edge source="настоящий" target="сообщение">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.7023</data>
+</edge>
+<edge source="чернов" target="идеология">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.1787</data>
+</edge>
+<edge source="чернов" target="воронин">
+  <data key="d0">5</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.0718</data>
+</edge>
+<edge source="чернов" target="шумский">
+  <data key="d0">4</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.2942</data>
+</edge>
+<edge source="чернов" target="культура">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.3556</data>
+</edge>
+<edge source="чернов" target="состояние">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.8791</data>
+</edge>
+<edge source="чернов" target="принцип">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.0718</data>
+</edge>
+<edge source="чернов" target="илья">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.2162</data>
+</edge>
+<edge source="ложь" target="максишко">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.1127</data>
+</edge>
+<edge source="ложь" target="тут">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.1127</data>
+</edge>
+<edge source="ложь" target="становиться">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.92</data>
+</edge>
+<edge source="ложь" target="страх">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.92</data>
+</edge>
+<edge source="ложь" target="находиться">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.3351</data>
+</edge>
+<edge source="конец" target="лишь">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.0079</data>
+</edge>
+<edge source="конец" target="понятие">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.501</data>
+</edge>
+<edge source="конец" target="проблема">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.8866</data>
+</edge>
+<edge source="лишь" target="духовный">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.3622</data>
+</edge>
+<edge source="лишь" target="взгляд">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.7922</data>
+</edge>
+<edge source="лишь" target="обман">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.2617</data>
+</edge>
+<edge source="духовный" target="необходимо">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.8028</data>
+</edge>
+<edge source="духовный" target="взгляд">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.4402</data>
+</edge>
+<edge source="духовный" target="два">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.3371</data>
+</edge>
+<edge source="духовный" target="каждый">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.129</data>
+</edge>
+<edge source="духовный" target="человечество">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.3247</data>
+</edge>
+<edge source="исследование" target="сущность">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.8372</data>
+</edge>
+<edge source="исследование" target="необходимо">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.1453</data>
+</edge>
+<edge source="исследование" target="задорина">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.0141</data>
+</edge>
+<edge source="исследование" target="проблема">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.5834</data>
+</edge>
+<edge source="исследование" target="внимание">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.5376</data>
+</edge>
+<edge source="сущность" target="необходимо">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.1173</data>
+</edge>
+<edge source="сущность" target="два">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.0667</data>
+</edge>
+<edge source="необходимо" target="возможность">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.9598</data>
+</edge>
+<edge source="необходимо" target="два">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.9598</data>
+</edge>
+<edge source="взгляд" target="объективный">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.2588</data>
+</edge>
+<edge source="понятие" target="каждый">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.3891</data>
+</edge>
+<edge source="понятие" target="истинный">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.6478</data>
+</edge>
+<edge source="понятие" target="философия">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.2852</data>
+</edge>
+<edge source="понятие" target="возникать">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.1332</data>
+</edge>
+<edge source="понятие" target="проблема">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.501</data>
+</edge>
+<edge source="понятие" target="система">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.8702</data>
+</edge>
+<edge source="понятие" target="правило">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.9957</data>
+</edge>
+<edge source="ложный" target="правда">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.0273</data>
+</edge>
+<edge source="ложный" target="цель">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.1068</data>
+</edge>
+<edge source="ложный" target="обман">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.0502</data>
+</edge>
+<edge source="правда" target="максишко">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.0944</data>
+</edge>
+<edge source="правда" target="истина правда">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.0944</data>
+</edge>
+<edge source="правда" target="пытаться">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.0944</data>
+</edge>
+<edge source="правда" target="тут">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.0944</data>
+</edge>
+<edge source="правда" target="некий">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.3168</data>
+</edge>
+<edge source="правда" target="значит">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.1648</data>
+</edge>
+<edge source="правда" target="страх">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.9017</data>
+</edge>
+<edge source="правда" target="находиться">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.3168</data>
+</edge>
+<edge source="правда" target="представление">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.5798</data>
+</edge>
+<edge source="пропаганда" target="просвещение">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.3032</data>
+</edge>
+<edge source="пропаганда" target="объективный">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.4287</data>
+</edge>
+<edge source="русский истина" target="воронин">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.4369</data>
+</edge>
+<edge source="воронин" target="шумский">
+  <data key="d0">4</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.4958</data>
+</edge>
+<edge source="воронин" target="илья">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.4178</data>
+</edge>
+<edge source="воронин" target="цивилизация">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.4958</data>
+</edge>
+<edge source="шумский" target="илья">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.9621</data>
+</edge>
+<edge source="шумский" target="книга">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.3963</data>
+</edge>
+<edge source="знание" target="каждый">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.4715</data>
+</edge>
+<edge source="знание" target="возникать">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.2157</data>
+</edge>
+<edge source="знание" target="познание">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.8652</data>
+</edge>
+<edge source="объективный" target="просвещение">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.5218</data>
+</edge>
+<edge source="просвещение" target="проблема">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.349</data>
+</edge>
+<edge source="просвещение" target="культура">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.7796</data>
+</edge>
+<edge source="просвещение" target="философия">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.1332</data>
+</edge>
+<edge source="задорина" target="проблема">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.7323</data>
+</edge>
+<edge source="проблема" target="истина правда">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.4485</data>
+</edge>
+<edge source="проблема" target="некоторый">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.2559</data>
+</edge>
+<edge source="проблема" target="правило">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.7964</data>
+</edge>
+<edge source="концепция" target="история">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.8039</data>
+</edge>
+<edge source="концепция" target="каждый">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.2613</data>
+</edge>
+<edge source="концепция" target="философия">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.7425</data>
+</edge>
+<edge source="концепция" target="возникать">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.0055</data>
+</edge>
+<edge source="концепция" target="оставаться">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.1575</data>
+</edge>
+<edge source="концепция" target="философский">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.3732</data>
+</edge>
+<edge source="концепция" target="философ">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.868</data>
+</edge>
+<edge source="концепция" target="европа">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.9351</data>
+</edge>
+<edge source="каждый" target="возникать">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.822</data>
+</edge>
+<edge source="истинный" target="философия">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.2328</data>
+</edge>
+<edge source="философия" target="история">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.5166</data>
+</edge>
+<edge source="философия" target="культура">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.1015</data>
+</edge>
+<edge source="философия" target="философский">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.0859</data>
+</edge>
+<edge source="философия" target="философ">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.5807</data>
+</edge>
+<edge source="обман" target="книга">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.8658</data>
+</edge>
+<edge source="обман" target="цель">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.8658</data>
+</edge>
+<edge source="книга" target="мысль">
+  <data key="d0">4</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.1484</data>
+</edge>
+<edge source="книга" target="илья">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.7333</data>
+</edge>
+<edge source="цель" target="значит">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.2443</data>
+</edge>
+<edge source="мысль" target="познание">
+  <data key="d0">3</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.2897</data>
+</edge>
+<edge source="мысль" target="принцип">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.5698</data>
+</edge>
+<edge source="мысль" target="культура">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.8536</data>
+</edge>
+<edge source="мысль" target="цивилизация">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.7922</data>
+</edge>
+<edge source="мысль" target="илья">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.1292</data>
+</edge>
+<edge source="мысль" target="человечество">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.0918</data>
+</edge>
+<edge source="правило" target="определённый">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">6.7506</data>
+</edge>
+<edge source="правило" target="система">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">4.1657</data>
+</edge>
+<edge source="познание" target="современный">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.7303</data>
+</edge>
+<edge source="познание" target="философ">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.0782</data>
+</edge>
+<edge source="познание" target="философский">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">1.5834</data>
+</edge>
+<edge source="философ" target="современный">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.9433</data>
+</edge>
+<edge source="философ" target="философский">
+  <data key="d0">4</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">2.7964</data>
+</edge>
+<edge source="философ" target="оставаться">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.5807</data>
+</edge>
+<edge source="философский" target="современный">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.4485</data>
+</edge>
+<edge source="философский" target="оставаться">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">3.0859</data>
+</edge>
+<edge source="система" target="власть">
+  <data key="d0">2</data>
+  <data key="d1">graphrag_baseline</data>
+  <data key="d2">5.0401</data>
 </edge>
 </graph></graphml>
